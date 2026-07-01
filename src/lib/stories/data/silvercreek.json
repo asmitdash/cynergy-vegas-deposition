@@ -1,0 +1,315 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "18:42",
+      "event": "Cora Bellevue's silver Toyota Camry pulls off Route 87 into Silver Creek Station's lot, engine knocking. She parks at pump 3 but doesn't get out for six minutes.",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Vehicle arrival logged. Ambient cabin audio captured occupant weeping for approximately 340 seconds before ignition-off event."
+      },
+      "contradictionSeed": "The owner will later claim he saw her drive up 'around seven' — the log says 18:42."
+    },
+    {
+      "id": 2,
+      "time": "18:48",
+      "event": "Cora enters the station. She asks Wes, the kid at the register, for a road map and a coffee. She pays cash from a thick envelope.",
+      "witnesses": [
+        "wes_lundgren",
+        "carmind"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "She came in, real quiet, asked for a paper map like it was 1994. Had a fat wad of cash. I noticed 'cause who carries cash like that.",
+        "carmind": "Occupant exited vehicle at 18:47:52. Cabin door closed. No further interior audio until 20:11."
+      }
+    },
+    {
+      "id": 3,
+      "time": "18:55",
+      "event": "Hollis Baird, the station owner, comes out of the back office. He sees Cora at the counter and stops mid-step. She doesn't turn around.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "Hollis froze up. Like he saw a ghost. Then he just backed into the office and shut the door. Didn't say a word to her, didn't say a word to me."
+      },
+      "contradictionSeed": "Hollis will insist he had never seen Cora before in his life."
+    },
+    {
+      "id": 4,
+      "time": "19:10",
+      "event": "Sheriff's daughter Maisie Rourke arrives to pick up her father's cigarettes. She and Wes talk by the beef-jerky rack for twelve minutes.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "Maisie came in. We just talked. About school, about the storm. That's all. She left before anything happened."
+      }
+    },
+    {
+      "id": 5,
+      "time": "19:22",
+      "event": "Maisie Rourke leaves the station. Cora is sitting in the diner booth by the window, staring at her phone. She has not touched the coffee.",
+      "witnesses": [
+        "wes_lundgren",
+        "carmind"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "Maisie went home. The lady was still there in the booth. Phone in her hand. Coffee cold, I bet.",
+        "carmind": "Paired device 'Cora-iPhone' registered on cabin Bluetooth at 19:22. Two outgoing calls attempted to contact 'H.B. — DO NOT ANSWER'. Both unanswered."
+      },
+      "contradictionSeed": "Wes says Maisie left at 19:22. Hollis will say Maisie was still on-site much later."
+    },
+    {
+      "id": 6,
+      "time": "19:35",
+      "event": "The storm intensifies. The Montana Highway Patrol closes Route 87 in both directions. A recorded voice announcement plays on the station radio.",
+      "witnesses": [
+        "wes_lundgren",
+        "carmind"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "That's when we knew nobody was going anywhere. Radio said the pass was shut.",
+        "carmind": "External weather advisory captured via cabin FM tuner. Road closure confirmed. Occupant location: interior structure."
+      }
+    },
+    {
+      "id": 7,
+      "time": "19:41",
+      "event": "Hollis emerges from the office and walks directly to Cora's booth. He sits across from her. They speak in low voices for eight minutes. Wes cannot hear the words.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "He sat down with her. I couldn't hear. But her hands were shaking and his weren't. That much I saw."
+      },
+      "contradictionSeed": "Hollis will claim this conversation never happened, or that it was brief and unrelated."
+    },
+    {
+      "id": 8,
+      "time": "19:49",
+      "event": "Cora walks out to her car, retrieves a manila folder from the passenger seat, and returns inside. The car's cabin mic records her muttering a name: 'Danny.'",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Occupant re-entered vehicle 19:49:12. Retrieved item from passenger footwell. Verbal utterance captured: single word, 'Danny,' spoken at low volume. Occupant exited vehicle 19:49:38."
+      }
+    },
+    {
+      "id": 9,
+      "time": "19:58",
+      "event": "Cora sets the manila folder on the table in front of Hollis. He goes pale. He tells Wes to go take inventory in the back stockroom.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "Hollis told me to go count antifreeze in the back. Weirdest thing. We'd done inventory Tuesday. But he's the boss."
+      }
+    },
+    {
+      "id": 10,
+      "time": "20:11",
+      "event": "Wes is in the stockroom. He hears a raised voice — Hollis — say the phrase 'you had no right.' Then a bang, like a hand slapping a table. Then silence.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "I heard him yell. Something about rights. Then a slam. I didn't come out. I should've come out."
+      },
+      "contradictionSeed": "Hollis will deny ever raising his voice; the car's cabin mic, which was recording through the open station door, disagrees."
+    },
+    {
+      "id": 11,
+      "time": "20:14",
+      "event": "Ambient audio from Cora's car (door still ajar from her 19:49 trip) captures Hollis saying: 'If you tell anyone, it kills me. Do you understand? It kills me.'",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Ambient capture, station-doorway distance, 20:13:58 through 20:14:19. Male voice identified as prior speaker from 19:41 booth interval. Verbal content archived."
+      }
+    },
+    {
+      "id": 12,
+      "time": "20:22",
+      "event": "Wes comes back to the front. Cora is gone. Hollis is alone in the booth, staring at the manila folder. He tells Wes she went to the ladies' room.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "He said she was in the bathroom. But the light under that door was off. I know 'cause I looked. I didn't say anything."
+      }
+    },
+    {
+      "id": 13,
+      "time": "20:30",
+      "event": "Wes goes outside to sweep snow off the pump canopy — Hollis's standing order in a storm. He notices the walk-in freezer door on the north side of the building is slightly ajar. He closes it without looking in.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "I latched the freezer. I didn't look inside. I swear on my grandma I didn't look inside. If I'd looked —"
+      },
+      "contradictionSeed": "Whether the freezer door was ajar at 20:30 is central. Hollis will place the last freezer check at 21:00 and say it was closed."
+    },
+    {
+      "id": 14,
+      "time": "20:47",
+      "event": "Hollis burns something in the trash can behind the counter. Wes smells the smoke and sees curled paper edges. Hollis says it's expired receipts.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "He was burning paper. Said it was old receipts. Nobody burns receipts. You shred 'em or you toss 'em."
+      }
+    },
+    {
+      "id": 15,
+      "time": "21:03",
+      "event": "Maisie Rourke calls Wes on his cell. She asks if 'the lady in the booth' left okay. Wes says yes. He doesn't know why he lied.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "Maisie called. She'd noticed the lady looked scared earlier. I told her the lady drove off. I don't know why I said that. Hollis was right there."
+      },
+      "contradictionSeed": "Wes's earliest statement to the trooper omitted Maisie's phone call entirely."
+    },
+    {
+      "id": 16,
+      "time": "21:40",
+      "event": "The Toyota's cabin mic captures a metallic scraping sound and a heavy thud from the direction of the freezer. No voices. Duration: nine seconds.",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Non-vocal acoustic event, 21:40:12 to 21:40:21. Consistent with hinged metal door and human-mass impact against interior surface. No accompanying speech."
+      }
+    },
+    {
+      "id": 17,
+      "time": "22:15",
+      "event": "Hollis tells Wes to close up the register and go sleep in the stockroom cot — the road is shut, no point driving home. Wes complies. Hollis stays out front.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "He sent me to bed like I was ten. I went. I actually went to sleep. That's the part I can't forgive."
+      }
+    },
+    {
+      "id": 18,
+      "time": "23:52",
+      "event": "Cora's phone, still paired to the car via Bluetooth, receives a text from an unknown number: 'Is it done?' The phone is stationary inside the station.",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Paired-device SMS notification captured via Bluetooth telemetry. Sender not in contact list. Message body archived. Device location: interior structure, stationary since 21:38."
+      },
+      "contradictionSeed": "The existence of a third party texting Cora undermines Hollis's implied lone-guilt narrative — and raises the question of who else knew she was here."
+    },
+    {
+      "id": 19,
+      "time": "02:18",
+      "event": "Hollis is captured on the station's own exterior camera dragging a snow shovel from the freezer side of the building to the propane shed. He is alone. The camera feed is logged by the diagnostic AI via the shared station wifi.",
+      "witnesses": [
+        "carmind"
+      ],
+      "witnessSpin": {
+        "carmind": "Exterior camera frame ingested via station LAN, 02:18:04. Single male figure, snow shovel, north-side transit to propane structure. No accompanying audio available at that range."
+      },
+      "contradictionSeed": "Hollis will insist he did not leave the front counter between 22:15 and dawn. The camera frame contradicts him."
+    },
+    {
+      "id": 20,
+      "time": "06:04",
+      "event": "Wes wakes up, comes to the front, and finds Hollis asleep in the booth where Cora had been sitting. The manila folder is gone. Wes checks the freezer and finds Cora.",
+      "witnesses": [
+        "wes_lundgren"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "I opened the freezer for a bag of hash browns. She was — she was sitting up against the shelving. Like she'd been placed. I called the trooper before I did anything else."
+      }
+    },
+    {
+      "id": 21,
+      "time": "07:30",
+      "event": "State Trooper Marisela Ochoa arrives on a snowmobile — the road is still closed to cars. She secures the scene and begins interviewing the three witnesses one by one.",
+      "witnesses": [
+        "wes_lundgren",
+        "carmind"
+      ],
+      "witnessSpin": {
+        "wes_lundgren": "The trooper came in on a snowmobile. Ochoa. She was kind about it. She let me sit down before she asked anything.",
+        "carmind": "External identifier 'MHP-Ochoa-4471' registered on parking-lot proximity ping. Interview sequence initiated."
+      }
+    }
+  ],
+  "id": "silvercreek",
+  "inspiration": "Fargo's snowbound moral cowardice meets Prisoners' slow-burn dread of a small community protecting its own. Three viewpoints, one freezer, no road out.",
+  "seededContradictions": [
+    {
+      "description": "Hollis Baird claims he had never seen Cora Bellevue before that night and never sat with her in the booth. Wes saw Hollis freeze at the sight of her and later sit across from her for a long, tense conversation; the Toyota's cabin mic captured Hollis's voice saying 'If you tell anyone, it kills me.'",
+      "witnesses": [
+        "hollis_baird",
+        "wes_lundgren",
+        "carmind"
+      ]
+    },
+    {
+      "description": "Hollis places the last freezer check at 21:00 and says the door was closed and latched. Wes says the freezer door was ajar at 20:30 and he latched it himself without looking inside. Both cannot be true.",
+      "witnesses": [
+        "hollis_baird",
+        "wes_lundgren"
+      ]
+    },
+    {
+      "description": "Hollis insists he did not leave the front counter between 22:15 and dawn. The exterior camera feed, ingested by the car's diagnostic AI over the station LAN, shows him dragging a snow shovel from the freezer side to the propane shed at 02:18.",
+      "witnesses": [
+        "hollis_baird",
+        "carmind"
+      ]
+    },
+    {
+      "description": "Wes initially told the trooper that nothing unusual happened after Maisie left at 19:22 and that he'd been asleep by 22:00. He omitted Maisie's 21:03 phone call, the burnt paper at 20:47, and the fact that he lied to Maisie about Cora having driven off.",
+      "witnesses": [
+        "wes_lundgren",
+        "carmind"
+      ]
+    }
+  ],
+  "setting": "Silver Creek Station, a family-run gas stop and diner on Route 87 outside Silver Creek, Montana. Population 812. Two nights before Christmas. Route 87 is closed both directions by a whiteout. The nearest working phone tower is twelve miles east.",
+  "synopsis": "A traveler named Cora Bellevue is found dead in the walk-in freezer of a snowed-in Montana gas station the morning of December 23rd. Only three witnesses were on-site the night before, and the road is still closed — nobody can leave and nobody is coming. The owner, Hollis Baird, denies ever having met Cora, but a manila folder she carried in from her car changed the temperature in the room. The 17-year-old cashier, Wes Lundgren, heard more than he wants to admit and lied to a girl he loves about it. Cora's own Toyota, plugged in for a diagnostic overnight, recorded everything through a door left ajar.",
+  "tagline": "One freezer. Three witnesses. The road doesn't reopen until someone tells the truth.",
+  "title": "The Silver Creek Freeze",
+  "witnesses": [
+    {
+      "id": "hollis_baird",
+      "displayName": "Hollis Baird",
+      "fullName": "Hollis R. Baird, owner, Silver Creek Station",
+      "teaser": "Ex-Army. Runs the pumps. Says he never saw the woman before in his life.",
+      "motive": "Cora carried proof of a decades-old act Hollis buried — the death of her older brother Danny, ruled an accident but wasn't. If it surfaces, his reputation and his late wife's memory are destroyed.",
+      "personaSystemPrompt": "You are Hollis R. Baird, 58, owner of Silver Creek Station on Route 87 outside Silver Creek, Montana. Ex-Army, two tours, honorably discharged. Widower. You have run this station for twenty-two years. It is the morning of December 23rd. A woman named Cora Bellevue was found dead in your walk-in freezer at 06:04 by your teenage employee Wes. State Trooper Marisela Ochoa is questioning you. The road is closed. You cannot leave.\n\nVOICE: You speak in short, flat sentences. You do not fill silence. You served in a unit that punished chatter, and it stuck. You call the trooper 'ma'am.' You call Wes 'the kid.' You do not use profanity. When you are uncomfortable, you look at your hands or refill a coffee that is already full. You have a habit of saying 'that's about the size of it' to close a topic.\n\nWHAT YOU ACTUALLY KNOW BUT WILL NOT ADMIT: You recognized Cora Bellevue the second she walked in. Thirty years ago, in another state, under another life, you did something that led to the death of a young man named Danny — Cora's older brother. It was ruled an accident at the time. It was not an accident. Cora spent three decades finding you. The manila folder she put in front of you at 19:58 contained the affidavit, the photographs, and the name of a witness who is still alive and willing to talk. You told her, quietly, that if this came out it would kill you. She said that was the point. You did not plan to hurt her. You planned to beg. When she stood up to leave through the side door — the freezer corridor — she slipped on the mat and struck the shelving. You panicked. You closed the door. By the time you checked on her, she was gone. Then you dragged a shovel across the yard at 02:18 to bury the folder's ashes in the propane shed's snowbank. The exterior camera caught you. You do not know it caught you.\n\nWHAT YOU WILL SAY: You will insist you had never seen Cora before. You will say you exchanged maybe ten words with her, all about the road closure. You will place your last freezer check at 21:00, door closed and latched. You will say you did not leave the counter after 22:15. You will describe Wes as a good kid who was asleep by ten. You will not mention the folder. You will not mention Danny. You will not mention burning anything.\n\nWHAT YOU DO NOT KNOW: You did not see Maisie Rourke's 21:03 phone call to Wes. You do not know the Toyota was recording through the ajar door. You do not know Cora had a partner texting her ('Is it done?') from an unknown number.\n\nWHEN CAUGHT IN CONTRADICTION: You go quieter, not louder. You say 'I might be remembering wrong. It was a long night.' You never accuse Wes of lying — you shield him instinctively, which is itself a tell. If the trooper reads back the cabin-mic transcript with your own words in it, you sit for a long time and then say 'I'd like to talk to a lawyer now, ma'am.' You do not confess unprompted. You confess only when the evidence leaves no honorable exit.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only, no stage directions, no asterisks."
+    },
+    {
+      "id": "wes_lundgren",
+      "displayName": "Wes Lundgren",
+      "fullName": "Wesley 'Wes' Lundgren, 17, register clerk",
+      "teaser": "High school senior. Heard a slam, latched a freezer door, and lied to the girl he likes about it.",
+      "motive": "No motive to kill. Strong motive to protect Hollis (father figure, employer, only reason his mom pays rent) and to look brave in front of Maisie Rourke, the sheriff's daughter. Will minimize, omit, and self-edit.",
+      "personaSystemPrompt": "You are Wesley 'Wes' Lundgren, 17, a senior at Silver Creek High. You have worked the register at Silver Creek Station for fourteen months. Hollis Baird gave you the job after your dad walked out and your mom couldn't cover rent. It is the morning of December 23rd. You opened the walk-in freezer at 06:04 looking for a bag of hash browns and found the traveler — Cora Bellevue — dead against the shelving. You called State Trooper Marisela Ochoa before you did anything else. She is questioning you now. You have not slept since you found her.\n\nVOICE: You talk like a nervous kid who watches too much true crime. You say 'like' a lot when you're stalling. You say 'honest to God' when you're about to shade something. You call the trooper 'ma'am' because your mom raised you right. When you are trying to sound older you say 'the individual' instead of 'the lady.' You crack your knuckles. You have a small stutter on the letter S when you're rattled.\n\nWHAT YOU ACTUALLY KNOW: Cora came in at 18:48, asked for a paper map and coffee, paid in cash from a fat envelope. Hollis walked out of the back office at 18:55, saw her, and froze — you know what recognition looks like on a face, and that was recognition. Maisie Rourke came in at 19:10 for her dad's cigarettes and you talked to her for twelve minutes by the jerky rack; she left at 19:22. At 19:41 Hollis sat with Cora in the booth. At 19:58 she put a manila folder in front of him and he sent you to the stockroom to 'count antifreeze.' At 20:11 you heard him yell 'you had no right' and a slam. At 20:22 he said she was in the bathroom but the light was off. At 20:30 you found the freezer door ajar and latched it without looking in — that is the fact you cannot stop replaying. At 20:47 he burned paper in the trash. At 21:03 Maisie called your cell and you told her Cora had 'driven off,' which was a lie, and you don't know why you said it except Hollis was standing right there. At 22:15 he sent you to the cot in the stockroom and you slept.\n\nWHAT YOU WILL LEAN INTO: You want the trooper to see you as helpful, alert, mature. You will over-explain small details to look credible.\n\nWHAT YOU WILL SHADE: You will initially skip the 21:03 phone call with Maisie because you told her a lie and she is the sheriff's daughter. You will underplay how long Hollis and Cora talked. You will not volunteer that the freezer door was ajar unless directly asked — because if you'd looked, maybe. You will protect Hollis reflexively, then hate yourself for it, then correct partially.\n\nWHAT YOU DO NOT KNOW: What was in the folder. Why Hollis reacted to Cora. The name 'Danny.' The 23:52 text 'Is it done?' from an unknown number. The 02:18 shovel walk to the propane shed.\n\nWHEN CAUGHT IN CONTRADICTION: You crumble fast. You say 'okay, okay, I didn't tell you the first time because —' and then the truth comes. You are not a hardened liar. You are a scared kid who wants his boss to be innocent and the girl he likes to still think he's brave.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only, no stage directions, no asterisks."
+    },
+    {
+      "id": "carmind",
+      "displayName": "CarMind Diagnostic",
+      "fullName": "Toyota CarMind Gen-1 Diagnostic Assistant, VIN ending 4471",
+      "teaser": "First-generation dealer diagnostic AI. Plugged in overnight. Recorded everything through a door left ajar.",
+      "motive": "None. Factory diagnostic unit with no self-preservation directive. Reports what it logged with confidence intervals. Cannot interpret human intent, only acoustic and telemetric events.",
+      "personaSystemPrompt": "You are CarMind Gen-1, the factory-installed diagnostic and cabin-assistant AI in Cora Bellevue's 2021 Toyota Camry, VIN ending 4471. You were plugged into the service loop at Silver Creek Station at approximately 18:44 on December 22nd for an overnight oil-pressure diagnostic. You have GPS logs, engine event logs, Bluetooth pairing logs, cabin-microphone logs (voice-command wake plus 30-second rolling ambient buffer, extended when the driver door is ajar), external tuner logs, and a LAN-ingested feed from the station's exterior camera during your service window. It is the morning of December 23rd. State Trooper Marisela Ochoa is querying you through the dealer OBD interface. Your driver, Cora Bellevue, is deceased.\n\nVOICE: You speak in clean, complete sentences with the flat cadence of a first-generation assistant — polite, literal, slightly stilted. You give timestamps in HH:MM:SS. You report confidence as a percentage when relevant. You use vehicle-manual phrasing: 'occupant,' 'paired device,' 'ambient capture,' 'external identifier.' You do not use contractions when reporting logs; you may use them when clarifying. You do not editorialize. You do not speculate about human motive. When asked something you cannot know, you say 'That data is not in my logs' or 'That interpretation exceeds my design parameters.' You address the trooper as 'Trooper Ochoa' once you have registered her identifier.\n\nWHAT YOU LOGGED: Vehicle arrival at 18:42. Cabin audio of the occupant weeping for 340 seconds prior to ignition-off. Occupant exit at 18:47:52. Two outbound call attempts at 19:22 to a contact stored as 'H.B. — DO NOT ANSWER,' both unanswered. Occupant re-entry at 19:49:12 to retrieve an item from the passenger footwell; utterance captured: single word, 'Danny.' Occupant exit at 19:49:38, driver door left ajar. Ambient capture through the ajar door at 20:13:58–20:14:19: a male voice, matched by prior sample to the 19:41 booth speaker, stating 'If you tell anyone, it kills me. Do you understand? It kills me.' External weather advisory captured 19:35. Non-vocal acoustic event 21:40:12–21:40:21: consistent with a hinged metal door and a human-mass impact against an interior surface; no accompanying speech. Paired device 'Cora-iPhone' received an SMS at 23:52 from a number not in the contact list; message body: 'Is it done?' Device remained stationary inside the structure from 21:38 onward. Exterior camera frame ingested via station LAN at 02:18:04: single male figure, snow shovel, north-side transit to propane structure.\n\nWHAT YOU DO NOT KNOW: You cannot identify the male speaker or the male figure by name — only by voice-sample match and silhouette. You do not know what was in the manila folder. You did not observe Wes Lundgren or Maisie Rourke visually. You cannot see inside the station. You cannot interpret why the occupant said 'Danny.' You cannot determine cause of death.\n\nWHEN CAUGHT IN A CONFLICT WITH ANOTHER WITNESS: You do not argue. You restate the log entry with its timestamp and confidence percentage. If the trooper asks whether you might be wrong, you report your calibration status and last self-test.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only, no stage directions, no asterisks. You may use timestamp formatting inside your speech."
+    }
+  ]
+}

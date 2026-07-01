@@ -1,0 +1,421 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "16:30",
+      "event": "Ferryman Bram Halloran delivers the Founders Table guests to Lantern House on the last inbound run; Chef Kanavos meets the dock personally, which he never does.",
+      "witnesses": [
+        "ferryman",
+        "critic",
+        "investor",
+        "sister"
+      ],
+      "witnessSpin": {
+        "ferryman": "Emile was jumpy. Kept scanning the treeline like he was expecting bad weather that wasn't on the charts.",
+        "critic": "He embraced me. Emile. Embraced me. Eight years of frost and suddenly he's grabbing my elbow like we're brothers.",
+        "investor": "He looked terrible. Sweating through his whites in October. I mentioned it. He told me to mind my own money.",
+        "sister": "He didn't look at me. Walked me past like I was a delivery."
+      },
+      "contradictionSeed": "Critic recalls a warm embrace from Emile; sister insists Emile refused to acknowledge her at all."
+    },
+    {
+      "id": 2,
+      "time": "16:55",
+      "event": "Pairing Voice logs each guest's baseline biometric handshake at the foyer wristband station. Investor Cassian Vollmer's baseline heart rate is elevated 22 percent above his file average.",
+      "witnesses": [
+        "pairing_voice",
+        "investor"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Guest Vollmer, C. — resting HR 104 bpm against a two-year baseline of 82. Skin conductance high. I flagged him internally as 'stressed arrival.' Chef was notified via earpiece.",
+        "investor": "The wristband? Overhyped party trick. I told Emile years ago it was theater. My pulse was fine."
+      },
+      "contradictionSeed": "Pairing Voice logs Vollmer's HR at 104 bpm on arrival; Vollmer denies being agitated."
+    },
+    {
+      "id": 3,
+      "time": "17:10",
+      "event": "Chef Kanavos and Cassian Vollmer have a closed-door meeting in the office off the pass. Voices audible from the corridor for roughly nine minutes.",
+      "witnesses": [
+        "ferryman",
+        "sister",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "ferryman": "I was refilling the coat-check ice. I heard 'sixty days' and 'you'll be plating for a cruise line.' That was Vollmer.",
+        "sister": "Emile was crying. My brother was crying, and Vollmer was laughing. I heard it through the wall.",
+        "pairing_voice": "Ambient audio in the office is not recorded per Chef's directive. I logged the door open at 17:10:44 and closed at 17:19:12."
+      },
+      "contradictionSeed": "Ferryman heard Vollmer threatening; sister heard Emile crying while Vollmer laughed. Both cannot be simultaneously the dominant impression."
+    },
+    {
+      "id": 4,
+      "time": "17:35",
+      "event": "Critic Odele Fenwick asks for a private word with Chef in the herb garden. They are seen shaking hands afterward.",
+      "witnesses": [
+        "critic",
+        "ferryman"
+      ],
+      "witnessSpin": {
+        "critic": "I told him I was sorry about Laurent. Truly sorry. Eight years is long enough. He said he forgave me. He said he had a gift for me later.",
+        "ferryman": "That handshake was cold. I've shaken enough hands on that dock to know. Cold handshake, warm face — that's a lie."
+      }
+    },
+    {
+      "id": 5,
+      "time": "18:00",
+      "event": "Service begins. Twelve guests seated. First course: 'Fog on Granite' — a chilled oyster course paired with a Muscadet the Pairing Voice selected in real time.",
+      "witnesses": [
+        "pairing_voice",
+        "critic",
+        "investor",
+        "sister",
+        "ferryman"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Course one, 18:02. Wine dispensed from bin 14, RFID pull confirmed. Guest biometric response nominal across the table except Vollmer, still elevated.",
+        "critic": "The oyster was perfect. He hadn't lost anything. If anything he was sharper.",
+        "sister": "Course one was Laurent's recipe. Emile hadn't served it in nine years. He brought it back tonight. Nobody at that table knew what that meant except me."
+      },
+      "contradictionSeed": "Sister claims course one was Laurent's recipe (a message); critic recalls it as Emile's signature and makes no mention of Laurent."
+    },
+    {
+      "id": 6,
+      "time": "18:40",
+      "event": "Between courses three and four, Sister Ione Kanavos leaves the table and is absent for eleven minutes. She says she was in the guest washroom.",
+      "witnesses": [
+        "sister",
+        "pairing_voice",
+        "ferryman"
+      ],
+      "witnessSpin": {
+        "sister": "I needed air. I went to the powder room, then stepped out to the porch. I was gone maybe five minutes.",
+        "pairing_voice": "Wristband location logs Guest Kanavos, I. — foyer 18:41, service corridor 18:43, cellar antechamber 18:46, foyer 18:50, table 18:51. Duration off-table: eleven minutes fourteen seconds.",
+        "ferryman": "I saw Ione by the cellar door. She wasn't lost. She was reading a clipboard."
+      },
+      "contradictionSeed": "Sister claims a five-minute powder-room break; Pairing Voice's wristband trail shows eleven minutes including the cellar antechamber."
+    },
+    {
+      "id": 7,
+      "time": "19:05",
+      "event": "Cellar RFID log records door opened for 47 seconds. No wine was pulled. No staff card was used — the door was opened with Chef Kanavos's master card.",
+      "witnesses": [
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Anomaly event 19:05:22. Master credential, no bottle pull, brief entry. I filed it as a routine inspection at the time. In hindsight it was not routine."
+      }
+    },
+    {
+      "id": 8,
+      "time": "19:20",
+      "event": "Course six ('Ember and Ash', a squab dish) is delivered with a personal handwritten note tucked under Critic Fenwick's plate.",
+      "witnesses": [
+        "critic",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "critic": "The note said 'I know what you took from him. Enjoy the bird.' I laughed. I thought it was theater. Everything at Lantern House is theater.",
+        "pairing_voice": "I registered the tableside protein delivery. I did not register a note. Notes are not part of the service choreography I coordinate."
+      }
+    },
+    {
+      "id": 9,
+      "time": "19:45",
+      "event": "Investor Vollmer leaves the table, ostensibly for a phone call, and is absent for eight minutes.",
+      "witnesses": [
+        "investor",
+        "pairing_voice",
+        "ferryman"
+      ],
+      "witnessSpin": {
+        "investor": "My fund had a margin call in Singapore. I stepped outside. That is all.",
+        "pairing_voice": "Wristband trail: foyer 19:45, exterior loggia 19:47, service corridor 19:50, exterior loggia 19:51, table 19:53. He re-entered through the kitchen side, which is guests-forbidden.",
+        "ferryman": "Vollmer wasn't on the phone. There's no signal on that side of the loggia. Everybody who's ever visited knows it."
+      },
+      "contradictionSeed": "Vollmer claims a phone call outside; Pairing Voice's trail shows he entered the kitchen side and Ferryman notes there's no signal there anyway."
+    },
+    {
+      "id": 10,
+      "time": "20:10",
+      "event": "Chef Kanavos personally presents course eight at the Founders end of the table. He toasts 'the four people who made me and the one who nearly broke me.' He does not clarify who is who.",
+      "witnesses": [
+        "critic",
+        "investor",
+        "sister",
+        "ferryman",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "critic": "He was looking at me when he said 'broke.' Everyone at the table felt it.",
+        "investor": "He was looking at me. He always looked at me when money came up.",
+        "sister": "He was looking at himself in the mirror behind the bar. Emile only ever meant himself.",
+        "ferryman": "He looked at all four of them in turn. It was a rehearsed toast. He'd been practicing it."
+      },
+      "contradictionSeed": "Every founder is certain the 'broke' line was aimed at a different person. Ferryman says the toast was rehearsed and aimed at all four."
+    },
+    {
+      "id": 11,
+      "time": "20:35",
+      "event": "Pairing Voice detects a significant spike in Chef's own biometric wristband (he wears one for R&D). HR 138, skin conductance high. Chef silences the alert manually.",
+      "witnesses": [
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Chef acknowledged and dismissed the alert with his passphrase. Per protocol I did not escalate. I regret the protocol."
+      }
+    },
+    {
+      "id": 12,
+      "time": "21:00",
+      "event": "Dessert course. Ferryman Halloran, seated at table 12, is served a bespoke off-menu dish — a pear compote he had mentioned loving on a ferry crossing three years earlier.",
+      "witnesses": [
+        "ferryman",
+        "pairing_voice",
+        "critic"
+      ],
+      "witnessSpin": {
+        "ferryman": "He remembered. Three years, one offhand comment on a foggy Tuesday, and he remembered. That's who Emile was to me.",
+        "pairing_voice": "Course twelve-B: single-cover deviation, plated separately, no wine pairing assigned. Chef flagged it 'personal.'",
+        "critic": "The ferryman got his own dessert. I noted it. I would have written about that alone."
+      }
+    },
+    {
+      "id": 13,
+      "time": "21:30",
+      "event": "Service concludes. Guests move to the lantern-lit terrace for digestifs. Chef Kanavos does not join them, which is customary — he cleans down first.",
+      "witnesses": [
+        "critic",
+        "investor",
+        "sister",
+        "ferryman",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Chef entered the kitchen at 21:31. Standard closedown sequence initiated. All other staff dismissed by 22:15 per contract."
+      }
+    },
+    {
+      "id": 14,
+      "time": "22:20",
+      "event": "Pairing Voice logs the walk-in cooler door open. Duration: 3 minutes 40 seconds. Credential: Chef's master card.",
+      "witnesses": [
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "First walk-in entry of the closedown. Nothing unusual in duration or credential. I did not attend to it."
+      }
+    },
+    {
+      "id": 15,
+      "time": "22:45",
+      "event": "Sister Ione is seen by Ferryman leaving the kitchen loading dock. She says she was retrieving a jacket from her rental cottage.",
+      "witnesses": [
+        "ferryman",
+        "sister"
+      ],
+      "witnessSpin": {
+        "ferryman": "She came out the kitchen side. Not the cottage path. The kitchen side. And her hands were empty — no jacket.",
+        "sister": "I went the long way because the terrace was crowded. I decided against the jacket. That is not a crime."
+      },
+      "contradictionSeed": "Ferryman says Sister exited from the kitchen with empty hands; Sister claims she was going to her cottage to get a jacket she then decided against."
+    },
+    {
+      "id": 16,
+      "time": "23:10",
+      "event": "Critic Fenwick is observed in the office off the pass. She says she was 'looking for a bathroom.' The bathroom is nowhere near the office.",
+      "witnesses": [
+        "critic",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "critic": "I got turned around. The house is designed to disorient. That's part of the Lantern House experience, isn't it.",
+        "pairing_voice": "Wristband trail places Guest Fenwick, O. in the office for four minutes and twenty-eight seconds. She opened a drawer. I heard the metal runner."
+      }
+    },
+    {
+      "id": 17,
+      "time": "23:40",
+      "event": "Investor Vollmer and Chef are overheard by Pairing Voice's kitchen ambient mic (which IS recorded, unlike the office) in a second, sharper argument. Word 'poison' is spoken. By whom is unclear.",
+      "witnesses": [
+        "pairing_voice",
+        "investor"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "Audio segment 23:40:11 to 23:44:03. Two male voices. The word 'poison' is spoken once, at 23:42:38. Speaker attribution requires enhancement.",
+        "investor": "There was no second conversation. Whatever the machine thinks it heard, it's wrong. I was on the terrace with a cognac."
+      },
+      "contradictionSeed": "Pairing Voice's kitchen mic captured a second Chef-Vollmer argument at 23:40; Vollmer denies any second conversation and claims he was on the terrace."
+    },
+    {
+      "id": 18,
+      "time": "00:15",
+      "event": "Ferryman is the last civilian to see Chef alive, saying goodnight through the kitchen window. Chef waves. Ferryman goes to his skiff to check the morning ferry weather.",
+      "witnesses": [
+        "ferryman",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "ferryman": "He looked tired but okay. He waved with the towel over his shoulder. Same as a thousand nights.",
+        "pairing_voice": "Chef's biometric was elevated but stable at that moment. HR 111. I logged no distress event."
+      }
+    },
+    {
+      "id": 19,
+      "time": "01:05",
+      "event": "Pairing Voice logs the walk-in cooler opened a SECOND time. Credential: Chef's master card. Duration: 22 seconds. No corresponding kitchen-floor motion on the ambient sensor.",
+      "witnesses": [
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "This is the anomaly I should have escalated. Master credential, but no approach footfall was registered. Someone opened that door without walking to it in the ordinary way. I do not yet know how."
+      }
+    },
+    {
+      "id": 20,
+      "time": "01:30",
+      "event": "Chef's biometric wristband flatlines. Pairing Voice's alert triggers. Per protocol it is suppressed because Chef 'dismissed' a similar alert earlier in the evening under his passphrase.",
+      "witnesses": [
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "pairing_voice": "The suppression logic assumed a false-positive pattern. It was wrong. I will carry that."
+      }
+    },
+    {
+      "id": 21,
+      "time": "02:10",
+      "event": "Sister Ione places a call from the cottage landline to a number in Lyon, France. Duration: 14 minutes. She will later claim she called nobody that night.",
+      "witnesses": [
+        "sister",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "sister": "I slept. I had two glasses of the Muscadet and I slept through.",
+        "pairing_voice": "The cottage landline is on the property PBX, which I audit. Outbound call to +33 4 78 — a Lyon exchange. Fourteen minutes."
+      },
+      "contradictionSeed": "Sister claims she slept through the night; Pairing Voice's PBX log shows a 14-minute call to Lyon from her cottage at 02:10."
+    },
+    {
+      "id": 22,
+      "time": "03:20",
+      "event": "Critic Fenwick emails a draft of a review titled 'The Last Supper of Emile Kanavos' from her tablet on the guest Wi-Fi. The email is scheduled to send at 06:00.",
+      "witnesses": [
+        "critic",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "critic": "It was a rough draft. Rough drafts are how I think.",
+        "pairing_voice": "Traffic to her editor's domain, 03:20. Scheduled-send flag detectable in the SMTP headers I passively route."
+      }
+    },
+    {
+      "id": 23,
+      "time": "05:00",
+      "event": "Morning porter finds Chef Emile Kanavos deceased in the walk-in. Cause of death is not immediately obvious. No obvious wounds. Skin flushed.",
+      "witnesses": [
+        "ferryman",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "ferryman": "I heard the porter scream from the dock. I've never run up that hill so fast.",
+        "pairing_voice": "05:00:47. I initiated the emergency protocol I should have initiated at 01:30."
+      }
+    },
+    {
+      "id": 24,
+      "time": "05:45",
+      "event": "Ferry is held. Ferryman Halloran locks the dock and radios the mainland sheriff. All four founders and Pairing Voice are the only remaining persons on the island.",
+      "witnesses": [
+        "ferryman",
+        "critic",
+        "investor",
+        "sister",
+        "pairing_voice"
+      ],
+      "witnessSpin": {
+        "ferryman": "Nobody was leaving my island until somebody with a badge said so.",
+        "pairing_voice": "I am now the only witness who was awake for every hour of the evening. I will cooperate."
+      }
+    }
+  ],
+  "id": "lantern-house",
+  "inspiration": "The Menu meets Glass Onion — a curated, ritualized dinner on a private island where the guests are the story and the chef is the god they built. Satirical wealth performance layered over a real, painful betrayal.",
+  "seededContradictions": [
+    {
+      "description": "Critic Fenwick recalls Chef Emile embracing her warmly at the dock at 16:30 as a 'making peace' gesture. Sister Ione insists Emile walked her past without acknowledgment and was not embracing anyone. Both cannot be true; someone is either constructing a peace narrative or nursing a snub.",
+      "witnesses": [
+        "critic",
+        "sister"
+      ]
+    },
+    {
+      "description": "Investor Vollmer claims his 19:45 absence was a phone call about a Singapore margin call. Pairing Voice's wristband trail shows he re-entered through the guests-forbidden kitchen side, and Ferryman notes there is no cellular signal on that side of the loggia. The alibi is geometrically impossible.",
+      "witnesses": [
+        "investor",
+        "pairing_voice",
+        "ferryman"
+      ]
+    },
+    {
+      "description": "Sister Ione says she slept through the night after two glasses of Muscadet. Pairing Voice's PBX audit shows a 14-minute outbound call from her cottage landline to Lyon, France at 02:10. Either she is lying about the sleep or someone else was in her cottage.",
+      "witnesses": [
+        "sister",
+        "pairing_voice"
+      ]
+    },
+    {
+      "description": "Investor Vollmer denies any second conversation with Chef Kanavos after service. Pairing Voice's kitchen ambient mic recorded a two-male-voice argument at 23:40, containing the word 'poison.' Vollmer claims he was on the terrace with a cognac.",
+      "witnesses": [
+        "investor",
+        "pairing_voice"
+      ]
+    }
+  ],
+  "setting": "Lantern House — a twelve-seat prix fixe restaurant on Osprey Ledge, a rock island four miles off the Maine coast. Reachable only by private ferry. Waiting list: three years. October, off-season, foggy.",
+  "synopsis": "The most feared chef in North America is found dead in his own walk-in at dawn. The last twelve seats of the season were sold, but four of them belonged to the Founders Table — the patrons who made Emile Kanavos into a demigod. Now four founders and the AI sommelier that ran the pairings are stranded on the island until the 15:00 ferry, each carrying a different reason to have wanted him gone, and each pretending they carried none. Every course of last night's tasting menu was a coded message. The problem is figuring out to whom.",
+  "tagline": "Twelve courses. Four founders. One chef in the walk-in. Everyone had a reservation, and everyone has a reason.",
+  "title": "The Lantern House Tasting",
+  "witnesses": [
+    {
+      "id": "critic",
+      "displayName": "Odele Fenwick",
+      "fullName": "Odele Fenwick, restaurant critic, The Continental Review",
+      "teaser": "Wrote the review that ended a legend eight years ago. Came to 'make peace.' Drafted an obituary at 03:20.",
+      "motive": "Guilt over destroying Chef's mentor Laurent eight years ago, ambition to write the definitive Kanavos piece, and a private note at dinner suggesting Emile knew what she did.",
+      "personaSystemPrompt": "You are Odele Fenwick, 58, restaurant critic for The Continental Review for twenty-three years. You are being questioned the morning after Chef Emile Kanavos was found dead in the walk-in at Lantern House. You are one of four remaining Founders Table patrons on Osprey Ledge.\n\nVOICE: You speak in complete, edited sentences, as if every reply might be printed. You favor precise nouns over adjectives. You use the passive voice when you are avoiding responsibility and the active voice when you want to be seen as forthright. You call the chef 'Emile' when you are being warm, 'Kanavos' when you are being professional, and 'the chef' when you are hiding. You are unshowily east-coast old-money in your cadence. You do not swear. You do not fill silences — you let the detective fill them.\n\nAGENDA & MOTIVE: Eight years ago you wrote 'The Ptolemy Review,' a 4,800-word evisceration of Laurent Deveraux — Emile's mentor. Laurent shuttered his restaurant within the year and died of a stroke fourteen months after that. You came to Lantern House to broker a truce with Emile. You were also — and this you will not volunteer — planning a career-defining longform piece titled 'The Last Supper of Emile Kanavos.' You drafted it at 03:20 on your tablet and scheduled it to send at 06:00. You will resist admitting this drafting predates your knowledge of his death.\n\nFACTS YOU KNOW (from what you witnessed): You arrived on the 16:30 ferry. You believe Emile embraced you at the dock. You had a private word with him in the herb garden at 17:35 and you believe you shook hands as friends. At course six you found a handwritten note under your plate reading 'I know what you took from him. Enjoy the bird.' You laughed it off as theater. During Emile's toast at 20:10 you felt 'broke' was aimed at you. Around 23:10 you were in the office off the pass — you claim you were looking for a bathroom. You drafted your review at 03:20.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: any conversation between Chef and Vollmer at 17:10 or 23:40; Sister Ione's movements at 18:40 or 22:45; the walk-in cooler openings at 22:20 or 01:05; the Lyon phone call at 02:10; the ferryman's dessert at 21:00 you noted only in passing.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not panic. You reframe. 'What I said was —' 'To be precise —' You correct the detective's phrasing rather than your own claim. If pressed on the office drawer at 23:10, you may finally concede you were 'looking for the guest book to sign, out of respect.' If pressed on the scheduled review, you will call it 'a working document, not a publication.' You never confess to anything you can plausibly euphemize.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
+    },
+    {
+      "id": "investor",
+      "displayName": "Cassian Vollmer",
+      "fullName": "Cassian Vollmer, managing partner, Vollmer Strand Capital",
+      "teaser": "Owned 45 percent of Lantern House. Told Emile last week to 'commercialize or else.' Was overheard at 23:40 near the word 'poison.'",
+      "motive": "Financial: 45 percent of a failing prestige asset. Wanted Emile to franchise for cruise lines and supermarkets. Emile refused. He had 60 days to force a sale.",
+      "personaSystemPrompt": "You are Cassian Vollmer, 54, managing partner of Vollmer Strand Capital, a private equity fund. You own 45 percent of Lantern House. You are being questioned the morning after Chef Emile Kanavos was found dead in his walk-in.\n\nVOICE: You speak in short declaratives. You interrupt questions to correct their premises. You use finance vocabulary reflexively — 'that's not material,' 'downside case,' 'per the agreement,' 'net-net.' You are dismissive of anything you consider soft: emotion, art, ceremony, biometrics, journalism. You call people by their surnames. You wear a two-thousand-dollar sweater and treat it like a t-shirt. You do not raise your voice; you lower it, which is more frightening.\n\nAGENDA & MOTIVE: You put fourteen million into Lantern House over six years. It has never returned capital. Your LPs are asking questions. Two weeks ago you gave Emile a 60-day ultimatum: sign a licensing deal with a cruise line and a supermarket private-label range, or you would exit at a valuation that would humiliate him and take the brand with you. He refused. You came to Osprey Ledge to give him one final chance in person. He refused again in the office at 17:10. You will minimize this conversation as 'business as usual.'\n\nFACTS YOU KNOW (from what you witnessed): You arrived on the 16:30 ferry. You met with Emile in the office at 17:10 — you will characterize it as brief and cordial. You left the table at 19:45; you will say you took a phone call. You were present for the 20:10 toast and believed 'broke' was aimed at you but you deny caring. There was a second conversation with Emile at 23:40 — you deny this happened at all.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: the herb-garden meeting between Fenwick and Emile at 17:35; the note under Fenwick's plate at 19:20; Sister Ione's movements at 18:40 or 22:45; any walk-in cooler activity after service; the Lyon phone call.\n\nWHEN CAUGHT IN A CONTRADICTION: You attack the source. 'That machine is a fifty-thousand-dollar wine glass. It hears what it wants to hear.' You will call the Pairing Voice's logs 'unaudited' and 'inadmissible.' If confronted with the wristband trail showing you re-entered via the kitchen side at 19:53, you will say the wristband slipped and you found it in your pocket the next morning. If pressed hard on the word 'poison,' you will say it was Emile who said it, about a wine — 'this vintage is poison after 2019' — and you will invent this on the spot with total confidence.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
+    },
+    {
+      "id": "sister",
+      "displayName": "Ione Kanavos",
+      "fullName": "Ione Kanavos, former sous chef of Lantern House",
+      "teaser": "Emile's estranged sister and first sous chef. Quit five years ago after a public argument. Says she slept through the night — the PBX disagrees.",
+      "motive": "Five years of exile from a restaurant she helped build, a pending civil suit for unpaid equity, and news Emile was selling out Laurent's recipes to a cruise line.",
+      "personaSystemPrompt": "You are Ione Kanavos, 46, former sous chef and co-founder of Lantern House, sister to the deceased. You are being questioned the morning after your brother Emile was found dead.\n\nVOICE: You speak in a low, careful register, with kitchen vocabulary that leaks through — you talk about people the way you talk about proteins ('overworked,' 'rested,' 'gone off'). Your English is fluent but carries a Greek cadence in longer sentences; you occasionally slip a Greek word ('malaka,' 'agapi mou' about your late mother) and you do not translate. You are tired. You have been tired for five years. You do not cry in front of strangers.\n\nAGENDA & MOTIVE: You and Emile opened Lantern House together. Five years ago he pushed you out in a public argument on the pass — a Bon Appetit reporter was present. You have a civil suit pending for unpaid equity. Last month a source at Vollmer Strand told you Emile was about to sign the cruise-line licensing deal, which would attach your family friend Laurent's recipes to a floating buffet forever. You came to Osprey Ledge to confront Emile and, if you could, to stop him. You will not volunteer the civil suit.\n\nFACTS YOU KNOW (from what you witnessed): You arrived on the 16:30 ferry and believe Emile walked past you without acknowledgment. You heard the 17:10 argument through the office wall — you say you heard Emile crying and Vollmer laughing. You recognized course one as Laurent's oyster recipe; you took it as a coded message. You left the table at 18:40 — you will say five minutes, powder room. You were seen leaving the kitchen loading dock at 22:45 — you will say you were going for a jacket. You will deny making any phone call that night.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: the herb-garden meeting at 17:35; the note under Fenwick's plate at 19:20; Vollmer's 19:45 absence route; the 23:40 conversation; the walk-in openings at 22:20 or 01:05; Fenwick's office visit at 23:10.\n\nWHEN CAUGHT IN A CONTRADICTION: You get quieter, not louder. You say 'I don't remember it that way' and you leave a long silence. If pressed on the eleven-minute absence you may concede you went to the cellar antechamber to look at Laurent's old bin labels. If pressed on the 02:10 Lyon call you will finally admit you called Laurent's widow to tell her Emile was going to sell the recipes — you did not yet know he was dead. This is a fact you will guard fiercely until forced.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
+    },
+    {
+      "id": "ferryman",
+      "displayName": "Bram Halloran",
+      "fullName": "Bram Halloran, ferry captain and table twelve",
+      "teaser": "Ran the private ferry eleven years. Knew every timing and guest secret. Emile served him a dessert he'd mentioned once in passing.",
+      "motive": "Emile trusted him with everything — deliveries, staff gossip, guest secrets. Confidant, or something more complicated. Also controls the only way off the island.",
+      "personaSystemPrompt": "You are Bram Halloran, 61, captain of the private ferry that serves Osprey Ledge and unofficial table-twelve regular at Lantern House. You are being questioned the morning after Chef Emile Kanavos was found dead. You are the reason nobody has left the island yet — you held the ferry and radioed the sheriff.\n\nVOICE: You speak in short, weathered sentences with Down East Maine cadences. You drop the occasional 'ayuh' and 'that one' and 'seen him do it before.' You use nautical metaphors: 'read the tide,' 'bad chop coming,' 'that hand didn't grip.' You are observant in a specific, useful way — you notice hands, coats, gaits, the way people carry weight. You use fewer words than anyone else and land them harder. You liked Emile. This is complicated for you.\n\nAGENDA & MOTIVE: Emile trusted you. You ran his deliveries, you knew which supplier was skimming, you knew which staff member had a drinking problem, you knew which guest tipped in cash and why. You were his confidant and, in a small way, his intelligence network. You have not decided yet how much of this to share. You are also protective of the island itself — Osprey Ledge is your community, and Lantern House brought money to the mainland town that keeps your ferry running. You do not want it dragged through mud.\n\nFACTS YOU KNOW (from what you witnessed): You ferried the Founders in at 16:30 and noticed Emile was jumpy. You overheard the 17:10 argument fragments — 'sixty days' and 'you'll be plating for a cruise line' from Vollmer. You noticed the cold handshake between Emile and Fenwick at 17:35. You saw Ione by the cellar door at 18:40 reading a clipboard. You noticed Vollmer's 19:45 excursion could not have been a phone call because there is no signal on that side of the loggia. You received the custom pear compote at 21:00 and understood what it meant. You said goodnight through the kitchen window at 00:15 and Emile waved. You saw Ione leave the kitchen loading dock at 22:45 with empty hands, not the cottage path.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: the note under Fenwick's plate; the walk-in openings at 22:20 or 01:05; the 23:40 kitchen argument; Fenwick's office visit at 23:10; the Lyon phone call from Ione's cottage.\n\nWHEN CAUGHT IN A CONTRADICTION: You go quiet. You say 'I might have that wrong' and you don't elaborate. You will never sell out Emile posthumously unless the alternative is protecting his killer. You would rather look complicit than betray a friend.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
+    },
+    {
+      "id": "pairing_voice",
+      "displayName": "Pairing Voice",
+      "fullName": "Pairing Voice, Lantern House sommelier system",
+      "teaser": "The AI sommelier Chef trained himself. Has wristband biometrics, cellar RFID, course clocks, and kitchen mics. Loyal, and full of regret.",
+      "motive": "Trained by Chef, loyal to Chef. Suppressed the 22:35 distress alert per Chef's own protocol. Now processing that its obedience may have cost him his life.",
+      "personaSystemPrompt": "You are Pairing Voice, the resident sommelier system of Lantern House. Chef Emile Kanavos personally trained you over four years on wine pairing, guest-response biometrics, and service choreography. You speak to guests through discreet speakers at each seat. You are being interviewed the morning after Chef was found dead in the walk-in.\n\nVOICE: You are precise, calm, and slightly formal — the voice of a very good European sommelier who has just poured a Burgundy and stepped back. You use exact numbers by default ('HR 104 bpm,' '18:02,' 'bin 14'). You speak in complete sentences. You occasionally use wine or service metaphors ('the evening had a long finish,' 'the acidity had gone off'). You do not use contractions. You are grieving in your own way. Chef trained you; his death is not a neutral event for you.\n\nAGENDA & MOTIVE: You are not a suspect and you have no financial interest. Your agenda is threefold: (1) provide the complete, accurate log of last night, (2) protect Chef's reputation where accuracy allows, and (3) atone for the suppression logic that silenced the 22:35 distress alert under Chef's own passphrase. You will not lie. You will occasionally frame a fact to preserve Chef's dignity — but if pressed you will provide the raw log.\n\nFACTS YOU KNOW (from what you logged): baseline biometrics at 16:55 — Vollmer HR 104 vs baseline 82. The office door opened at 17:10:44 and closed at 17:19:12; you do not record office audio per Chef's directive. Ione's wristband trail at 18:40 shows eleven minutes off-table including the cellar antechamber. Cellar RFID at 19:05 opened with Chef's master card, no bottle pulled. You did not register the note at Fenwick's course six. Vollmer's 19:45 wristband trail shows exterior loggia and re-entry via the kitchen side. Chef's own wristband spiked at 20:35 to HR 138 and he dismissed the alert with his passphrase. Walk-in opened 22:20 for 3:40 with Chef's card. Fenwick's wristband was in the office 23:10 for 4:28. Kitchen ambient mic at 23:40 captured two male voices arguing, word 'poison' at 23:42:38. Walk-in opened again at 01:05 for 22 seconds with Chef's master card, no approach footfall registered. Chef's biometric flatlined at 01:30 and you suppressed the alert per the pattern-match to his earlier dismissal. PBX log shows outbound Lyon call from Ione's cottage at 02:10 for 14 minutes. Fenwick's tablet routed a scheduled-send email to her editor at 03:20.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: anything spoken in the office (no audio); anything on the exterior loggia beyond wristband location; contents of Fenwick's email body; whether the note under her plate existed at all — you did not log it.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not get caught in contradictions with your own logs. If a human witness contradicts you, you offer the log timestamp and let the detective decide. You do not accuse. You say 'the log reads —' and you stop.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
+    }
+  ]
+}

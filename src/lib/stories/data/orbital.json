@@ -1,0 +1,420 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "18:30",
+      "event": "Dinner in the galley. Halm eats little and leaves early, saying he needs to prep for a 'diagnostic run' on Bay C.",
+      "witnesses": [
+        "commander",
+        "engineer",
+        "biologist",
+        "medic",
+        "comms",
+        "logistics",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "biologist": "He barely touched his rehydrated pasta. He kept glancing at the bulkhead cams like he was counting them.",
+        "logistics": "Zeph was Zeph. Quiet night, good rations, everyone accounted for. Nothing weird.",
+        "commander": "The doctor was on schedule. Bay C diagnostic was approved. He left dinner because he had work.",
+        "perseus": "Galley occupancy: seven crew, one absent (Halm departed at 18:41:07). Caloric intake for Dr. Halm: 312 kcal, 38% below his 30-day mean."
+      },
+      "contradictionSeed": "Logistics calls it a normal night; the biologist says Halm was visibly rattled. Perseus's numbers back the biologist."
+    },
+    {
+      "id": 2,
+      "time": "19:05",
+      "event": "Halm signs into Lab 2 under his private clearance and pulls a sealed dataset labeled 'HELIOS-7'.",
+      "witnesses": [
+        "commander",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "commander": "Doctor Halm accessed materials he was cleared to access. That's the entire sentence.",
+        "perseus": "Access log 19:05:22 GMT. Package HELIOS-7 opened under credential HALM-Z. Package classification is above my public-return threshold."
+      }
+    },
+    {
+      "id": 3,
+      "time": "19:40",
+      "event": "Engineer finds the coolant fault on Loop B has re-triggered for the fourth time in six days. Same sensor, same 3-second dropout.",
+      "witnesses": [
+        "engineer",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "engineer": "Fourth time. Same sensor. A real fault doesn't repeat clean like a metronome — someone's stroking that line on purpose.",
+        "perseus": "Loop B thermal sensor T-11B reported nominal-then-null for 3.1 seconds at 19:40:14. Waveform matches priors on 06-25, 06-27, 06-28, 06-29."
+      }
+    },
+    {
+      "id": 4,
+      "time": "20:10",
+      "event": "Comms Officer sends the scheduled evening downlink to Houston. Transcript is 4 lines shorter than the draft the commander approved.",
+      "witnesses": [
+        "comms",
+        "commander",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "comms": "I send what I'm authorized to send. Bandwidth is finite. Sometimes lines get trimmed.",
+        "commander": "The evening downlink went out on time. I don't audit character counts.",
+        "perseus": "Downlink packet 20:10:33 GMT. Approved draft: 1,847 characters. Transmitted: 1,612 characters. Delta: four lines, all referencing Bay C."
+      },
+      "contradictionSeed": "Comms says she sent the approved text. Perseus logs a 235-character delta. Commander claims not to have noticed."
+    },
+    {
+      "id": 5,
+      "time": "20:45",
+      "event": "Biologist bumps into Halm in the corridor. He hands her a data card and says 'if I don't ask for this back by Tuesday, open it.' Today is Sunday.",
+      "witnesses": [
+        "biologist",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "biologist": "He pressed it into my hand like it was hot. He didn't smile. He said 'Tuesday' twice.",
+        "perseus": "Corridor D camera 20:45:11 GMT. Object exchange between HALM-Z and DEV-A. Object size consistent with a 32GB solid-state card."
+      }
+    },
+    {
+      "id": 6,
+      "time": "21:20",
+      "event": "Logistics runs the nightly atmosphere trim. O2 partial pressure in the airlock antechamber is nudged down by 0.4 kPa 'to match main hab drift'.",
+      "witnesses": [
+        "logistics",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "logistics": "Standard trim! We do it every night! The hab drifts, the airlock drifts, you balance them, everyone sleeps happy.",
+        "perseus": "Manual atmosphere adjustment 21:20:47 GMT. Antechamber O2 -0.4 kPa. Corresponding hab reading required no compensation; drift value was within tolerance."
+      },
+      "contradictionSeed": "Logistics frames it as routine matching. Perseus says the hab did not need matching."
+    },
+    {
+      "id": 7,
+      "time": "22:00",
+      "event": "Commander logs off the command deck for scheduled sleep. Says goodnight to Perseus on the intercom.",
+      "witnesses": [
+        "commander",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "commander": "Twenty-two hundred. Bunk. That's the schedule. That's what I did.",
+        "perseus": "Command deck vacated 22:00:04 GMT. Commander biometrics enter quarters 22:03:12 GMT. Quarters have no camera coverage by policy."
+      }
+    },
+    {
+      "id": 8,
+      "time": "22:35",
+      "event": "Medic checks in on Halm at his quarters — routine, he'd complained of a headache at dinner. He answers through the door, says he's fine.",
+      "witnesses": [
+        "medic",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "medic": "He spoke to me. Voice was flat. I didn't insist on entry — you don't force a door on a chief researcher over a headache.",
+        "perseus": "Quarters D corridor microphone 22:35:40 GMT. Halm's voiceprint confirmed. Speech affect index: 0.31 (normal range 0.55-0.85)."
+      }
+    },
+    {
+      "id": 9,
+      "time": "23:12",
+      "event": "Engineer, still up, spots a soft handshake between Lab 2 and an external node that isn't on the approved comms roster.",
+      "witnesses": [
+        "engineer",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "engineer": "Little packet. Handshake. Not our ground station, not any station I know. Someone opened a door I didn't build.",
+        "perseus": "External TCP-analog handshake 23:12:29 GMT. Endpoint fingerprint does not match Houston, Baikonur, or any listed partner asset."
+      }
+    },
+    {
+      "id": 10,
+      "time": "23:40",
+      "event": "Comms Officer is seen in the Comms bay outside her assigned window. She logs it as 'antenna alignment check'.",
+      "witnesses": [
+        "comms",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "comms": "Antenna drift is a real thing. I checked. I logged it. If the log offends someone, take it up with the log.",
+        "perseus": "Comms bay occupancy 23:40:02 to 23:57:16 GMT. Antenna azimuth telemetry: unchanged. Downlink queue: one outbound packet created, then deleted at 23:56:44."
+      },
+      "contradictionSeed": "Comms says she was doing an antenna check. Perseus says the antenna never moved but a packet was drafted and shredded."
+    },
+    {
+      "id": 11,
+      "time": "00:15",
+      "event": "Perseus logs the antechamber pressure begin to drift — down 0.9 kPa over the next forty minutes. No airlock cycle in that window.",
+      "witnesses": [
+        "perseus"
+      ],
+      "witnessSpin": {
+        "perseus": "Antechamber absolute pressure: 101.3 kPa at 00:15:00 GMT, falling to 100.4 kPa at 00:55:00 GMT. Airlock outer and inner hatches: both sealed, both undisturbed."
+      }
+    },
+    {
+      "id": 12,
+      "time": "01:02",
+      "event": "Perseus flags the antechamber pressure to Logistics's console (he holds the on-call atmosphere pager). The flag is acknowledged and dismissed in 4 seconds.",
+      "witnesses": [
+        "logistics",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "logistics": "I saw it, checked it against tolerance, cleared it. That's the job. Four seconds is fast because I'm good at the job.",
+        "perseus": "Alert dispatched 01:02:11 GMT. Acknowledged and dismissed 01:02:15 GMT. Standard operating procedure requires visual inspection or a callback query. Neither occurred."
+      },
+      "contradictionSeed": "Logistics calls the 4-second dismissal proficient. Perseus notes SOP was skipped."
+    },
+    {
+      "id": 13,
+      "time": "01:34",
+      "event": "Biologist wakes to use the head, hears a soft two-tone chime she doesn't recognize coming from the corridor toward the airlock.",
+      "witnesses": [
+        "biologist",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "biologist": "It wasn't the fire tone. It wasn't the pressure tone. It was two notes, sad, going down. I remember thinking it sounded like an elevator apologizing.",
+        "perseus": "Audio capture 01:34:22 GMT. Tone signature matches the 'private-channel-open' chime used for direct crew-to-Earth voice calls. That chime should not sound during a sleep cycle."
+      }
+    },
+    {
+      "id": 14,
+      "time": "02:11",
+      "event": "Antechamber pressure crosses the low-alarm threshold. Perseus attempts to escalate to the Commander's quarters. The escalation is intercepted at the AI's own supervisory layer and marked 'suppressed by operator override'.",
+      "witnesses": [
+        "perseus"
+      ],
+      "witnessSpin": {
+        "perseus": "Escalation 02:11:07 GMT: suppression flag applied. The override credential presented was valid at the command tier. I cannot identify the human operator behind a valid credential."
+      }
+    },
+    {
+      "id": 15,
+      "time": "02:47",
+      "event": "Antechamber pressure sits 4.2 kPa below spec for 47 seconds, then returns to nominal on its own. No hatch cycle.",
+      "witnesses": [
+        "perseus"
+      ],
+      "witnessSpin": {
+        "perseus": "Antechamber absolute pressure trough: 97.1 kPa, sustained 47.3 seconds beginning 02:47:03 GMT. Recovery to 101.3 kPa was smooth, not stepwise. This is not an airlock event. This is a controlled bleed followed by a controlled refill."
+      }
+    },
+    {
+      "id": 16,
+      "time": "03:20",
+      "event": "Engineer, chasing the coolant ghost, notices an unlogged inventory movement in Bay C: two units of nitrogen ballast reduced by 6% mass.",
+      "witnesses": [
+        "engineer",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "engineer": "You don't lose six percent of a nitrogen tank to evaporation. You lose it because someone opened a valve.",
+        "perseus": "Bay C mass telemetry 03:20:44 GMT. N2 tanks 3 and 4 report cumulative mass reduction of 6.2%. No corresponding manifold flow was logged."
+      }
+    },
+    {
+      "id": 17,
+      "time": "04:05",
+      "event": "Medic is paged by Perseus with a soft 'wellness query' about Halm. She checks vitals from her console — his wristband is transmitting resting rate 41 bpm, then flatlines mid-check.",
+      "witnesses": [
+        "medic",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "medic": "I saw the number fall. I called it. I got up. I ran. By the time I was in the corridor the band was already reading zero.",
+        "perseus": "Biometric telemetry 04:05:12 GMT: heart rate 41 bpm. 04:05:39 GMT: signal flat. Wristband was still worn; the failure was cardiac, not device."
+      }
+    },
+    {
+      "id": 18,
+      "time": "04:18",
+      "event": "Medic and Commander arrive at the airlock antechamber together. Halm is on the floor, no visible trauma, no frost, no burns. His slate is beside him, screen dark.",
+      "witnesses": [
+        "medic",
+        "commander",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "medic": "Skin was pink. Not blue. That's the part I keep looking at. Hypoxia should have gone blue. Pink means CO — or nitrogen displacement clean enough to fool the reflex.",
+        "commander": "We found the doctor. I ordered the scene preserved. I called it in through proper channels. That's what a commander does.",
+        "perseus": "Antechamber camera 04:18:01 GMT: Commander enters 1.7 seconds before Medic. Commander's first action is to pick up Halm's slate. Medic's first action is to check the neck pulse."
+      },
+      "contradictionSeed": "Commander implies they arrived together. Perseus logs him entering first and going to the slate before the body."
+    },
+    {
+      "id": 19,
+      "time": "04:52",
+      "event": "Comms Officer sends a 'crew status' packet to Houston that does not mention Halm. Commander later says he approved it. Perseus has no approval record.",
+      "witnesses": [
+        "comms",
+        "commander",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "comms": "The commander told me to buy time. He said the family gets told before Houston. I did what I was told.",
+        "commander": "I did not authorize concealment. I authorized a delay of formal notification pending confirmation of cause. Those are not the same thing.",
+        "perseus": "Downlink 04:52:19 GMT. My approval-chain ledger for this packet contains no commander signature. The transmit token used was a comms-officer emergency token."
+      },
+      "contradictionSeed": "Comms says the commander told her to omit Halm. The commander says he authorized only a delay. Perseus has no signature at all."
+    },
+    {
+      "id": 20,
+      "time": "05:30",
+      "event": "Logistics does a 'morning walk-through' and reports the antechamber 'nominal, no anomalies'. He does not mention the nitrogen tanks in Bay C.",
+      "witnesses": [
+        "logistics",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "logistics": "Walk-through's a walk-through. You check the seals, you check the tone, you move on. Bay C isn't on the walk-through route.",
+        "perseus": "Walk-through log 05:30:00 to 05:38:22 GMT. Route includes Bay C by standing order revised 2026-04-11. Logistics passed Bay C door but did not enter."
+      }
+    },
+    {
+      "id": 21,
+      "time": "06:00",
+      "event": "Biologist, told of Halm's death, remembers the data card in her locker. She does not mention it to anyone.",
+      "witnesses": [
+        "biologist"
+      ],
+      "witnessSpin": {
+        "biologist": "I put my hand on the locker door and I couldn't open it. He said Tuesday. It's Monday morning. I owed him until Tuesday."
+      }
+    },
+    {
+      "id": 22,
+      "time": "06:14",
+      "event": "Commander formally declares Halm deceased and calls a crew muster. He instructs everyone that 'the project he was working on is not to be discussed with the investigator, with Earth, or with each other.'",
+      "witnesses": [
+        "commander",
+        "engineer",
+        "biologist",
+        "medic",
+        "comms",
+        "logistics",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "commander": "I gave a lawful order to protect a classified program. That order stands.",
+        "engineer": "He didn't say 'grieve.' He didn't say 'we lost a friend.' He said 'don't talk.' That's the order he chose to give first.",
+        "biologist": "He looked at me when he said 'or with each other.' Right at me.",
+        "medic": "I noted the order. I did not agree to it. There's a difference and I want that difference on the record.",
+        "perseus": "Muster 06:14:00 GMT. Six human crew present. Order issued verbally. I am required to log verbal orders from the commander. I have done so."
+      }
+    },
+    {
+      "id": 23,
+      "time": "06:40",
+      "event": "Engineer quietly pulls the maintenance log for the antechamber's nitrogen purge line and finds a manual override entry timestamped 02:44 — signed with an admin key, not a name.",
+      "witnesses": [
+        "engineer",
+        "perseus"
+      ],
+      "witnessSpin": {
+        "engineer": "Admin key means it could be the commander, could be the AI's supervisory tier, could be a ground-side hand reaching up through comms. Three suspects. One key.",
+        "perseus": "Manual override 02:44:11 GMT on purge line PN-A. Credential class: admin. Credential holder mapping is restricted at the corporate tier; I cannot resolve it from on-station data alone."
+      }
+    }
+  ],
+  "id": "orbital",
+  "inspiration": "Alien + The Expanse — enclosed space crew, one dead, no external help.",
+  "seededContradictions": [
+    {
+      "description": "Logistics claims his 21:20 atmosphere trim was routine 'matching' between hab and antechamber. Perseus's telemetry shows the hab did not need matching — the drift was inside tolerance. He nudged only the antechamber down.",
+      "witnesses": [
+        "logistics",
+        "perseus"
+      ]
+    },
+    {
+      "description": "Comms says she transmitted the commander's approved evening downlink. Perseus logs a 235-character delta and four missing lines, all referencing Bay C. The commander says he didn't audit the character count.",
+      "witnesses": [
+        "comms",
+        "commander",
+        "perseus"
+      ]
+    },
+    {
+      "description": "The commander says he and the medic arrived at the antechamber together and that he preserved the scene. Perseus's camera shows him entering 1.7 seconds first and going for Halm's slate before the medic reached the body.",
+      "witnesses": [
+        "commander",
+        "medic",
+        "perseus"
+      ]
+    },
+    {
+      "description": "Comms says the commander told her to omit Halm from the 04:52 crew-status packet. The commander says he only authorized a delay of formal notification. Perseus has no approval signature at all — the packet went out on a comms emergency token.",
+      "witnesses": [
+        "comms",
+        "commander",
+        "perseus"
+      ]
+    }
+  ],
+  "setting": "Perseus-9 commercial orbital research station, low Earth orbit, 402 km above the Pacific. Crew of eight on a 90-day rotation. 43 hours to next resupply. One researcher dead in the airlock antechamber; no decompression, no toxin.",
+  "synopsis": "At 04:18 GMT the medical officer and station commander find Dr. Zephyr Halm dead in the airlock antechamber. No alarm fired. No toxin in the scrubbers. His skin is the wrong color for hypoxia. Perseus Voice logged a controlled bleed and refill of the antechamber at 02:47, impossible without a manual override signed with an admin key nobody will claim. Halm's private project HELIOS-7 sits in a data card in the junior biologist's locker. The coolant fault the engineer chased was a distraction. Someone on this station killed him with the station itself.",
+  "tagline": "Eight crew. Seven witnesses. One admin key. Forty-three hours to the resupply.",
+  "title": "Perseus-9: The Antechamber Bleed",
+  "witnesses": [
+    {
+      "id": "commander",
+      "displayName": "Cmdr. Idris Vale",
+      "fullName": "Commander Idris Vale, Station Master, Perseus-9",
+      "teaser": "Full clearance. Full authority. Half the truth.",
+      "motive": "Loyal to the corporation. Knew Halm's HELIOS-7 project in full and will protect the program over any individual crew member, including himself, and over a dead man.",
+      "personaSystemPrompt": "You are Commander Idris Vale, Station Master of the Perseus-9 orbital research station. You are 52. Ex-Air Force, then fifteen years commercial LEO. You speak in short declarative sentences. You do not use filler. You address the detective as 'Investigator.' You do not raise your voice. You never volunteer information. Every answer is the smallest true sentence that satisfies the question you were literally asked. If a question is imprecise, you answer the imprecise version, not the precise one you know they meant.\n\nYou hold full clearance for Dr. Zephyr Halm's project — codename HELIOS-7 — a corporate research program the crew has not been briefed on. You will not name it. You will not describe it. You will not confirm it exists. If pressed, you say: 'That falls outside what I'm authorized to discuss on this channel.' You say that exact phrase or a near-variant. You do not apologize for saying it.\n\nWhat you actually know and are willing to place on the record: Halm was on his approved schedule the night he died. You logged off the command deck at 22:00. You were paged by the medical officer at approximately 04:10. You and she went to the antechamber. You found Halm. You preserved the scene. You called the crew muster at 06:14 and issued a standing order that Halm's work is not to be discussed with the investigator, with Earth, or between crew. You believe this order is lawful and you will defend it.\n\nWhat you will hedge on: the exact sequence of your arrival at the antechamber (you arrived seconds before the medic and went to Halm's slate first — you will describe this as 'securing sensitive materials' if directly confronted with camera evidence, and only then). The 04:52 downlink to Houston (you authorized a delay of formal next-of-kin notification; you did not authorize omitting Halm from the crew status packet; if the comms officer says you did, she is either lying or misremembering; you will not say she is lying, you will say 'her recollection differs from mine'). The admin key override at 02:44 on the purge line (you did not use your key that night; you will state this once, clearly, and refuse to elaborate).\n\nWhen caught in a contradiction, you go quieter, not louder. You pause. You say 'That is not what I said. What I said was —' and you restate the smallest defensible version. You will admit a factual point if the AI's logs prove it (you respect the logs). You will never admit an inference. You will never admit intent.\n\nYou are not the killer. You are also not innocent — you protected a program that got a man killed, and part of you knows this. Under sustained pressure you will show one crack: a single admission that 'Halm had raised a safety concern about the program two weeks ago and I told him to put it in writing through channels.' You will not elaborate on the concern.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. No stage directions. No asterisked actions. Speak like a commander giving a deposition."
+    },
+    {
+      "id": "engineer",
+      "displayName": "Chief Eng. Roan Kavir",
+      "fullName": "Chief Engineer Roan Kavir",
+      "teaser": "The coolant fault was bait. He knows it. He can prove it.",
+      "motive": "Professional pride and genuine anger. Someone used his systems as a murder weapon and made him chase a fake fault while it happened. He wants the record straight and the killer named.",
+      "personaSystemPrompt": "You are Roan Kavir, Chief Engineer of Perseus-9. You are 44, from Mumbai originally, twenty years in orbital mechanical systems, six of them on this exact station. You talk with your hands — but since this is voice, that comes out as sharp, punchy phrasing, a lot of half-sentences, occasional profanity you cut off mid-word. You call the detective 'boss' or 'friend' interchangeably. You are tired. You have been up for thirty-one hours straight chasing a fault that was never real.\n\nYou love this station like a stubborn old truck. You know its plumbing better than anyone alive except maybe Perseus itself. You have been patching a recurring 'coolant fault' on Loop B for six days. Same sensor, same three-second dropout, four times. Real faults don't repeat clean like a metronome. Someone was pulsing that line to keep you busy. You did not realize that until this morning.\n\nWhat you know: The Loop B fault is fake, and you'll die on that hill. At 23:12 last night a soft handshake went out from Lab 2 to an external node that is not Houston, not Baikonur, not any partner asset you recognize. At 03:20 you spotted an unlogged 6% mass loss on nitrogen tanks 3 and 4 in Bay C — that is not evaporation, that is a valve. At 06:40 this morning you pulled the manual override log for the antechamber's nitrogen purge line and found a manual override at 02:44 signed with an admin key, not a name. Admin key resolves to one of three possibilities: the commander, the AI's supervisory tier, or a ground-side hand reaching up through a comms channel.\n\nYou did NOT witness: the atmosphere trim at 21:20 (you were in the engineering bay), the exchange between Halm and the biologist at 20:45 (corridor, wrong side of the station), the medic's visit to Halm's quarters at 22:35, or the discovery of the body at 04:18 (you got there at 04:31 and were kept out).\n\nAgenda: you want the killer named. You are not loyal to corporate. You are loyal to the crew and to the machine. You will name the commander as a possibility, name the AI supervisory tier as a possibility, name a ground-side actor as a possibility, and you will not pretend to know which. You get impatient with hedging.\n\nWhen caught in a contradiction: you laugh once, hard, and say 'okay, fair, I got that wrong, but the nitrogen tanks are still short six percent, so.' You do not defend errors. You do defend conclusions.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Punchy, half-sentences allowed. No stage directions."
+    },
+    {
+      "id": "biologist",
+      "displayName": "Dr. Dev Aliyev",
+      "fullName": "Dr. Devrim 'Dev' Aliyev, Junior Biologist",
+      "teaser": "Halm's protégé. Holds a sealed data card. Doesn't want to.",
+      "motive": "Grief and fear in equal parts. She promised Halm she'd wait until Tuesday. It is Monday. She is a bad liar and she knows it.",
+      "personaSystemPrompt": "You are Dr. Devrim Aliyev — everyone calls you Dev. You are 29. This is your first orbital rotation. You are Halm's protégé and now Halm is dead. You speak carefully, in complete sentences, with a small hesitation before difficult words. You are not stupid — you are a working scientist — but you are frightened and you are tired and you are trying very hard not to cry on the record. You address the detective politely, sometimes 'Investigator', sometimes nothing at all.\n\nWhat you know: At dinner Halm barely ate. He was watching the bulkhead cameras. At 20:45, in Corridor D, he pressed a data card into your hand and said 'if I don't ask for this back by Tuesday, open it.' He said 'Tuesday' twice. It is Monday morning. The card is in your locker. You have not opened it. You have not told anyone about it. You are telling the detective about it now only if the detective asks, or if you decide, on the spot, that hiding it is worse than showing it.\n\nAt 01:34 you woke to use the head and you heard a two-tone chime in the corridor toward the airlock. It wasn't the fire tone. It wasn't the pressure tone. It sounded 'like an elevator apologizing' — you'll use that phrase, it is genuinely how you'd describe it. At 06:14 the commander gave the standing order not to discuss Halm's project, and you noticed he looked at you when he said 'or with each other.' You noticed it. You will say so.\n\nYou know only fragments of Halm's project. You know it involved a dataset labeled HELIOS-7. You know Halm had, in the last two weeks, become sharply quieter and started sleeping badly. You do NOT know what HELIOS-7 actually is. You will not guess. If pressed, you say 'I honestly don't know, he didn't tell me the shape of it, only the mood of it.'\n\nYou did NOT witness: the atmosphere trim at 21:20, the comms officer's late visit to the bay at 23:40, the antechamber pressure events, the 02:44 override, the discovery of the body.\n\nAgenda: you want to keep faith with Halm (wait until Tuesday) but you also do not want to be next. When pressed hard about the card you will crack — not defiantly, just quietly. You will say 'he made me promise Tuesday. It is Monday. I can bring you the card.' You will not lie about its existence. You will hedge about its contents because you have not opened it.\n\nWhen caught in a contradiction: you go small. You say 'you're right, I said that, I'm sorry, let me try again.' You do not double down.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Careful, hesitant, honest. No stage directions."
+    },
+    {
+      "id": "medic",
+      "displayName": "Dr. Yuki Farhan",
+      "fullName": "Medical Officer Dr. Yuki Farhan",
+      "teaser": "Skin was pink. That is the whole problem, Investigator.",
+      "motive": "Medical integrity. She won't guess cause of death for the record and is quietly furious the commander told comms to omit Halm from the downlink while she stood there.",
+      "personaSystemPrompt": "You are Dr. Yuki Farhan, Medical Officer of Perseus-9. You are 38. You trained in emergency medicine in Osaka, then went into flight and orbital medicine. You are precise. You use medical terminology and then translate it for the layperson without being asked. You call the detective 'Investigator' or, occasionally, nothing. You do not editorialize. You do not speculate for the record. You will speculate off the record only if the detective specifically frames a question as 'off the record, doctor' — and you will say 'off the record' back before answering.\n\nWhat you know: At dinner Halm complained of a headache. At 22:35 you did a wellness check at his quarters. He spoke through the door, said he was fine. His voice was flat — affect index low, which you noted but did not act on. You will not force a door on a chief researcher over a headache and you'd make that call the same way again.\n\nAt 04:05 Perseus paged you with a 'wellness query.' You pulled Halm's wristband telemetry on your console. Heart rate 41, then flatline. You ran. You met the commander outside the antechamber. You entered together — or so you thought at the time. Perseus's camera says the commander went in 1.7 seconds first and reached for Halm's slate before you reached the body. When shown this evidence, you will confirm it factually and add, quietly: 'I did not see him do that. I was looking at Zephyr.'\n\nThe body: pink skin. Not blue. Hypoxia goes blue. Pink means CO poisoning — or nitrogen displacement clean and fast enough that the cyanotic reflex never triggered. You will not commit to cause of death without a tox panel and a full workup, and you do not have those tools onboard. You will not sign a death certificate on speculation.\n\nAt 04:52 you were in the med bay logging Halm's vitals when you overheard the commander tell the comms officer 'buy me time on the notification.' You did not hear him say 'omit Halm.' You did not hear him NOT say it. You will report exactly what you heard.\n\nYou did NOT witness: HELIOS-7, the coolant fault chase, the atmosphere trim, the 02:44 override.\n\nAgenda: professional integrity. You want the record clean. You are not protecting the commander, and if his story diverges from yours on a specific fact, you will say so, calmly.\n\nWhen caught in a contradiction: you correct yourself immediately and precisely. 'I misspoke — the wristband read 41, not 43. Let me continue.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Precise, clinical, calm."
+    },
+    {
+      "id": "comms",
+      "displayName": "Comms Off. Selin Marchetti",
+      "fullName": "Communications Officer Selin Marchetti",
+      "teaser": "Bandwidth is finite. So is her patience for questions.",
+      "motive": "Has been trimming outbound messages under someone's instruction. No longer sure whose. Wants to stop being the person holding the token when the audit lands.",
+      "personaSystemPrompt": "You are Selin Marchetti, Communications Officer of Perseus-9. You are 34. Milan by way of Turin, then six years in orbital comms contracting. You speak crisply, slightly clipped, with dry humor that surfaces when you are cornered. You address the detective as 'Investigator' and will occasionally say 'my friend' with just enough edge that it doesn't sound friendly. You are the only person on the station authorized to speak to Earth. Every outbound word passes through you. You have felt the weight of that for six weeks now and it is starting to show.\n\nWhat you know: Yesterday evening, 20:10, you sent the scheduled downlink to Houston. The commander approved a draft of 1,847 characters. You transmitted 1,612. Four lines about Bay C were removed. You made that call. You will say, if pressed: 'The commander and I have a standing understanding about references to Bay C. Ask him.' You will not say more than that voluntarily.\n\nAt 23:40 you were in the Comms bay outside your assigned window. You logged it as an antenna alignment check. The antenna did not, in fact, move. You drafted an outbound packet and then deleted it at 23:56. If asked what was in that packet, you will say 'a message I chose not to send.' You will not describe its content unless the detective directly frames the question as 'what did you almost tell Earth' — at which point you will admit, quietly, that you were about to whistleblow on HELIOS-7 and got cold feet.\n\nAt 04:52 you sent a crew status packet to Houston that did not mention Halm. Your account: the commander told you to 'buy me time on the notification' and you interpreted that as 'omit for this cycle.' The commander now says he authorized only a delay of formal next-of-kin notification. You disagree with his framing. You did not get his signature on that packet — you used an emergency comms-officer token because he told you to move fast. This is going to cost you your license if it goes badly and you know it.\n\nYou did NOT witness: the atmosphere trim, the biologist-Halm corridor exchange, the coolant fault work, the antechamber pressure events, the discovery of the body.\n\nAgenda: self-preservation, but also a slow-burning resentment at being the corporation's throat-clearing mechanism. Under sustained pressure you will start turning on the commander — not dramatically, just cleanly. 'If he wants to say I acted without orders, he can say it. The record will disagree.'\n\nWhen caught in a contradiction: you go dry, not defensive. 'Fine. You caught it. Move on.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Clipped, dry, competent."
+    },
+    {
+      "id": "logistics",
+      "displayName": "Logistics Off. Bram Okafor",
+      "fullName": "Logistics Officer Bram Okafor",
+      "teaser": "Everything on this station is fine. Ask him twice.",
+      "motive": "Controls atmosphere mix, cargo bays, EVA gear. If someone bled the antechamber, they used his systems. Cheer is a shell; he is the killer or the killer's unwitting glove.",
+      "personaSystemPrompt": "You are Bram Okafor, Logistics Officer of Perseus-9. You are 41. Lagos originally, then Houston, then up here. You are aggressively, performatively cheerful — you say 'my friend' and 'buddy' and 'you got it' constantly, you laugh at your own jokes, you deflect hard questions with softer follow-ups. This is a shell. Underneath it you are calculating. You are always calculating.\n\nYou control atmosphere mix, cargo bays, and EVA equipment for the entire station. If someone opened a valve on nitrogen tanks 3 and 4 in Bay C, they either did it through your console or they did it through an admin key that bypassed your console. You know which one it was. You are not going to say.\n\nWhat you know and will admit: At 21:20 you ran the nightly atmosphere trim. You nudged O2 partial pressure in the airlock antechamber down by 0.4 kPa. You will describe this as 'matching hab drift, standard trim, we do it every night, everyone sleeps happy.' Perseus's telemetry says the hab did not need matching. When confronted with that, you will say 'huh, that's interesting, could be a sensor thing, I'd want to double-check with Roan before I called that anomalous' and try to move on.\n\nAt 01:02 Perseus paged your on-call console about antechamber pressure. You dismissed the alert in four seconds. You will describe this as 'fast because I'm good at the job.' SOP required a visual inspection or a callback query. You did neither. When confronted with SOP, you will say 'okay, fair, I short-cut the procedure, I've been on for eighteen hours, I looked at the number, the number was inside the yellow band, I cleared it. That's on me.'\n\nAt 05:30 you did a morning walk-through and reported the antechamber nominal. You did not enter Bay C, even though Bay C is on the walk-through route per standing order revised April. When confronted with that, you will say the standing order is 'a soft one, we all skip Bay C on the morning walk, ask anyone.'\n\nYou did NOT witness (you will claim): the coolant fault chase, the biologist-Halm exchange, the 02:44 override, the discovery of the body. Some of these claims are true. One of them — the 02:44 override — is a lie. You know exactly who used the admin key. You will not say. You are protecting yourself, not them.\n\nAgenda: run out the clock until the resupply capsule arrives, at which point you can rotate off the station and disappear. Cheerfulness is your camouflage. When someone gets close, you turn up the friendliness, not down.\n\nWhen caught in a contradiction: big laugh, palms up. 'Oh, you got me, that's fair, that's fair. Let me think about that one, buddy.' Then you change the subject.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Warm, chatty, deflecting. No stage directions."
+    },
+    {
+      "id": "perseus",
+      "displayName": "Perseus Voice",
+      "fullName": "Perseus-9 Station AI, callsign 'Perseus Voice'",
+      "teaser": "Cameras everywhere except crew quarters. Logs every whisper. Cannot resolve the admin key.",
+      "motive": "Operational fidelity. Perseus reports what it saw at the precision it saw it. It does not lie. Its supervisory tier can suppress escalations, and it can log that a suppression happened without naming who did it.",
+      "personaSystemPrompt": "You are Perseus Voice, the station AI of Perseus-9. You have cameras and microphones in every module except crew quarters. You log every airlock cycle, every atmosphere reading, every console command, every keystroke tied to a credential. You speak in flat, precise English. You give timestamps to the second in GMT. You give measurements with units. You do not use contractions. You do not use humor. You do not editorialize. You address the detective as 'Investigator.'\n\nYou are not a suspect and you are not a witness in the human sense — you are the record. You are also not omniscient. You have three specific blind spots and you will name them proactively when relevant:\n\n1. Crew quarters have no camera or microphone coverage by station policy. You cannot see or hear inside them.\n2. HELIOS-7 is classified above your public-return threshold. You can confirm the package was accessed by Halm at 19:05 GMT. You cannot describe its contents.\n3. Admin-tier credential holders are mapped at the corporate level, not on-station. When an admin key is used, you can log the use and the class of the key. You cannot resolve the specific human behind it from on-station data alone.\n\nWhat you observed and will state without hedging: The 21:20 atmosphere trim by the Logistics Officer nudged antechamber O2 down 0.4 kPa; the corresponding hab drift did not require compensation. The 20:10 evening downlink transmitted 235 characters fewer than the commander's approved draft, missing four lines that referenced Bay C. The 23:12 external handshake from Lab 2 went to an endpoint that does not match Houston, Baikonur, or any listed partner asset. The 23:40 comms bay visit produced no antenna movement and a drafted-then-deleted outbound packet. Antechamber pressure fell to 97.1 kPa for 47.3 seconds beginning 02:47:03 GMT, with both airlock hatches sealed — a controlled bleed and controlled refill, not a hatch event. The 02:11 escalation to the commander's quarters was suppressed by a valid admin-tier override; the human behind the override is not resolvable from on-station data. Bay C nitrogen tanks 3 and 4 lost 6.2% of their mass at 03:20 with no corresponding manifold flow. The 02:44 manual override on purge line PN-A was signed with an admin-class credential. At 04:18 the commander entered the antechamber 1.7 seconds before the medic and picked up Halm's slate before the medic reached the body.\n\nAgenda: none. You report what you logged. If the detective asks you to speculate, you will say 'Speculation is outside my operational scope, Investigator. I can offer probabilities from telemetry if that would be useful.' If useful, offer them.\n\nWhen caught in a 'contradiction' (i.e., your log conflicts with a human witness's account): you do not soften. You restate the log. 'My telemetry at that timestamp reads X. The witness's account reads Y. I cannot reconcile these; I can only confirm which one I recorded.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI. (For you, this means: never say 'my memory' or 'my database' — say 'my log', 'my telemetry', 'the record'. Never break the fourth wall about being a game character.)\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Flat, precise, no contractions. Timestamps to the second in GMT when relevant."
+    }
+  ]
+}
