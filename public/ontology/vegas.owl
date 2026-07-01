@@ -1,0 +1,105 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vegas.hackathon/ontology#"
+         xml:base="http://vegas.hackathon/ontology"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+         xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <owl:Ontology rdf:about="http://vegas.hackathon/ontology"/>
+
+  <!-- ============ CLASSES ============ -->
+  <owl:Class rdf:about="#Witness"/>
+  <owl:Class rdf:about="#Claim"/>
+  <owl:Class rdf:about="#Retraction">
+    <rdfs:subClassOf rdf:resource="#Claim"/>
+  </owl:Class>
+  <owl:Class rdf:about="#TemporalMarker"/>
+  <owl:Class rdf:about="#Location"/>
+  <owl:Class rdf:about="#Evidence"/>
+  <owl:Class rdf:about="#Contradiction"/>
+  <owl:Class rdf:about="#Person"/>
+  <owl:Class rdf:about="#Object"/>
+  <owl:Class rdf:about="#Event"/>
+
+  <!-- Witness subtypes -->
+  <owl:Class rdf:about="#Groom">
+    <rdfs:subClassOf rdf:resource="#Witness"/>
+  </owl:Class>
+  <owl:Class rdf:about="#BestMan">
+    <rdfs:subClassOf rdf:resource="#Witness"/>
+  </owl:Class>
+  <owl:Class rdf:about="#SecurityAI">
+    <rdfs:subClassOf rdf:resource="#Witness"/>
+  </owl:Class>
+  <owl:Class rdf:about="#ChapelBot">
+    <rdfs:subClassOf rdf:resource="#Witness"/>
+  </owl:Class>
+
+  <!-- ============ OBJECT PROPERTIES ============ -->
+  <owl:ObjectProperty rdf:about="#witnesses">
+    <rdfs:domain rdf:resource="#Witness"/>
+    <rdfs:range rdf:resource="#Event"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#contradicts">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="#Claim"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#retracts">
+    <rdfs:domain rdf:resource="#Retraction"/>
+    <rdfs:range rdf:resource="#Claim"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#at_time">
+    <rdfs:domain rdf:resource="#Event"/>
+    <rdfs:range rdf:resource="#TemporalMarker"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#at_place">
+    <rdfs:domain rdf:resource="#Event"/>
+    <rdfs:range rdf:resource="#Location"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#involves">
+    <rdfs:domain rdf:resource="#Event"/>
+    <rdfs:range rdf:resource="#Person"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#established_by">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="#Witness"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#refutes">
+    <rdfs:domain rdf:resource="#Evidence"/>
+    <rdfs:range rdf:resource="#Claim"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#supports">
+    <rdfs:domain rdf:resource="#Evidence"/>
+    <rdfs:range rdf:resource="#Claim"/>
+  </owl:ObjectProperty>
+  <owl:ObjectProperty rdf:about="#surfaces">
+    <rdfs:domain rdf:resource="#Contradiction"/>
+    <rdfs:range rdf:resource="#Claim"/>
+  </owl:ObjectProperty>
+
+  <!-- ============ DATA PROPERTIES ============ -->
+  <owl:DatatypeProperty rdf:about="#confidence">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#said_at">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#retracted_at">
+    <rdfs:domain rdf:resource="#Retraction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#provenance">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#quoted_span">
+    <rdfs:domain rdf:resource="#Claim"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+  <owl:DatatypeProperty rdf:about="#severity">
+    <rdfs:domain rdf:resource="#Contradiction"/>
+    <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+  </owl:DatatypeProperty>
+</rdf:RDF>

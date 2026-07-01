@@ -1,0 +1,107 @@
+@import "tailwindcss";
+
+:root {
+  --bg-deep: #0a0e1a;
+  --bg-surface: #161b2e;
+  --bg-elevated: #1a1f33;
+  --text-primary: #e8eaed;
+  --text-muted: #8a8f98;
+  --neon-pink: #ff006e;
+  --neon-cyan: #00d9ff;
+  --warm-amber: #ffb627;
+  --contradiction: #ff3864;
+  --evidence: #ffd60a;
+  --verdict: #b185ff;
+  --corroborate: #05f290;
+  --border: #2a2f3e;
+}
+
+html, body {
+  background: var(--bg-deep);
+  color: var(--text-primary);
+  min-height: 100vh;
+  font-family: ui-sans-serif, system-ui, -apple-system, sans-serif;
+}
+* { box-sizing: border-box; }
+.mono { font-family: ui-monospace, "SF Mono", Menlo, Consolas, monospace; }
+.serif { font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, serif; }
+
+.card {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+}
+.card-elevated {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 18px;
+}
+.btn {
+  display: inline-flex; align-items: center; justify-content: center;
+  gap: 8px; padding: 10px 18px; border-radius: 10px;
+  font-weight: 600; font-size: 13px; letter-spacing: 0.05em;
+  text-transform: uppercase; cursor: pointer;
+  transition: all 150ms ease; border: 1px solid transparent;
+}
+.btn-primary {
+  background: var(--neon-pink); color: white;
+  box-shadow: 0 0 24px color-mix(in oklab, var(--neon-pink) 40%, transparent);
+}
+.btn-primary:hover:not(:disabled) { filter: brightness(1.15); }
+.btn-ghost {
+  background: transparent; color: var(--text-primary);
+  border-color: var(--neon-cyan);
+  box-shadow: 0 0 12px color-mix(in oklab, var(--neon-cyan) 25%, transparent) inset;
+}
+.btn-ghost:hover:not(:disabled) {
+  background: color-mix(in oklab, var(--neon-cyan) 8%, transparent);
+}
+.btn:disabled { opacity: 0.5; cursor: not-allowed; }
+
+.textarea, .input {
+  width: 100%; background: var(--bg-surface); color: var(--text-primary);
+  border: 1px solid var(--border); border-radius: 10px;
+  padding: 12px 14px; font-size: 15px; line-height: 1.55;
+  font-family: inherit; resize: vertical;
+}
+.textarea:focus, .input:focus {
+  outline: none; border-color: var(--neon-cyan);
+  box-shadow: 0 0 0 3px color-mix(in oklab, var(--neon-cyan) 15%, transparent);
+}
+
+.chip {
+  display: inline-flex; align-items: center; gap: 6px;
+  padding: 4px 10px; border-radius: 999px;
+  font-size: 11px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase;
+  background: var(--bg-elevated); color: var(--text-muted);
+  border: 1px solid var(--border);
+}
+.chip-groom { color: var(--neon-pink); border-color: color-mix(in oklab, var(--neon-pink) 40%, transparent); }
+.chip-bestman { color: var(--warm-amber); border-color: color-mix(in oklab, var(--warm-amber) 40%, transparent); }
+.chip-security { color: var(--neon-cyan); border-color: color-mix(in oklab, var(--neon-cyan) 40%, transparent); }
+.chip-chapel { color: var(--verdict); border-color: color-mix(in oklab, var(--verdict) 40%, transparent); }
+.chip-contradiction {
+  color: var(--contradiction);
+  background: color-mix(in oklab, var(--contradiction) 12%, transparent);
+  border-color: color-mix(in oklab, var(--contradiction) 40%, transparent);
+}
+
+.msg-witness {
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 12px 14px;
+  max-width: 85%;
+  align-self: flex-start;
+}
+.msg-detective {
+  background: color-mix(in oklab, var(--neon-cyan) 12%, var(--bg-elevated));
+  border: 1px solid color-mix(in oklab, var(--neon-cyan) 30%, transparent);
+  border-radius: 14px;
+  padding: 12px 14px;
+  max-width: 85%;
+  align-self: flex-end;
+  color: var(--text-primary);
+}
