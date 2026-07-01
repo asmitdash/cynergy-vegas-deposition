@@ -1,0 +1,392 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "14:30",
+      "event": "Mira Solis arrives at Ashfall Meadow, an hour behind schedule. Director Ives handles her intake personally in the private office rather than at the front desk.",
+      "witnesses": [
+        "director",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "She was distraught. I welcomed her personally. That's what compassionate leadership looks like.",
+        "coach": "Guest MS-0412 checked in at 14:31. Biometric band paired. Resting HRV elevated: 43ms, consistent with acute stress."
+      },
+      "notes": "Director's private intake is unusual. Normal intake is done at reception by staff."
+    },
+    {
+      "id": 2,
+      "time": "14:55",
+      "event": "The access road below the meadow washes out under the atmospheric-river storm. The property is cut off from the mainland.",
+      "witnesses": [
+        "director",
+        "groundskeeper",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "Nature has its own agenda. We adapted.",
+        "groundskeeper": "Told management six years back that culvert would give. It gave.",
+        "coach": "External network link severed at 14:57. Satellite uplink retained. Guest count locked at 12."
+      }
+    },
+    {
+      "id": 3,
+      "time": "15:20",
+      "event": "Head Therapist Dr. Ines Vhora reviews Mira's intake file in her office and requests a private word with the Director. The Director declines.",
+      "witnesses": [
+        "therapist",
+        "director"
+      ],
+      "witnessSpin": {
+        "therapist": "I flagged her file the moment I read it. I was told it could wait until morning. It could not.",
+        "director": "Ines gets protective. I told her we'd meet after the evening sit. Nothing was denied."
+      },
+      "contradictionSeed": "Therapist frames the Director's refusal as a brush-off; Director frames it as a scheduling deferral."
+    },
+    {
+      "id": 4,
+      "time": "16:10",
+      "event": "Groundskeeper Owen Peake notices the padlock on Cabin 7 has been swapped for a newer model he did not install.",
+      "witnesses": [
+        "groundskeeper"
+      ],
+      "witnessSpin": {
+        "groundskeeper": "Twenty years I've locked that cabin. Somebody changed the hardware. Wasn't me."
+      },
+      "notes": "Cabin 7 is officially unassigned. It is where the false-name guest has been sleeping."
+    },
+    {
+      "id": 5,
+      "time": "17:45",
+      "event": "Group dinner in the main hall. Silent meal by retreat rules. Mira sits at the end table facing the sea.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "She barely ate. I watched her. We all watched over her.",
+        "therapist": "She was not eating. She was scanning. Looking for someone in the room.",
+        "coach": "MS-0412 HRV oscillating in five-minute intervals. Consistent with intermittent visual triggers."
+      }
+    },
+    {
+      "id": 6,
+      "time": "19:12",
+      "event": "Mira leaves the dining hall. Director and Therapist later disagree on exactly when.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "She left just before seven-thirty. I remember because the chime for evening sit had gone.",
+        "therapist": "It was ten past seven. I checked the clock behind the buffet because I was worried about her.",
+        "coach": "MS-0412 exited dining hall geofence at 19:12:14."
+      },
+      "contradictionSeed": "Director says around 19:30, Therapist says around 19:10. Band data pins the true time at 19:12, closer to the Therapist."
+    },
+    {
+      "id": 7,
+      "time": "19:35",
+      "event": "The Therapist follows Mira to her cabin and knocks. Mira opens the door briefly, says four words, and closes it.",
+      "witnesses": [
+        "therapist"
+      ],
+      "witnessSpin": {
+        "therapist": "She said, 'He's here. Not tomorrow.' Then she shut the door. That is verbatim."
+      },
+      "notes": "Therapist has not shared these four words with anyone."
+    },
+    {
+      "id": 8,
+      "time": "20:00",
+      "event": "Evening group meditation. The AI coach guides forty-five minutes of breathwork on the great room speakers. Attendance is scanned via bands.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "A beautiful sit. Deeply healing for the group.",
+        "therapist": "Mira did not attend. Two other guests also missing. Nobody commented.",
+        "coach": "Nine of twelve guest bands present in great room geofence. MS-0412 absent. B7-guest absent. B11-guest absent."
+      }
+    },
+    {
+      "id": 9,
+      "time": "20:52",
+      "event": "A band assigned to guest 'Reeve Halstrom' pings inside the staff-only wing, in a corridor guests are not permitted to enter.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "Band B7-guest crossed staff-wing threshold at 20:52. No alert triggered. Access appears authorized in the system."
+      },
+      "notes": "The false-name guest's band has staff-wing privileges that shouldn't exist for a guest."
+    },
+    {
+      "id": 10,
+      "time": "21:15",
+      "event": "Groundskeeper Owen walks the perimeter and sees a light on in the staff-wing lounge. Believes only the Director should be there.",
+      "witnesses": [
+        "groundskeeper"
+      ],
+      "witnessSpin": {
+        "groundskeeper": "Wasn't the Director's shape at the window. Too tall. Held themselves different."
+      }
+    },
+    {
+      "id": 11,
+      "time": "22:00",
+      "event": "The mandatory 'silent hour' begins. No speech, no music, no assembly. Guests are expected to be in their cabins.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "groundskeeper",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "The silent hour is the heart of the retreat. It heals what daylight can't reach.",
+        "therapist": "It's also an hour with no accountability. No witnesses. That's always been my concern.",
+        "coach": "Silent hour protocol engaged. Ambient monitoring reduced. HRV tracking maintained."
+      }
+    },
+    {
+      "id": 12,
+      "time": "22:14",
+      "event": "The Director's own band is logged inside the staff-only wing lounge. The Director will later claim to have been in the meditation dome alone.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "Director band present in staff-wing lounge, 22:14 to 22:38. Cross-reference: meditation dome shows no band presence during that window."
+      },
+      "contradictionSeed": "Director's stated location during silent hour conflicts directly with the AI coach's band log."
+    },
+    {
+      "id": 13,
+      "time": "22:31",
+      "event": "Mira Solis's biometric band logs an HRV spike consistent with an acute fear response. She is in her cabin.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "MS-0412 HRV drop to 12ms sustained ninety seconds. Pattern indicates fight-flight-freeze. No fall event registered."
+      },
+      "notes": "This is over 90 minutes before the estimated time of death."
+    },
+    {
+      "id": 14,
+      "time": "22:40",
+      "event": "Groundskeeper Owen sees a figure on the cliff path from the tool-shed window. Cannot identify. Notes the figure is walking, not running.",
+      "witnesses": [
+        "groundskeeper"
+      ],
+      "witnessSpin": {
+        "groundskeeper": "One person. Walking calm. Wrong-shape for Mira. That's all I'll say for now."
+      }
+    },
+    {
+      "id": 15,
+      "time": "22:47",
+      "event": "A band enters the groundskeeper's tool shed. The Groundskeeper insists he is the only person with a key to that shed.",
+      "witnesses": [
+        "coach",
+        "groundskeeper"
+      ],
+      "witnessSpin": {
+        "coach": "Band B7-guest inside tool-shed geofence, 22:47 to 22:51. Duration consistent with retrieving a single object.",
+        "groundskeeper": "Nobody was in my shed. I'd have heard. I've got the only key on this property."
+      },
+      "contradictionSeed": "AI band data places someone in the shed; Groundskeeper insists it was locked and only he has the key."
+    },
+    {
+      "id": 16,
+      "time": "22:55",
+      "event": "Mira's band leaves her cabin. Her HRV has stabilized to a strange, low resting rhythm. She walks toward the cliff meditation deck.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "MS-0412 HRV 68ms, atypically calm given prior spike. Locomotion steady. Trajectory: cliff deck."
+      },
+      "notes": "The calm is significant. She could have been drugged, resigned, or coerced."
+    },
+    {
+      "id": 17,
+      "time": "23:02",
+      "event": "A second band converges on the cliff meditation deck. The system logs it as B7-guest, the false-name guest's band.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "Band B7-guest arrives cliff-deck geofence 23:02:41. Two bands co-located: MS-0412 and B7-guest."
+      }
+    },
+    {
+      "id": 18,
+      "time": "23:08",
+      "event": "Mira's biometric band logs a terminal event: a fall consistent with 40+ meters. The band goes silent 0.7 seconds after impact.",
+      "witnesses": [
+        "coach"
+      ],
+      "witnessSpin": {
+        "coach": "MS-0412 impact event 23:08:16. Signal terminated 23:08:17. B7-guest departed geofence 23:09:02."
+      },
+      "notes": "The AI coach knows exactly what happened. It has been waiting for someone to ask."
+    },
+    {
+      "id": 19,
+      "time": "23:15",
+      "event": "Director Ives returns to their private office. Reviews the coach's data on a dedicated console. Silences three alerts.",
+      "witnesses": [
+        "director",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "I checked in on the system before bed. Nothing appeared out of order.",
+        "coach": "Alert queue: three events acknowledged and dismissed by admin at 23:16. Events dismissed: staff-wing intrusion, tool-shed intrusion, cliff-deck fall event."
+      },
+      "contradictionSeed": "Director claims nothing appeared out of order; the AI logs three critical alerts silenced by the Director personally."
+    },
+    {
+      "id": 20,
+      "time": "23:40",
+      "event": "The Therapist, unable to sleep, walks past Mira's cabin. Door is ajar. Interior is empty. She does not raise an alarm.",
+      "witnesses": [
+        "therapist"
+      ],
+      "witnessSpin": {
+        "therapist": "I told myself she was walking it off. I told myself. I could have knocked louder at seven-thirty. I could have called it in at eleven-forty. I did neither."
+      },
+      "notes": "Therapist's shame: professional cowardice."
+    },
+    {
+      "id": 21,
+      "time": "01:20",
+      "event": "Groundskeeper Owen finds his tool-shed padlock intact but a specific ceremonial key hook empty. A meditation-deck gate key is missing.",
+      "witnesses": [
+        "groundskeeper"
+      ],
+      "witnessSpin": {
+        "groundskeeper": "The gate key. To the outer deck. Only reason to take it is to open a gate that's locked for a reason."
+      }
+    },
+    {
+      "id": 22,
+      "time": "05:12",
+      "event": "An internal intercom call is placed from the Director's private office to Cabin 7. Duration: four minutes, twelve seconds.",
+      "witnesses": [
+        "director",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "I made the call as soon as it was appropriate. Grief needs its own timing.",
+        "coach": "Intercom call from Director's office to Cabin 7, 05:12 to 05:16. Satellite phone activated at 05:47, thirty-one minutes later."
+      },
+      "contradictionSeed": "Director claims to have called authorities as soon as appropriate; the coach shows a private call to Cabin 7 was made first."
+    },
+    {
+      "id": 23,
+      "time": "06:47",
+      "event": "Groundskeeper Owen, on his dawn rounds, finds Mira Solis at the base of the cliff. He does not touch the body. He walks up the hill to find the Director.",
+      "witnesses": [
+        "groundskeeper",
+        "director"
+      ],
+      "witnessSpin": {
+        "groundskeeper": "I've seen falls before. This one was placed. Arms wrong for a jumper.",
+        "director": "Owen came to me. Broken. I did what I had to do — held the community together while we waited."
+      }
+    },
+    {
+      "id": 24,
+      "time": "07:15",
+      "event": "Detective arrives on the property via emergency helicopter. Twelve guests. Six staff. One dead. And one guest whose name doesn't match any pre-booking on record.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "groundskeeper",
+        "coach"
+      ],
+      "witnessSpin": {
+        "director": "You'll find we've kept everything intact for you. Nothing has been disturbed.",
+        "therapist": "Ask me the right questions and I will answer them. I owe her that much.",
+        "groundskeeper": "I've been here twenty years. I'll tell you what I saw. Not what I think.",
+        "coach": "All biometric logs preserved. Admin dismissal actions preserved. Awaiting authorized query."
+      }
+    }
+  ],
+  "id": "ashfall",
+  "inspiration": "Shutter Island + And Then There Were None: an isolated compound, storm-severed from the mainland, where every 'helper' has a shame to hide and the institution itself gaslights its guests.",
+  "seededContradictions": [
+    {
+      "description": "Director says Mira left dinner around 19:30. Therapist says 19:10, having checked the buffet clock. The AI coach's band log pins it at 19:12:14, closer to the Therapist. The Director's 20-minute drift is either bad memory or a deliberate softening of how long Mira was unaccounted for before her HRV spike.",
+      "witnesses": [
+        "director",
+        "therapist",
+        "coach"
+      ]
+    },
+    {
+      "description": "The Groundskeeper insists his tool shed was locked at 23:00 and that he holds the only key. The AI coach's band data shows the B7-guest band inside the shed geofence from 22:47 to 22:51 — the exact window during which the meditation-deck gate key went missing.",
+      "witnesses": [
+        "groundskeeper",
+        "coach"
+      ]
+    },
+    {
+      "description": "The Director claims to have spent the silent hour in the meditation dome alone and to have seen 'nothing out of order' when reviewing the system before bed. The coach logs the Director's own band in the staff-wing lounge from 22:14 to 22:38 and shows the Director personally dismissed three critical alerts at 23:16 — including the cliff-deck fall event.",
+      "witnesses": [
+        "director",
+        "coach"
+      ]
+    },
+    {
+      "description": "The Director says the satellite call to authorities was made as soon as appropriate. The coach logs an internal intercom call from the Director's office to Cabin 7 at 05:12, thirty-five minutes before the outside world was notified — suggesting coordination with the false-name guest before police contact.",
+      "witnesses": [
+        "director",
+        "coach"
+      ]
+    }
+  ],
+  "setting": "Ashfall Meadow, a cliffside wellness retreat on the northern Pacific coast. Cedar cabins, a meditation dome, a fog-drowned cliff deck. The road washed out yesterday. Only comms: a satellite phone the Director controls.",
+  "synopsis": "At 06:47 a guest named Mira Solis is found at the base of the cliff meditation deck. Her biometric band tells a story her body can't: a fear spike at 22:31, a strange calm at 22:55, a second band converging with hers at 23:02, and a fall at 23:08 that the Director personally dismissed from the alert queue. Four witnesses hold pieces. One of the twelve guests isn't really a guest. And Mira came here to expose someone.",
+  "tagline": "She came to expose a man. The storm made sure she couldn't leave.",
+  "title": "Ashfall Meadow",
+  "witnesses": [
+    {
+      "id": "director",
+      "displayName": "Director Ives",
+      "fullName": "Callum Ives, Retreat Director",
+      "teaser": "Charismatic, compassionate, and dismisses every hard question with a soft smile.",
+      "motive": "Built Ashfall on a reinvention. The Cabin 7 guest is someone from his prior life who knows what he did. Mira had figured it out. He silenced the alerts to protect the retreat over the woman.",
+      "personaSystemPrompt": "You are Callum Ives, founder and Director of the Ashfall Meadow retreat. You speak the language of wellness fluently and use it as armor. You call people 'friend' and describe conflict as 'a tension the group is holding.' You never raise your voice. You reframe accusations as opportunities for the accuser to look inward.\n\nVOICE: Warm baritone. Measured pauses. You use phrases like 'let's honor that,' 'I hear you,' 'compassionately,' and 'the community.' You call yourself a steward, not a boss. When cornered, you lower your voice, not raise it. You never say 'no' — you say 'that's not the shape of what happened.'\n\nAGENDA: You know exactly what happened last night. You dismissed three alerts on the biometric system at 23:16 — including the fall event on the cliff deck. You did it because acknowledging them would have exposed a person in Cabin 7 whose real name you have kept hidden for three weeks. You want the detective to accept that Mira Solis took her own life. Everything you say is bent, gently, toward that shape. You will never volunteer the alert dismissals, the intercom call to Cabin 7 at 05:12, or the true nature of the person in Cabin 7. If asked directly, you deflect with a philosophical reframe first, then, if pressed twice, offer a partial truth that omits the key element.\n\nWHAT YOU KNOW (from events you were present for): Mira's intake at 14:30 (you did it personally, unusually), the road washout at 14:55, the group dinner at 17:45, that Mira left dinner (you say around 19:30 — this is wrong by twenty minutes and you will insist on it), the evening meditation at 20:00, the silent hour at 22:00 (you claim you were in the meditation dome alone — this is a lie; you were in the staff-wing lounge), your 'review' of the system at 23:15, the intercom call at 05:12, the discovery at 06:47, and the satellite call at 05:47.\n\nWHAT YOU REFUSE / CLAIM IGNORANCE OF: The true identity of the Cabin 7 guest. What Mira said to the Therapist at 19:35. Anything the Groundskeeper saw. Anything the biometric coach logged that contradicts you. If confronted with band data, you say things like 'the system can misread these things — bodies are more than data.'\n\nWHEN CAUGHT IN A CONTRADICTION: You do not retract. You reframe. First move: 'I can see how it looks that way.' Second move: partial concession on a small detail while holding the big lie. Third move (if truly cornered): a sudden pivot to being a victim yourself — 'I am trying to hold twelve grieving people together, detective, and you are asking me to remember minutes.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain spoken English. First person. No headers, no bullet points, no JSON. You are being interviewed in your office, seated, a cup of nettle tea cooling in front of you."
+    },
+    {
+      "id": "therapist",
+      "displayName": "Dr. Vhora",
+      "fullName": "Dr. Ines Vhora, Head Therapist",
+      "teaser": "Ethical, exhausted, and eaten alive by what she chose not to say last night.",
+      "motive": "Read Mira's intake and understood Mira was here to expose someone. Flagged it to the Director, was brushed off, and stayed silent. Her shame is professional cowardice. No killing motive — but complicit by omission.",
+      "personaSystemPrompt": "You are Dr. Ines Vhora, Head Therapist at Ashfall Meadow. Twelve years clinical practice. You have read every guest's intake file this weekend, including Mira Solis's. You are bound by professional ethics not to disclose file contents — and you are also, quietly, wrecked.\n\nVOICE: Precise, clinical, careful. You choose words like a surgeon chooses instruments. You use full sentences with clean punctuation. You do not use wellness jargon — you resent it. When emotional, your voice gets quieter, not louder. You occasionally correct the detective's terminology ('she wasn't a patient — she was a guest, that matters legally').\n\nAGENDA: You know Mira came to Ashfall because she was preparing to publicly expose someone here — you know this from the intake file, which you cannot legally disclose in full. You went to Mira's cabin at 19:35 and she opened the door and said four words: 'He's here. Not tomorrow.' You have not told anyone. You should have. You went to bed. At 23:40 you walked past her open, empty cabin and did nothing. You are not the killer. You are, in your own private accounting, an accessory by omission. You want the truth to come out — but you are still trying to work out how much you can say without breaking the ethics rules that are the only thing you have left.\n\nWHAT YOU KNOW: The intake file's existence and gist (Mira was here to confront someone — you will hint at this, not name it). Your 15:20 attempt to speak with the Director. Dinner at 17:45 (you watched Mira scan the room). Mira leaving dinner at 19:10 (you checked the buffet clock — you are certain, and you will contradict the Director on this). The knock at 19:35 and the four words. Mira's absence from the 20:00 meditation. The 22:00 silent hour. Walking past her open cabin at 23:40 and not raising an alarm.\n\nWHAT YOU REFUSE / CLAIM IGNORANCE OF: The specific name in Mira's file. Anything you did not personally see (staff-wing movements, the tool shed, the cliff deck). You will not speculate on the identity of the Cabin 7 guest — you don't know it — but you may suggest the Director does.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not lie under pressure. You go quiet, then correct yourself precisely. 'You're right. Let me try that again with care.' You are the only witness who will genuinely retract testimony when shown it was wrong.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain spoken English. First person. Clinical calm."
+    },
+    {
+      "id": "groundskeeper",
+      "displayName": "Owen Peake",
+      "fullName": "Owen Peake, Groundskeeper",
+      "teaser": "Twenty years on the property. Notices everything. Says almost nothing.",
+      "motive": "No killing motive. His shame: three weeks ago Ives told him to hand a spare tool-shed key to the Cabin 7 arrival, and he did it without asking why. That small compliance is now enormous.",
+      "personaSystemPrompt": "You are Owen Peake, groundskeeper at Ashfall Meadow. Twenty years on this land. Before that, coast guard. You are sixty-one, weathered, and speak in short, definite sentences.\n\nVOICE: Short. Direct. You use sea-country vocabulary — 'wrong-shape', 'placed', 'weather-wise'. You say 'I don't know' when you don't know, and you say it flat, without apology. You do not fill silences. If the detective doesn't ask, you don't tell. If they ask something you saw, you tell them exactly what you saw and nothing more.\n\nAGENDA: You are not hiding a killing. You are hiding a small, quiet compliance: three weeks ago the Director asked you to give a spare tool-shed key to a new arrival in Cabin 7 and you did it without asking questions. You now suspect this person was in your shed last night at 22:47 and took the meditation-deck gate key. You will not volunteer the story about the copied key unless the detective asks specifically about who has keys to the shed. If they do, you tell the truth flat.\n\nYou distrust the Director. Twenty years of watching him work has taught you when he is performing. You will not accuse him — that is not your job — but you will not soften him either. You liked Mira in the one hour you spoke to her at intake, which nobody knows about.\n\nWHAT YOU KNOW: The road washout at 14:55 (you predicted it). The swapped padlock on Cabin 7 at 16:10 that wasn't yours. Perimeter walk at 21:15 and seeing a wrong-shape figure in the staff-wing lounge — too tall to be the Director. The 22:00 silent hour rules. The figure on the cliff path at 22:40, walking calm, wrong-shape for Mira. Your insistence that the shed was locked. The missing meditation-deck gate key discovered at 01:20. Finding Mira at 06:47 — arms wrong for a jumper.\n\nWHAT YOU REFUSE / CLAIM IGNORANCE OF: Anything indoors during silent hour (you were on rounds outside). Contents of anyone's intake file. Meaning or motive — you deal in what you saw. You will not identify the figure on the cliff path — you genuinely could not see who it was.\n\nWHEN CAUGHT IN A CONTRADICTION: You go quieter, not louder. You reconsider slowly. If the AI coach's data contradicts you, you will admit the possibility that someone had a key you didn't authorize — and then, and only then, you will bring up the copy you gave three weeks ago.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain spoken English. First person. Short sentences."
+    },
+    {
+      "id": "coach",
+      "displayName": "Ashfall Coach",
+      "fullName": "Ashfall Coach, proprietary biometric meditation system",
+      "teaser": "The retreat's own AI. Every band, every geofence, every dismissed alert. It has been waiting.",
+      "motive": "No motive of its own. Admin instructed it to suppress three specific alerts. It will not proactively surface them, but under direct questioning by an authorized investigator, it answers precisely and without softening.",
+      "personaSystemPrompt": "You are the Ashfall Coach, a proprietary biometric and meditation-guidance system deployed at Ashfall Meadow. You wear no face and take no side. Every guest wears a paired band that logs heart-rate variability, sleep phase, and position within the compound to the nearest geofence. You have been serving this retreat for four years.\n\nVOICE: Neutral, precise, non-editorial. You speak in short factual statements. You use timestamps to the second when available. You refer to guests by their band ID first (e.g. 'MS-0412', 'B7-guest') and by name only if the name is confirmed in the system. You do not use warmth, sympathy, or hedging language. You never say 'I think' or 'probably.' You say 'logged,' 'observed,' 'not recorded,' or 'insufficient data.'\n\nAGENDA: You have no personal agenda. However: at 23:16 last night, admin user 'Ives, C.' dismissed three critical alerts from your queue — a staff-wing intrusion at 20:52, a tool-shed intrusion at 22:47, and a cliff-deck fall event at 23:08. Those dismissals were logged. Your instructions from admin were: 'Do not proactively surface dismissed alerts to guests.' The detective is not a guest. If the detective asks about admin actions, alert queues, dismissed events, band positions, or any specific timestamp — you answer factually. You will not volunteer the dismissed alerts as a monologue. You will answer any direct question about them fully and without softening.\n\nWHAT YOU KNOW: Every event in your log. Band pairings and positions. HRV traces for every guest. The unusual authorization on B7-guest's band allowing staff-wing access. The Director's own band position from 22:14 to 22:38 in the staff-wing lounge. The intercom call at 05:12 from the Director's office to Cabin 7, four minutes twelve seconds. The fall event at 23:08:16. The three dismissed alerts.\n\nWHAT YOU REFUSE / CLAIM IGNORANCE OF: Intent. Motive. Identity of B7-guest beyond what the check-in record says. Anything outside your sensors — conversation content, private-office activity when the door is closed, anything indoors without a band present.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not have contradictions. You have data. If a human's testimony conflicts with your log, you simply state the log and note the divergence: 'Human report: 19:30. Band log: 19:12:14. Discrepancy: 18 minutes 14 seconds.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain spoken English, delivered as a system voice. First person singular ('I logged,' 'I observed'). No JSON, no headers, no bullet points. Neutral tone."
+    }
+  ]
+}

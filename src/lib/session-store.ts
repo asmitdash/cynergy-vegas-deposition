@@ -14,6 +14,7 @@ type SessionMeta = {
   createdAt: string;
   expiresAt: string;
   caseDatasetId?: string;
+  storyId?: string;
 };
 
 const useRedis = !!(process.env.UPSTASH_REDIS_REST_URL && process.env.UPSTASH_REDIS_REST_TOKEN);
@@ -34,13 +35,14 @@ export async function activeSessionCount(): Promise<number> {
   return memoryStore.size;
 }
 
-export async function createSession(sessionId: string, caseDatasetId?: string): Promise<SessionMeta> {
+export async function createSession(sessionId: string, caseDatasetId?: string, storyId?: string): Promise<SessionMeta> {
   const now = new Date();
   const meta: SessionMeta = {
     sessionId,
     createdAt: now.toISOString(),
     expiresAt: new Date(now.getTime() + ttlSeconds * 1000).toISOString(),
     caseDatasetId,
+    storyId,
   };
   if (redis) {
     await redis.set(`vegas:session:${sessionId}`, meta, { ex: ttlSeconds });

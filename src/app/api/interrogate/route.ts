@@ -2,8 +2,7 @@ import { NextRequest, NextResponse } from "next/server";
 import { getSession } from "@/lib/session-store";
 import { recall } from "@/lib/cognee";
 import { callOpus } from "@/lib/bedrock";
-import { PERSONAS } from "@/lib/personas";
-import type { WitnessId } from "@/lib/night-script";
+import { getStory } from "@/lib/stories/registry";
 
 export const runtime = "nodejs";
 export const maxDuration = 60;
@@ -13,7 +12,7 @@ export async function POST(req: NextRequest) {
     const body = await req.json();
     const { session_id, witness_id, question } = body as {
       session_id: string;
-      witness_id: WitnessId;
+      witness_id: string;
       question: string;
     };
 
@@ -31,10 +30,17 @@ export async function POST(req: NextRequest) {
     if (!session.caseDatasetId) {
       return NextResponse.json({ error: "session has no dataset" }, { status: 500 });
     }
+    if (!session.storyId) {
+      return NextResponse.json({ error: "session has no story_id" }, { status: 500 });
+    }
 
-    const persona = PERSONAS[witness_id];
+    const story = getStory(session.storyId);
+    if (!story) {
+      return NextResponse.json({ error: "story not found" }, { status: 404 });
+    }
+    const persona = story.witnesses.find((w) => w.id === witness_id);
     if (!persona) {
-      return NextResponse.json({ error: "unknown witness" }, { status: 400 });
+      return NextResponse.json({ error: "unknown witness for this story" }, { status: 400 });
     }
 
     // 1. Retrieve THIS witness's private memory only, using node_set as firewall.
@@ -55,7 +61,7 @@ export async function POST(req: NextRequest) {
 
     // 2. Persona reply via Bedrock Opus 4.7.
     const opus = await callOpus({
-      system: persona.systemPrompt,
+      system: persona.personaSystemPrompt,
       messages: [
         {
           role: "user",
@@ -67,6 +73,7 @@ export async function POST(req: NextRequest) {
 
     return NextResponse.json({
       witness: witness_id,
+      display_name: persona.displayName,
       answer: opus.text,
       references: results.map((r) => ({
         source: r.source,

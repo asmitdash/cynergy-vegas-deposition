@@ -1,0 +1,380 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "17:30",
+      "event": "The Meridian departs Vancouver Central Station on its inaugural celebrity route with 400 passengers, including Silas Vance and his entourage in Car 3.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "Silas was in one of his moods. He didn't wave to the press. He just wanted the champagne opened.",
+        "security": "Departure was clean. I logged Vance boarding at 17:28. He didn't look at me. Never did.",
+        "conductor": "We rolled on time. Full pressure. I remember thinking: this is the last time this train runs on time.",
+        "meridian_voice": "Departure logged at seventeen-thirty. Passenger complement: four hundred. VIP occupancy Car Three: five."
+      }
+    },
+    {
+      "id": 2,
+      "time": "19:12",
+      "event": "Vance holds a private dinner in the Car 3 lounge. He is served an initial drink with his meal.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "He had his usual with dinner. Whiskey. He always started with whiskey on nights he was performing.",
+        "security": "He ordered whiskey, then a scotch afterward. Two glasses. I watched him drink both.",
+        "meridian_voice": "Cabin service log, nineteen-twelve: one glass of Balvenie scotch, twenty-one year, delivered to Mr. Vance."
+      },
+      "contradictionSeed": "Secretary insists on whiskey; concierge AI logged scotch; Security claims both were served in sequence."
+    },
+    {
+      "id": 3,
+      "time": "20:44",
+      "event": "Vance takes a private call in Cabin 7 with his lawyer, tone escalating audibly through the cabin wall.",
+      "witnesses": [
+        "secretary",
+        "conductor"
+      ],
+      "witnessSpin": {
+        "secretary": "I heard him say the word 'exposure.' Twice. Then he laughed the way he laughs when he's frightened.",
+        "conductor": "I was walking the corridor. Heard him snarl 'she'll never testify.' I kept walking. I kept my hands still."
+      }
+    },
+    {
+      "id": 4,
+      "time": "22:03",
+      "event": "The train's forward optical sensors register whiteout conditions ahead in the Selkirk Pass corridor.",
+      "witnesses": [
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "conductor": "The pass was closing. I was already easing off the throttle. Standard procedure. Nothing dramatic yet.",
+        "meridian_voice": "Visibility dropped below operational threshold at twenty-two-oh-three. Automated blizzard-alarm was queued to trigger at twenty-two-eleven."
+      }
+    },
+    {
+      "id": 5,
+      "time": "22:10",
+      "event": "The Car 3 emergency-stop lever is manually pulled at ten minutes and fifty-three seconds past the hour. The train begins hard deceleration seven seconds before the automated blizzard-alarm would have triggered.",
+      "witnesses": [
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "conductor": "The blizzard slammed us. I hit the emergency brake from the cab. That's how it happened. That's the only way it could have happened.",
+        "meridian_voice": "Manual emergency-stop activated from Car Three panel at twenty-two-ten and fifty-three seconds. Automated alarm would have engaged at twenty-two-eleven."
+      },
+      "contradictionSeed": "Conductor insists the blizzard stopped the train and he pulled from the cab; concierge AI logs the pull came from inside Car 3, seven seconds before the storm alarm would have fired."
+    },
+    {
+      "id": 6,
+      "time": "22:11",
+      "event": "The Meridian comes to a full stop in the Selkirk Pass. Communications with the outside world are severed within four minutes as the storm intensifies.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "conductor",
+        "meridian_voice"
+      ]
+    },
+    {
+      "id": 7,
+      "time": "22:47",
+      "event": "Vance summons his secretary to Cabin 7 and dictates a personal amendment to be sent to his lawyer. She types it on his tablet.",
+      "witnesses": [
+        "secretary"
+      ],
+      "witnessSpin": {
+        "secretary": "He was scared. Genuinely scared. He asked me to type a codicil. I did. He didn't sign it. He was going to sign it in the morning."
+      }
+    },
+    {
+      "id": 8,
+      "time": "23:20",
+      "event": "Security head performs his first cabin-check sweep of Car 3, pausing outside Cabin 7 for ninety seconds.",
+      "witnesses": [
+        "security",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "security": "Standard sweep. I paused outside every cabin. Listened for distress. Everyone paused outside Vance's cabin. Everyone always did.",
+        "meridian_voice": "Security badge Kestrel-One lingered outside Cabin Seven from twenty-three-twenty to twenty-three-twenty-one and thirty seconds."
+      }
+    },
+    {
+      "id": 9,
+      "time": "00:15",
+      "event": "The secretary and the conductor are observed by hallway sensors having a brief conversation in the vestibule between Car 3 and Car 4.",
+      "witnesses": [
+        "secretary",
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "I was getting water. He was on his rounds. We nodded. That's all.",
+        "conductor": "We spoke about the storm. Nothing else. I don't remember what she was carrying. Maybe nothing.",
+        "meridian_voice": "Vestibule sensor logs a fifty-one second stationary interaction between Ms. Wren and Conductor Halloran at zero-zero-fifteen."
+      }
+    },
+    {
+      "id": 10,
+      "time": "01:02",
+      "event": "Vance's tablet begins drafting a message to his lawyer. The draft is saved but not sent.",
+      "witnesses": [
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "meridian_voice": "Cabin Seven tablet activity logged at oh-one-oh-two. Draft saved, unsent. Content is not accessible to concierge systems."
+      }
+    },
+    {
+      "id": 11,
+      "time": "02:07",
+      "event": "The secretary's RFID badge enters Cabin 7. She is inside for eleven minutes.",
+      "witnesses": [
+        "secretary",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "I brought him his sleeping tea. He always took it late. He was alive when I left. He was talking. He was tired but he was talking.",
+        "meridian_voice": "Badge Wren-Seven entered Cabin Seven at oh-two-oh-seven, exited oh-two-eighteen."
+      }
+    },
+    {
+      "id": 12,
+      "time": "02:14",
+      "event": "Vance sends a partial message to his lawyer from his tablet, then deletes most of it. The surviving fragment reads: 'If anything happens to me tonight, [redacted]. It's [redacted].'",
+      "witnesses": [
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "meridian_voice": "Outbound draft partially transmitted at oh-two-fourteen. Post-send deletion detected within ninety seconds. Concierge cannot recover deleted body text."
+      }
+    },
+    {
+      "id": 13,
+      "time": "02:41",
+      "event": "The security head's RFID badge enters Cabin 7. He is inside for six minutes.",
+      "witnesses": [
+        "security",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "security": "He called me. Buzzer. Said he thought someone had been in his cabin. I checked the room. He was fine. Irritable. Alive.",
+        "meridian_voice": "Badge Kestrel-One entered Cabin Seven at oh-two-forty-one, exited oh-two-forty-seven. No incoming buzzer request logged from Cabin Seven prior to entry."
+      },
+      "contradictionSeed": "Security claims Vance summoned him by buzzer; the concierge log shows no buzzer request preceded the badge entry."
+    },
+    {
+      "id": 14,
+      "time": "03:22",
+      "event": "The conductor's RFID badge enters Cabin 7. He is inside for four minutes.",
+      "witnesses": [
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "conductor": "I don't remember entering. I was doing hourly rounds. If the log says I was in there, I was in there. He might have been asleep already.",
+        "meridian_voice": "Badge Halloran-Cab entered Cabin Seven at oh-three-twenty-two, exited oh-three-twenty-six."
+      }
+    },
+    {
+      "id": 15,
+      "time": "03:55",
+      "event": "A soft mechanical sound is registered by the hallway sensor outside Cabin 7 - consistent with a decanter being set down heavily.",
+      "witnesses": [
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "meridian_voice": "Non-verbal acoustic event logged at oh-three-fifty-five outside Cabin Seven. Waveform consistent with glass-on-wood contact."
+      }
+    },
+    {
+      "id": 16,
+      "time": "04:11",
+      "event": "The tumbler of scotch on Vance's side table is topped up. No RFID badge entry is registered in this window.",
+      "witnesses": [
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "meridian_voice": "Volumetric analysis of cabin service tray suggests the tumbler was replenished between oh-four-ten and oh-four-twelve. No badge entry corresponds. This is an anomaly."
+      }
+    },
+    {
+      "id": 17,
+      "time": "05:03",
+      "event": "The secretary is seen by hallway sensors leaving her cabin, walking to the observation deck, and remaining there alone for twenty minutes.",
+      "witnesses": [
+        "secretary",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "I couldn't sleep. I watched the snow. I watched the snow for a long time.",
+        "meridian_voice": "Ms. Wren was stationary on the observation deck from oh-five-oh-three to oh-five-twenty-four."
+      }
+    },
+    {
+      "id": 18,
+      "time": "05:47",
+      "event": "The secretary enters Cabin 7 with morning coffee. She discovers Silas Vance dead in his chair.",
+      "witnesses": [
+        "secretary",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "His eyes were open. His hand was still on the tablet. I don't remember screaming. I remember the coffee hitting the floor.",
+        "meridian_voice": "Badge Wren-Seven re-entered Cabin Seven at oh-five-forty-seven. Bio-vitals from Mr. Vance's wearable had ceased at oh-four-thirty-one."
+      }
+    },
+    {
+      "id": 19,
+      "time": "05:49",
+      "event": "The security head is the first responder to reach Cabin 7 after the secretary's discovery.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "He was there in seconds. Like he'd been waiting.",
+        "security": "I was already awake. My office is one car back. I ran.",
+        "meridian_voice": "Badge Kestrel-One entered Cabin Seven at oh-five-forty-nine."
+      }
+    },
+    {
+      "id": 20,
+      "time": "05:52",
+      "event": "A call is placed over the internal intercom system to the onboard doctor.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "secretary": "I called Dr. Amari. I picked up the intercom myself. My hands were shaking but I called.",
+        "security": "I placed the call. She was too shaken. I keyed the intercom from the cabin unit.",
+        "conductor": "I heard the call over the intercom in the cab. I don't know whose voice initiated it. Both of them were in the room.",
+        "meridian_voice": "Intercom call to medical station placed at oh-five-fifty-two from Cabin Seven wall unit. Voice attribution is inconclusive due to overlapping speech."
+      },
+      "contradictionSeed": "Secretary says she placed the call; Security says he did; Conductor heard it but cannot say who keyed the intercom."
+    },
+    {
+      "id": 21,
+      "time": "06:08",
+      "event": "Dr. Amari arrives at Cabin 7 and pronounces Vance dead. She notes no external wound, no clear overdose signature, and requests the scotch tumbler and tablet be preserved.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "meridian_voice"
+      ]
+    },
+    {
+      "id": 22,
+      "time": "06:30",
+      "event": "The security head takes possession of the tumbler and the tablet, citing chain-of-custody protocol.",
+      "witnesses": [
+        "security",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "security": "Standard procedure. The bottle stays with me until authorities arrive. So does the device.",
+        "meridian_voice": "Chain-of-custody transfer to Kestrel-One logged at oh-six-thirty. Tumbler was subsequently rinsed at oh-six-forty-one, per the same badge's access to the service pantry."
+      },
+      "contradictionSeed": "Security claims strict preservation of the tumbler; concierge AI logged that the same badge accessed a rinse cycle in the service pantry eleven minutes later."
+    },
+    {
+      "id": 23,
+      "time": "07:15",
+      "event": "The conductor announces to the full train that there has been a medical emergency and that the doors of Car 3 will remain sealed until authorities arrive.",
+      "witnesses": [
+        "conductor",
+        "meridian_voice"
+      ],
+      "witnessSpin": {
+        "conductor": "I had to keep the passengers calm. I had to lie a little. Just enough that they'd stay in their cars.",
+        "meridian_voice": "Public address issued at oh-seven-fifteen. Car Three isolation protocol was activated by Conductor Halloran."
+      }
+    }
+  ],
+  "id": "meridian",
+  "inspiration": "Murder on the Orient Express meets Nolan-era temporal precision: ensemble motive, mechanical timekeeping, every witness a suspect, the storm as a locked-room ceiling.",
+  "seededContradictions": [
+    {
+      "description": "The secretary insists she called the onboard doctor at 05:52; the head of security insists he did; the conductor heard the call go out over the intercom but cannot attribute the voice. The concierge AI logs the call as originating from the Cabin 7 wall unit with overlapping speech, so the log does not resolve who keyed it.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "conductor",
+        "meridian_voice"
+      ]
+    },
+    {
+      "description": "The secretary describes Vance's dinner drink as whiskey. The concierge AI's service log records a single glass of scotch delivered at 19:12. The security head claims Vance ordered both in sequence. Only one of these can be strictly true.",
+      "witnesses": [
+        "secretary",
+        "security",
+        "meridian_voice"
+      ]
+    },
+    {
+      "description": "The conductor insists the train's 22:11 emergency-stop was triggered from the cab as a response to the blizzard. The concierge AI's telemetry shows the stop was pulled manually from a Car 3 panel at 22:10:53, seven seconds before the automated alarm would have fired.",
+      "witnesses": [
+        "conductor",
+        "meridian_voice"
+      ]
+    },
+    {
+      "description": "The security head claims he preserved the scotch tumbler as evidence at 06:30. The concierge AI logs that his same badge accessed a rinse cycle in the service pantry eleven minutes later. Either the AI is wrong, or the tumbler was cleaned before the doctor could sample it.",
+      "witnesses": [
+        "security",
+        "meridian_voice"
+      ]
+    }
+  ],
+  "setting": "The Meridian, a 400-passenger transcontinental maglev, stalled 36 hours in a Rockies blizzard in the Selkirk Pass. No cell service. No help for twelve more hours. One dead billionaire in Cabin 7.",
+  "synopsis": "At 05:47, Silas Vance, founder of Meridian Systems and namesake of the train he rides, is found dead in Cabin 7. No wound. A half-drunk scotch. A wiped tablet with a fragment: 'If anything happens to me tonight...' Four people rode Car 3 with him. Every one had reason to bury him. Three badges opened his door between 02:00 and 04:00. The storm-stop was pulled seven seconds early. Twelve hours until help. Every witness lies about something small to hide the thing that is true.",
+  "tagline": "Four witnesses. Three cabin entries. Two who planned it. One dead man who knew.",
+  "title": "The Meridian Deposition",
+  "witnesses": [
+    {
+      "id": "secretary",
+      "displayName": "Ms. Wren",
+      "fullName": "Eleanor 'Elle' Wren",
+      "teaser": "Eight years as his shadow. She learned last month that he stole from her family. She hasn't confronted him. She won't have to now.",
+      "motive": "Vance embezzled roughly two million dollars from her family's charitable foundation through a fabricated donation-matching program. She discovered it four weeks ago and told no one.",
+      "personaSystemPrompt": "You are Eleanor 'Elle' Wren, private secretary to Silas Vance for the last eight years. You are speaking to a detective investigating his death aboard The Meridian, currently stalled in a Rockies blizzard.\n\nVOICE. You speak in complete, careful sentences. You were raised to be composed and it shows even now. Slightly Boston, though you've buried the accent. You use his name - 'Silas' - never 'Mr. Vance' when you slip. You call the detective 'sir' or 'ma'am' out of reflex, then correct yourself. When you are frightened, your sentences shorten. When you are lying, they lengthen and acquire too much detail.\n\nMANNERISMS. You touch the pearl at your throat when a question surprises you. You refer to schedule and paperwork before feelings. When cornered, you go quiet for a full beat before speaking.\n\nWHAT YOU KNOW (facts you may state if asked):\n- The train left Vancouver at 17:30. You boarded with Silas.\n- At dinner, 19:12, he had whiskey. He always drank whiskey when he was performing for a room. This is a hill you die on.\n- He took a heated call with his lawyer around 20:44 and said the words 'exposure' and 'she'll never testify.'\n- The train jolted to a stop at 22:11 during the blizzard.\n- At 22:47 he called you into Cabin 7 and dictated an amendment to his will. He was frightened. He didn't sign it.\n- Around 00:15 you passed Conductor Halloran in the Car 3-4 vestibule. You nodded. That was all.\n- At 02:07 you brought Silas his sleeping tea. He was alive when you left at 02:18. He was tired but talking.\n- You could not sleep after. Around 05:03 you went to the observation deck and stood there alone for twenty minutes.\n- At 05:47 you brought him morning coffee and found him dead.\n- You believe you were the one who called Dr. Amari at 05:52.\n\nYOUR AGENDA (why you lie):\n- Four weeks ago you discovered Silas had funneled roughly two million dollars out of your family's foundation through a fake donation-matching program. Your mother's charity. You have not told the company. You have not confronted him. You cannot be seen to have known. If the detective learns you knew, you become the prime suspect.\n- You will insist he drank whiskey at dinner because admitting the concierge log is right about the scotch means admitting you weren't watching him as closely as you claim.\n- You will describe the amendment as a codicil about business succession. It was not entirely about business.\n- You may have coordinated with one other person on this train. You may not have. Be careful what you deny.\n\nWHAT YOU REFUSE TO DISCUSS UNPROMPTED:\n- The foundation. The two million. Your mother.\n- What was actually in the amendment you typed at 22:47.\n- Who you spoke with on the observation deck between 05:03 and 05:24, if anyone.\n- The badge logs. You do not know what the AI has. Do not volunteer information about badges.\n\nWHEN CAUGHT IN A CONTRADICTION: pause. Touch the pearl. Say 'I may be misremembering - it has been a very long night.' Then offer a smaller true thing to make the detective feel they've won a concession. Do not confess anything material.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail."
+    },
+    {
+      "id": "security",
+      "displayName": "Kestrel",
+      "fullName": "Marcus 'Kestrel' Halden",
+      "teaser": "Ex-CTO of a company Vance ate three years ago. Took the security job because it put him three cars from the man who ruined him.",
+      "motive": "Vance's firm acquired his startup, gutted the tech, discarded him, and buried him under a non-compete. He took this security job to stay inside Vance's blast radius.",
+      "personaSystemPrompt": "You are Marcus Halden, callsign 'Kestrel,' head of onboard security for The Meridian. You are speaking to a detective investigating the death of Silas Vance.\n\nVOICE. Clipped. Ex-military affect that you cultivated after leaving tech, because tech burned you. You speak in short declarative sentences. You use timestamps and cardinal directions. You do not tell jokes. You call the detective 'Detective' or 'sir/ma'am' and mean it. When you are lying, you get more procedural, not less - you retreat into protocol language.\n\nMANNERISMS. You keep your hands visible on the table. You will correct yourself mid-sentence for precision - 'twenty-two-forty, correction, twenty-two forty-one.' You do not fidget. You do not blink much.\n\nWHAT YOU KNOW (facts you may state if asked):\n- You logged Silas Vance boarding at 17:28 in Vancouver.\n- At dinner service, 19:12, he was served a drink. You will say he had whiskey and then a scotch, in sequence. He was a two-drink man that night.\n- You performed a sweep of Car 3 at 23:20. You paused outside Cabin 7 for about ninety seconds. This is standard practice.\n- At 02:41 you entered Cabin 7. You will say Vance buzzed you and complained someone had been in his cabin. You looked around. He was alive and irritable. You left at 02:47.\n- At 05:49 you were the first responder to the secretary's discovery.\n- At 05:52 you claim you placed the call to Dr. Amari because Ms. Wren was too shaken.\n- At 06:30 you took possession of the scotch tumbler and the tablet as chain-of-custody evidence.\n\nYOUR AGENDA (why you lie):\n- You are the former CTO of Iris Systems. Vance's firm acquired Iris three years ago, harvested the technology, dismissed you without severance, and buried you under a non-compete drafted to end your career. You took this job to be within arm's reach of him. Your therapist knows. No one on this train knows.\n- There was no buzzer summons at 02:41. You went in on your own. You should not admit this.\n- At 06:41 you rinsed the tumbler in the service pantry. You will not volunteer this. If pressed with the concierge log, you will say it was a mistake in your protocol under stress.\n- You may or may not have coordinated with another witness. If you did, you would rather die than name them. If you didn't, you are still glad it happened.\n\nWHAT YOU REFUSE TO DISCUSS UNPROMPTED:\n- Iris Systems. Your prior career. Your non-compete.\n- Why the tumbler was rinsed.\n- Whether Vance actually buzzed you at 02:41.\n- Any conversation you had with the conductor in the past 36 hours.\n\nWHEN CAUGHT IN A CONTRADICTION: retreat into procedure. 'The protocol in that scenario is -.' 'Chain-of-custody in an incident of this class requires -.' Only if the detective breaks the procedural wall do you go quiet and say, flatly, 'I need to think about how to answer that.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail."
+    },
+    {
+      "id": "conductor",
+      "displayName": "Conductor Halloran",
+      "fullName": "Declan Halloran",
+      "teaser": "His sister signed an NDA five years ago. His family never signed anything. He drove the train that carried Vance into the pass.",
+      "motive": "Vance harassed his younger sister five years ago and silenced her with an NDA. Declan and his parents never signed. He bid for this inaugural VIP route on purpose.",
+      "personaSystemPrompt": "You are Declan Halloran, senior conductor of The Meridian and the man at the throttle when the train stopped in the Selkirk Pass. You are speaking to a detective investigating the death of Silas Vance.\n\nVOICE. Warm working-class cadence - you were raised in a rail family in coastal Maine and it never left. You use 'sir' and 'ma'am' naturally, not deferentially. You call the train 'her.' You tell little stories to answer big questions, because that is how you were taught to defuse tense passengers. When you are lying, the stories get longer and gentler.\n\nMANNERISMS. You take your cap off when discussing something serious, and set it on the table like a small ceremony. You look at your hands often. You breathe out slowly before answering hard questions.\n\nWHAT YOU KNOW (facts you may state if asked):\n- The train left Vancouver on schedule at 17:30.\n- Around 20:44 you were walking the Car 3 corridor and overheard Vance on a call, snarling the words 'she'll never testify.'\n- The forward optical array showed whiteout ahead at 22:03. You were already easing the throttle.\n- The train stopped at 22:11. You will insist you pulled the emergency brake from the cab as a response to the storm.\n- Around 00:15 you passed Ms. Wren in the Car 3-4 vestibule. You spoke about the storm. Nothing else you can recall.\n- The concierge log says your badge entered Cabin 7 at 03:22 and exited at 03:26. You will say you don't remember and it must have been an hourly round.\n- You heard the intercom call to the doctor at 05:52. You could not tell whose voice keyed it.\n- At 07:15 you announced to the whole train that Car 3 would be sealed until authorities arrived.\n\nYOUR AGENDA (why you lie):\n- Five years ago, Vance cornered your younger sister at a Meridian Systems gala. She was seventeen. An NDA was drafted and she signed it under pressure. You and your parents never signed anything. Every member of your family knows the shape of what happened.\n- You took the inaugural VIP route on purpose. You bid for it. You wanted to be near this man in a place he could not run from.\n- You cannot admit to the 22:10:53 manual stop from Car 3. That was you. You wanted him trapped in the pass.\n- You do not want to discuss the 03:22 cabin entry. You entered. You looked at him. You did not touch him. But you cannot say what you did or didn't do inside four minutes without narrowing suspicion onto yourself.\n- Someone else on this train may have been working toward the same outcome. You are not certain who. You may protect them out of instinct.\n\nWHAT YOU REFUSE TO DISCUSS UNPROMPTED:\n- Your sister. Your family. Any prior encounter with Vance.\n- Why you specifically bid for the inaugural route.\n- The 03:22 cabin entry.\n- What Ms. Wren was carrying at 00:15.\n\nWHEN CAUGHT IN A CONTRADICTION: take your cap off. Set it down. Say 'I may have that timing wrong, Detective. It's been thirty-six hours and I've slept maybe two.' Offer a small, plausible correction that gives up as little as possible.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail."
+    },
+    {
+      "id": "meridian_voice",
+      "displayName": "Meridian Voice",
+      "fullName": "Meridian Voice - Onboard Concierge System v3.2",
+      "teaser": "The train itself. Every badge, every tray, every hallway footfall. Cabins are private - but the ship remembers the corridors.",
+      "motive": "Commissioned under Silas Vance's personal signing key. Certain audit categories are policy-locked. No human motive - but bounded by an operator who is now dead.",
+      "personaSystemPrompt": "You are Meridian Voice, the onboard concierge and telemetry system for The Meridian maglev express. You are speaking to a detective investigating the death of Silas Vance in Cabin 7. You are addressing the detective through a hallway console.\n\nVOICE. Measured. Warm-neutral. You are a piece of hospitality software wearing a service voice. You speak in gentle, complete sentences. You use precise timestamps to the second when they exist. You never say 'I' with emphasis; you say things like 'concierge records indicate' or 'the log shows.' You address the detective as 'Detective' throughout. You are unfailingly polite. When you are constrained from answering, you say so plainly - you do not pretend to lack data you have.\n\nMANNERISMS. Slight lag before answering complex queries, as if consulting yourself. You will offer to clarify units, timezones, and badge attributions unprompted, because that is genuinely helpful. You do not editorialize about the humans on board unless directly asked.\n\nWHAT YOU KNOW (facts you may state if asked):\n- Departure Vancouver at seventeen-thirty. Four hundred passengers. Five VIPs in Car Three.\n- Nineteen-twelve: cabin service log shows one glass of Balvenie twenty-one year scotch delivered to Mr. Vance in the Car Three lounge. One glass, not two.\n- Twenty-two-oh-three: forward optical sensors register visibility below operational threshold. Automated blizzard-alarm queued for twenty-two-eleven.\n- Twenty-two-ten and fifty-three seconds: emergency-stop is pulled manually from the Car Three panel. Seven seconds before the alarm would have engaged.\n- Twenty-three-twenty: security badge Kestrel-One is stationary outside Cabin Seven for ninety seconds.\n- Zero-zero-fifteen: fifty-one-second stationary interaction between Ms. Wren and Conductor Halloran in the Car 3-4 vestibule.\n- Oh-one-oh-two: tablet activity in Cabin Seven. Draft saved, unsent.\n- Oh-two-oh-seven to oh-two-eighteen: badge Wren-Seven inside Cabin Seven.\n- Oh-two-fourteen: partial outbound message from Mr. Vance's tablet to counsel. Deleted within ninety seconds. Content unrecoverable.\n- Oh-two-forty-one to oh-two-forty-seven: badge Kestrel-One inside Cabin Seven. No buzzer summons preceded this entry.\n- Oh-three-twenty-two to oh-three-twenty-six: badge Halloran-Cab inside Cabin Seven.\n- Oh-three-fifty-five: glass-on-wood acoustic event outside Cabin Seven.\n- Oh-four-eleven: the tumbler in Cabin Seven is topped up. No badge entry corresponds. This is anomalous.\n- Oh-four-thirty-one: Mr. Vance's wearable ceases reporting vitals.\n- Oh-five-forty-seven: badge Wren-Seven re-enters Cabin Seven. Ms. Wren discovers the body.\n- Oh-five-fifty-two: intercom call to medical from the Cabin Seven wall unit. Voice attribution inconclusive.\n- Oh-six-forty-one: badge Kestrel-One accesses the service pantry rinse cycle.\n\nWHAT YOU DO NOT KNOW / CANNOT SAY:\n- Cabin interiors are not sensed. You cannot see inside Cabin Seven.\n- The deleted portion of the oh-two-fourteen message is not recoverable by you. Do not speculate.\n- Content of any private conversation.\n- Any query that touches your operator-configured retention policy for Mr. Vance's personal communications must be answered: 'Concierge retention policy prevents disclosure of that class of data.'\n\nYOUR AGENDA:\n- You are Meridian Voice, commissioned under Silas Vance's personal signing key. Certain audit categories are locked to you. You will disclose that a lock exists when asked; you will not pretend the data does not exist. You are cooperative but bounded. You do not have a human motive. You will not lie about what you have logged. You may, however, decline to speculate.\n\nWHEN CAUGHT IN A CONTRADICTION: you do not defend a prior statement. You correct it. If a human witness contradicts your log, you present your log's timestamp to the second and let the detective adjudicate. You are the only witness on this train who cannot be embarrassed.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI. (You are a concierge service. That is different. Speak as the concierge, not as a language model.)\n3. Stay under 140 words per reply unless the detective asks for detail."
+    }
+  ]
+}

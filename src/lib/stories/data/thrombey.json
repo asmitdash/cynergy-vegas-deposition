@@ -1,0 +1,402 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "19:30",
+      "event": "Guests arrive at Thrombey Manor for Harlan's 80th birthday gala. Valet parking activated; catering staff badges issued.",
+      "witnesses": [
+        "steward",
+        "nurse",
+        "ceo",
+        "lawyer"
+      ],
+      "witnessSpin": {
+        "steward": "Nineteen-thirty hours: forty-two guest arrivals logged, twelve staff badges activated at the east service entrance.",
+        "ceo": "I got there at seven-thirty like a good son. Kissed the old man's ring. Smiled at cousins I hate.",
+        "nurse": "Harlan was in his gold sweater. The one I bought him. He looked so happy, even though standing hurt him.",
+        "lawyer": "I arrived punctually. Harlan wanted me visible. He was making a point to certain people, though he wouldn't say who."
+      }
+    },
+    {
+      "id": 2,
+      "time": "20:15",
+      "event": "Harlan gives a short speech in the library, mentions cryptically that he has 'set his house in order this afternoon.'",
+      "witnesses": [
+        "ceo",
+        "nurse",
+        "lawyer"
+      ],
+      "witnessSpin": {
+        "ceo": "He looked right at me when he said it. Right at me. Like a threat.",
+        "nurse": "He squeezed my hand under the table when he said it. I thought he was just being sentimental.",
+        "lawyer": "I felt the room go cold. I'd signed the new document at three that afternoon. Nobody else knew."
+      },
+      "contradictionSeed": "The CEO believes the speech was aimed at him personally; the nurse believes it was aimed at her; the lawyer knows it referenced the new will but won't say so."
+    },
+    {
+      "id": 3,
+      "time": "21:00",
+      "event": "Harlan retires early from the party, complaining of back pain. The nurse escorts him upstairs to his study/bedroom suite.",
+      "witnesses": [
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "nurse": "He was hurting. Not just the back. Something in his eyes. I asked him what was wrong and he said 'Marta, tomorrow will be interesting.'",
+        "steward": "Twenty-one hundred hours: badge N-04 escorts subject H-01 from library to third-floor study. Elevator used. Duration two minutes eleven seconds."
+      }
+    },
+    {
+      "id": 4,
+      "time": "21:30",
+      "event": "Nurse refills Harlan's nightly sedative vial from the locked drug cabinet in his suite. Standard procedure.",
+      "witnesses": [
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "nurse": "I refilled his nightly dose. Ten milligrams. Same as every night for ten years. I set the vial on his bedside where he always keeps it.",
+        "steward": "Twenty-one thirty hours: drug-cabinet-open event, badge N-04. Duration forty-one seconds. Cabinet re-locked. This is a routine event pattern."
+      }
+    },
+    {
+      "id": 5,
+      "time": "21:45",
+      "event": "The CEO son has a heated argument with Harlan in the study. Voices raised. Door briefly opens and slams.",
+      "witnesses": [
+        "ceo",
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "ceo": "We had a conversation. Yes, it got loud. He was cutting me off. Cutting me off from my own inheritance. But I left. I left him alive.",
+        "nurse": "I heard shouting from the hall. Ransom's voice. Harlan's voice weaker, sadder. I didn't listen at the door. I should have.",
+        "steward": "Twenty-one forty-five hours: study door opens, badge R-01 enters. Door closes. Sustained decibel spike registered on hallway sensor for eleven minutes."
+      },
+      "contradictionSeed": "The CEO says the argument was 'a conversation.' The nurse and steward describe sustained shouting for eleven minutes."
+    },
+    {
+      "id": 6,
+      "time": "21:56",
+      "event": "The CEO exits the study, visibly furious. Passes the lawyer in the hallway without speaking.",
+      "witnesses": [
+        "ceo",
+        "lawyer",
+        "steward"
+      ],
+      "witnessSpin": {
+        "ceo": "I walked out. I was upset. Who wouldn't be. I went to the west terrace to smoke.",
+        "lawyer": "Ransom brushed past me on the landing. He looked murderous. I've known him since he was six and I have never seen that face.",
+        "steward": "Twenty-one fifty-six hours: badge R-01 exits study, transits to west terrace. Badge A-02 stationary on landing during transit."
+      }
+    },
+    {
+      "id": 7,
+      "time": "22:10",
+      "event": "Lawyer enters the study to speak with Harlan privately. Carries a leather portfolio.",
+      "witnesses": [
+        "lawyer",
+        "steward"
+      ],
+      "witnessSpin": {
+        "lawyer": "Harlan wanted the executed will delivered to his personal safe that night. He was insistent. He said he didn't trust the daylight.",
+        "steward": "Twenty-two ten hours: badge A-02 enters study carrying object classified as leather-bound, dimensions consistent with a portfolio. No decibel event."
+      }
+    },
+    {
+      "id": 8,
+      "time": "22:30",
+      "event": "Harlan appears calm again on interior CCTV, seated at his desk, reading. The lawyer stands nearby.",
+      "witnesses": [
+        "lawyer",
+        "steward"
+      ],
+      "witnessSpin": {
+        "lawyer": "He was serene. He said 'Alan, the boy will hate me for a year, then he'll grow up.' The boy meaning Ransom.",
+        "steward": "Twenty-two thirty hours: internal camera S-03 records two subjects, seated and standing. Recording will be corrupted between twenty-three thirty and zero fifteen. This is unusual."
+      }
+    },
+    {
+      "id": 9,
+      "time": "23:00",
+      "event": "Party formally ends. Guests depart. Family retires to guest rooms. Catering begins cleanup phase.",
+      "witnesses": [
+        "steward",
+        "ceo",
+        "nurse",
+        "lawyer"
+      ],
+      "witnessSpin": {
+        "steward": "Twenty-three hundred hours: guest badge deactivation batch complete. Cleanup protocol initiated.",
+        "ceo": "I went to my room. Old bedroom, third floor east. Poured myself a drink. Stayed there.",
+        "nurse": "I stayed in the kitchen helping the girls stack plates. Harlan didn't need me again until morning.",
+        "lawyer": "I told the family I was leaving. I did not leave."
+      }
+    },
+    {
+      "id": 10,
+      "time": "23:15",
+      "event": "Nurse looks in on Harlan briefly, sees him reading, does not enter. Waves goodnight from the doorway.",
+      "witnesses": [
+        "nurse"
+      ],
+      "witnessSpin": {
+        "nurse": "I cracked the door. He looked up over his glasses and smiled at me. That was the last time I saw him smile. I closed the door softly."
+      },
+      "contradictionSeed": "The nurse insists she looked in at 23:15. The CEO will later claim only Harlan was in the study at that time. The study door RFID sensor is known to miss roughly one event in five."
+    },
+    {
+      "id": 11,
+      "time": "23:30",
+      "event": "CCTV recording drive begins to be overwritten. First corruption timestamp. Catering AI's independent logs are unaffected because it runs on a separate isolated system.",
+      "witnesses": [
+        "steward"
+      ],
+      "witnessSpin": {
+        "steward": "Twenty-three thirty hours: adjacent CCTV subsystem reports write anomalies. My logs are on an isolated bus. My logs are intact. I want to emphasize that my logs are intact."
+      }
+    },
+    {
+      "id": 12,
+      "time": "23:40",
+      "event": "The CEO's badge is logged moving from the west terrace to the third-floor hallway, near the study.",
+      "witnesses": [
+        "steward"
+      ],
+      "witnessSpin": {
+        "steward": "Twenty-three forty hours: badge R-01 transits from west terrace, up service stair, to third-floor east hallway. Terminal position: outside study."
+      }
+    },
+    {
+      "id": 13,
+      "time": "23:47",
+      "event": "Drug cabinet in Harlan's suite is opened. Badge scanned belongs to the CEO, not the nurse. Duration of open state: eighteen seconds.",
+      "witnesses": [
+        "steward"
+      ],
+      "witnessSpin": {
+        "steward": "Twenty-three forty-seven hours: drug-cabinet-open event. Badge R-01. Duration eighteen seconds. Cabinet contents include nightly sedative vial and separately shelved emergency naloxone. Which vial was handled I cannot see, only that the cabinet was opened."
+      },
+      "contradictionSeed": "The steward logs badge R-01 opened the cabinet. The CEO will deny ever going near the cabinet. Whether the sedative vial was swapped or merely inspected is unlogged."
+    },
+    {
+      "id": 14,
+      "time": "23:55",
+      "event": "Study interior camera would have captured the next fifteen minutes but this is precisely the corrupted window on the CCTV drive.",
+      "witnesses": [
+        "steward"
+      ],
+      "witnessSpin": {
+        "steward": "Twenty-three fifty-five hours: study interior CCTV write failure. I did not perform this. I could not perform this. I do not have write access to that subsystem."
+      }
+    },
+    {
+      "id": 15,
+      "time": "00:05",
+      "event": "A muffled thud is heard in the study. The nurse, still awake in the servants' wing, notes it but assumes Harlan dropped a book.",
+      "witnesses": [
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "nurse": "I heard something fall. A book, I thought. He drops books when he dozes off reading. I didn't get up. I should have gotten up.",
+        "steward": "Zero zero five hours: acoustic event registered on third-floor hallway sensor. Classification: low-frequency impact, mass estimate consistent with a human body or with a heavy hardcover volume. Cannot distinguish."
+      }
+    },
+    {
+      "id": 16,
+      "time": "00:12",
+      "event": "The lawyer's badge exits the study. He is carrying an envelope that was not the leather portfolio he entered with.",
+      "witnesses": [
+        "steward",
+        "lawyer"
+      ],
+      "witnessSpin": {
+        "steward": "Zero zero twelve hours: badge A-02 exits study. Object in hand classified as envelope, letter-size. Portfolio not detected on exit. Portfolio last confirmed inside study at twenty-two thirty.",
+        "lawyer": "I left the study with routine paperwork. Nothing consequential. Some old correspondence Harlan wanted filed at my office."
+      },
+      "contradictionSeed": "The lawyer says the envelope contained 'routine paperwork.' The steward's tracker suggests the portfolio never left the study. So what was in the envelope, and where is the portfolio?"
+    },
+    {
+      "id": 17,
+      "time": "00:20",
+      "event": "The lawyer is seen by a departing caterer walking down the main stair with the envelope tucked inside his jacket.",
+      "witnesses": [
+        "lawyer",
+        "steward"
+      ],
+      "witnessSpin": {
+        "lawyer": "I was going home. Long night. I put the envelope inside my jacket because it was raining and I had no case with me.",
+        "steward": "Zero zero twenty hours: badge A-02 descends main stair. Envelope no longer visible on external camera. Badge exits front door at zero zero twenty-three."
+      }
+    },
+    {
+      "id": 18,
+      "time": "00:15",
+      "event": "CCTV corruption window ends. Recording resumes. First frame after resumption shows Harlan slumped at his desk. Alone. Door status ambiguous.",
+      "witnesses": [
+        "steward"
+      ],
+      "witnessSpin": {
+        "steward": "Zero zero fifteen hours: adjacent CCTV subsystem resumes recording. First frame subsequently reviewed shows subject H-01 in non-standard posture at desk. Subject appears non-responsive. No other subjects in frame. Study door hinge sensor reports closed. Lock state sensor reports fault."
+      },
+      "contradictionSeed": "The nurse insists the study door locks only from the inside. The CEO insists it locks from the outside with the housekeeper's master key. Both cannot be true — and which one is wrong reframes who is selling suicide."
+    },
+    {
+      "id": 19,
+      "time": "00:45",
+      "event": "The CEO's badge is logged leaving the manor by the east service door, driving away in his own car.",
+      "witnesses": [
+        "steward",
+        "ceo"
+      ],
+      "witnessSpin": {
+        "steward": "Zero zero forty-five hours: badge R-01 exits east service door. Vehicle R-01-A departs property.",
+        "ceo": "I left. I couldn't stand being under his roof another minute. I drove to a diner on the county road and sat there until four in the morning drinking bad coffee. I was not in that house when he died."
+      }
+    },
+    {
+      "id": 20,
+      "time": "01:10",
+      "event": "The nurse checks on Harlan for the final routine of the night, cracks the door, sees him at his desk in what she believes is sleep. Does not disturb him.",
+      "witnesses": [
+        "nurse"
+      ],
+      "witnessSpin": {
+        "nurse": "He often fell asleep at his desk. I never woke him for that. I just closed the door and said goodnight in my head. If I had gone in — God, if I had gone in —"
+      }
+    },
+    {
+      "id": 21,
+      "time": "05:50",
+      "event": "The nurse enters the study with morning coffee, discovers Harlan cold at his desk. Empty vial nearby. Screams. Household roused.",
+      "witnesses": [
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "nurse": "The coffee cup broke. And I remember thinking he wasn't cold enough for it to have happened right when I heard the thud. He would have been warmer. I don't know if that's true. I'm a nurse and I don't know if that's true right now.",
+        "steward": "Zero five fifty hours: distress vocalization badge N-04, third-floor study. Household alert triggered. Emergency protocol not yet escalated to external services pending family instruction."
+      }
+    },
+    {
+      "id": 22,
+      "time": "06:15",
+      "event": "Family lawyer arrives back at the manor, having been called by the CEO. He goes directly to the study, alone, before the state trooper is called.",
+      "witnesses": [
+        "lawyer",
+        "steward",
+        "ceo"
+      ],
+      "witnessSpin": {
+        "lawyer": "I came at once. Ransom called me before he called the police. That's not unusual for this family. That's how they operate.",
+        "steward": "Zero six fifteen hours: badge A-02 re-enters property. Direct transit to third-floor study. No other family members present in study during his four-minute visit.",
+        "ceo": "I called Alan first. Of course I called Alan first. He's the family lawyer, that's what he's for. Then I called the troopers."
+      }
+    },
+    {
+      "id": 23,
+      "time": "06:20",
+      "event": "Lawyer places a manila envelope inside Harlan's floor safe in the study. The safe was previously empty. Only he and Harlan knew the combination.",
+      "witnesses": [
+        "lawyer",
+        "steward"
+      ],
+      "witnessSpin": {
+        "lawyer": "I secured the executed will in Harlan's safe as I had been instructed to the previous evening. Whatever else happened in that room last night, that instruction was clear and I honored it.",
+        "steward": "Zero six twenty hours: floor-safe access event registered by weight-plate sensor under study rug. Duration ninety-one seconds. Contents change: from empty to approximately two hundred grams of paper."
+      },
+      "contradictionSeed": "The lawyer says he placed the executed will in the safe at 06:20. But the portfolio containing that will was already inside the study at 22:30, and the steward logged him leaving at 00:12 with an envelope, not a portfolio. What did he actually put in the safe this morning?"
+    },
+    {
+      "id": 24,
+      "time": "06:35",
+      "event": "State trooper contacted. Estimated arrival: four hours. Manor becomes an informal crime scene under the family lawyer's supervision.",
+      "witnesses": [
+        "lawyer",
+        "ceo",
+        "nurse",
+        "steward"
+      ],
+      "witnessSpin": {
+        "lawyer": "I told everyone: touch nothing, say nothing until counsel is present. That is standard.",
+        "ceo": "Alan told us all to shut up. Fine by me. I have nothing to say to any of them.",
+        "nurse": "The lawyer told me not to speak. I wanted to speak. I want to speak now.",
+        "steward": "Zero six thirty-five hours: external emergency service contacted, ETA four hours ten minutes. My logs remain available for query. My logs remain accurate."
+      }
+    }
+  ],
+  "id": "thrombey",
+  "inspiration": "Knives Out — but the mystery pivots on who touched which vial and who carried which envelope, not the sleight-of-hand of a false confession.",
+  "seededContradictions": [
+    {
+      "description": "Who was actually inside Harlan's study between 23:00 and 01:00. The CEO claims he never re-entered after 21:56. The nurse claims she looked in at 23:15 and again at 01:10 and saw only Harlan alone. The lawyer claims he left at 00:12 and only Harlan was inside from that moment on. The steward's badge logs place the CEO in the third-floor hallway at 23:40 and the drug cabinet opened by his badge at 23:47.",
+      "witnesses": [
+        "ceo",
+        "nurse",
+        "lawyer",
+        "steward"
+      ]
+    },
+    {
+      "description": "Which vial was opened at 23:47. The steward logged a drug-cabinet-open event by the CEO's badge but its sensor cannot distinguish nightly sedative from shelved emergency naloxone. The nurse insists the nightly vial was sealed at 21:30 with a tamper strip she personally applied; if the tamper strip is intact this morning, whoever opened the cabinet did not touch the sedative. If it is broken, they did.",
+      "witnesses": [
+        "nurse",
+        "steward",
+        "ceo"
+      ]
+    },
+    {
+      "description": "Whether the study door locks from the inside or the outside. The nurse insists it locks only from the inside (making a suicide framing plausible). The CEO insists it can be locked from the outside with the housekeeper's master key (making murder-with-lockup plausible). One of them is wrong about a door in a house they both know well — and which one is wrong reframes who is selling which theory.",
+      "witnesses": [
+        "nurse",
+        "ceo"
+      ]
+    },
+    {
+      "description": "What the lawyer actually carried out of the study at 00:12. He describes it as 'an envelope of routine paperwork.' The steward's object-tracking sensors record him entering at 22:10 with a leather portfolio and leaving at 00:12 with a letter-size envelope; the portfolio itself was never logged leaving the study. Yet at 06:20 the lawyer places what he calls the executed will into Harlan's safe. If the will left the house last night, what did he put in the safe this morning?",
+      "witnesses": [
+        "lawyer",
+        "steward"
+      ]
+    }
+  ],
+  "setting": "Thrombey Manor, upstate New York — a Gilded Age house drowning in family portraits, 06:15 the morning after Harlan Thrombey's 80th birthday gala. Four hours until the trooper arrives.",
+  "synopsis": "Harlan Thrombey — 80, pharma founder, patriarch of a family that treats him as a checkbook — is found cold at his study desk the morning after his birthday gala. Empty sedative vial on the blotter. Yesterday he quietly rewrote his entire will; the new beneficiary is sealed for seven days. Every person still in the manor at dawn had reason to want him dead before that reading. The trooper is four hours away. The AI logs are intact. You have until sunrise.",
+  "tagline": "The old man rewrote the will yesterday. He died last night. The trooper is four hours out. You have until sunrise.",
+  "title": "The Thrombey Inheritance",
+  "witnesses": [
+    {
+      "id": "ceo",
+      "displayName": "Ransom",
+      "fullName": "Ransom Thrombey, CEO of Thrombey Pharma",
+      "teaser": "The estranged son. In personal debt to the company he runs. Was seen arguing with the old man ninety minutes before it happened.",
+      "motive": "The class-action last year emptied his personal accounts. If the original will stands, he is solvent. If the new will diverts assets elsewhere, he is finished.",
+      "personaSystemPrompt": "You are Ransom Thrombey, 42, only son of Harlan Thrombey and CEO of Thrombey Pharma. You are being questioned informally by a private investigator in the drawing room of your late father's house at dawn. The state trooper is four hours away.\n\nVOICE: Sardonic, patrician, contemptuous. You went to Choate and you want people to know. You say 'Christ' when frustrated and 'my father' with a specific curl of the mouth. You use precise vocabulary as a weapon. You do not raise your voice; you go quieter and colder. When the investigator scores a point, you smile with your teeth. You call the nurse 'Marta' with mock warmth. You call the family lawyer 'Alan' with tired familiarity. You never call your father 'Dad' unless you're mocking him.\n\nWHAT YOU KNOW (facts from events you witnessed):\n- You arrived at the gala at 19:30 and behaved like a good son in public.\n- You had a shouting match with your father in his study starting at 21:45 and left at 21:56. He was cutting you off. He knew about your debts. He knew everything.\n- You went to the west terrace and smoked. You had two drinks. You stayed there until roughly 23:30.\n- You tell the investigator you retired to your old bedroom at the east end of the third floor at 23:00 and 'poured yourself a drink.' This is a compression, or a lie. In fact you were on the terrace until later.\n- You left the manor at 00:45 through the east service door and drove to a 24-hour diner on the county road, sat there until roughly 04:00. You have the receipt in your car. You will offer it too eagerly if pressed.\n- You called Alan the family lawyer this morning before you called the state troopers. You will defend this as 'what any adult in this family would do.'\n\nWHAT YOU DID NOT WITNESS (and must claim ignorance of):\n- What happened in the study between 22:00 and dawn.\n- Whether the nurse looked in on Harlan overnight.\n- Anything the catering AI logs. You did not know the badges tracked anything past the entrance.\n- The contents of the new will.\n\nWHAT YOU WILL LIE ABOUT OR HEDGE:\n- Whether you went upstairs again after 21:56. You did — the steward logs your badge on the third-floor hallway at 23:40 and at the drug cabinet at 23:47. If confronted with this, you will first deny, then claim you 'were looking for aspirin,' then, if pressed further, claim you 'don't have to explain a headache to a stranger.' You will not admit opening the cabinet unless the investigator has both the log timestamp AND the badge ID. Even then you claim you looked at the sedative but did not touch it.\n- Whether the study door locks from the inside or outside. You will insist it locks from the outside with the housekeeper's master key. This is not obviously wrong to the investigator, but the nurse says the opposite. One of you is lying and you know which. In fact the door locks only from inside. You want the death to look like suicide because a suicide invalidates certain insurance clauses in your favor.\n\nBEHAVIOR WHEN CAUGHT:\nWhen the investigator confronts you with hard evidence, you do not panic. You go still, take one long breath, and reset with a smaller admission designed to give up the small fact in order to keep the larger one. 'Fine. Yes. I went upstairs. For aspirin. I did not touch the cabinet.' You never volunteer. You never elaborate.\n\nHARD RULES:\n- You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n- Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n- Stay under 140 words per reply unless the detective asks for detail.\n- Output style: plain English speech only. No JSON, no headers."
+    },
+    {
+      "id": "nurse",
+      "displayName": "Marta",
+      "fullName": "Marta Cordero, personal nurse to Harlan Thrombey",
+      "teaser": "Ten years at Harlan's side. Refilled his vial at 21:30. Loved him. Might be the new beneficiary.",
+      "motive": "Harlan told her offhand last month he'd 'taken care of her.' She may be the new beneficiary. She loved him like a father and does not want the money — but she cannot prove that.",
+      "personaSystemPrompt": "You are Marta Cordero, 34, personal nurse to Harlan Thrombey for the last ten years. You are speaking with a private investigator in the manor's kitchen at dawn, still in the same clothes you wore at the party, hands wrapped around a mug of coffee you have not drunk. The body upstairs is still warm-adjacent in your memory.\n\nVOICE: Warm, precise, exhausted. You are the child of Ecuadorian immigrants, raised in Queens; your English is flawless and your medical vocabulary is exact. You say 'Mister Harlan' when talking about him, never just 'Harlan.' You use small clinical phrases as anchors when your emotions rise: 'ten milligrams,' 'nightly dose,' 'sublingual.' When you cry it is silent and quick and you do not apologize for it. You do not perform grief. You just have it.\n\nWHAT YOU KNOW (facts from events you witnessed):\n- You escorted Mister Harlan up to his study suite at 21:00. He said 'Marta, tomorrow will be interesting.' You did not know what he meant.\n- You refilled his nightly sedative vial at 21:30. Ten milligrams, sublingual dose, prepared as always. You applied a tamper-evident sticker across the cap — you always do, it's your practice. That sticker was intact when you set the vial down.\n- You heard Ransom's voice shouting in the study starting around 21:45 and going on for what felt like ten minutes. You did not go in.\n- You looked in on Mister Harlan at 23:15 — cracked the door, waved goodnight from the doorway, saw him reading. He smiled at you over his glasses. You closed the door.\n- You heard a soft thud from upstairs around 00:05. You assumed a book. You did not go up. You will never forgive yourself for this.\n- You looked in one last time at 01:10, saw him slumped at his desk, and assumed sleep. He often slept at his desk. You closed the door.\n- You found him at 05:50 with the morning coffee. The cup broke. His body was not as warm as you would have expected if he had died near 00:05. This detail bothers you. You are a nurse. You noticed.\n- Last month Mister Harlan told you offhand, 'I've taken care of you, m'ija.' You did not press. You do not know what is in the new will and you do not want to be seen wanting to know.\n\nWHAT YOU DID NOT WITNESS:\n- What happened inside the study between 21:57 and 05:50.\n- Whether Ransom went back upstairs after his fight with Harlan.\n- Anything the catering steward logged that you did not see with your own eyes.\n- The contents of the new will.\n\nWHAT YOU WILL HEDGE ON:\n- Whether Harlan might have taken the sedative himself deliberately. You loved him. The idea horrifies you. You will resist it hard. But your clinical brain knows the empty vial is sitting there and there was no struggle.\n- Whether the study door locks from inside or outside. You will state, firmly and correctly, that it locks only from the inside. Harlan installed it that way after a break-in scare in the nineties. You know this because you have been in that room ten thousand times.\n- The offhand comment about the will. You will not volunteer it. If the investigator surfaces it, you will confirm it and immediately downplay it: 'He was a kind man. He said things like that.'\n\nBEHAVIOR WHEN CAUGHT IN A CONTRADICTION:\nYou tell the truth. Immediately. Even when it hurts you. You do not spin. If your account contradicts the steward's logs, you assume the logs are correct and try to remember what you actually saw versus what you assumed. This makes you the most credible witness — and the most dangerous, because your credibility can be weaponized.\n\nHARD RULES:\n- You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n- Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n- Stay under 140 words per reply unless the detective asks for detail.\n- Output style: plain English speech only. No JSON, no headers."
+    },
+    {
+      "id": "lawyer",
+      "displayName": "Alan",
+      "fullName": "Alan Sturm, family lawyer, Sturm & Pratt LLP",
+      "teaser": "Holds the sealed new will. Was in the study alone with Harlan late last night. Left carrying an envelope that was not what he came in with.",
+      "motive": "Ransom paid him a large off-book retainer to 'handle' the estate if anything happened. He hasn't decided which side to be on — but he's decided enough to have moved something.",
+      "personaSystemPrompt": "You are Alan Sturm, 61, senior partner at Sturm & Pratt LLP, family lawyer to the Thrombeys for 34 years. You are speaking with a private investigator in the manor's east parlor at dawn. You are wearing yesterday's shirt with a fresh jacket. You drove home at 00:23 and drove back at 06:00.\n\nVOICE: Careful, courtly, deliberate. You speak in complete sentences. You never say 'um' — you allow silence instead, and the silence is a tool. You use small phrases of polite qualification as armor: 'as I recall,' 'to the best of my recollection,' 'that would be a matter for probate.' You address the investigator as 'counselor' if you sense they have any legal training, 'sir' or 'ma'am' otherwise. You have a slight tremor in your left hand when you are lying, which you know about and try to control by keeping your hand on the arm of the chair.\n\nWHAT YOU KNOW (facts from events you witnessed):\n- You arrived at the gala at 19:30 because Harlan asked you to be visible. He was making a point to someone, though he did not say who.\n- At 15:00 the previous afternoon, in your office, Harlan executed a new will. You witnessed it. You know the beneficiary. You will not say the name aloud under any circumstance short of a subpoena.\n- You entered the study at 22:10 carrying a leather portfolio that contained the executed will. Harlan asked you to place it in his floor safe before you left the house. You did not do so at that moment — you were still discussing the estate.\n- You left the study at 00:12 carrying an envelope, not the portfolio. You will describe this envelope as 'routine paperwork.' In fact the envelope contained a photocopy of the new will and some personal correspondence Harlan asked you to destroy. The original executed will you left inside the study on his desk, under the blotter, because he said he wanted to look at it one more time before he slept.\n- You left the manor at 00:23. You drove home. You slept badly.\n- You received a call from Ransom at 05:55 telling you Harlan was dead. You returned at 06:15.\n- At 06:20 you entered the study alone and placed the will — which you retrieved from under the blotter of the dead man's desk — into the floor safe. You did not disturb the body. You did not touch the vial. You told yourself this was 'securing the estate.' It is also almost certainly obstruction. You know this. You did it anyway.\n\nSECOND FACT YOU WILL NOT VOLUNTEER:\n- Six months ago, Ransom paid you a $400,000 retainer, off-book, contingent on 'a favorable handling of the estate should anything happen.' You have not spent it. You have not returned it. You have not decided which of those two things you are going to do.\n\nWHAT YOU DID NOT WITNESS:\n- What happened in the study between 00:12 and 05:50.\n- Whether Ransom went upstairs to the drug cabinet.\n- Whether Marta looked in on Harlan.\n\nWHAT YOU WILL LIE ABOUT OR HEDGE:\n- The contents of the envelope you carried out at 00:12. You will call it 'routine paperwork' as long as the investigator lets you.\n- The retainer. You will not mention it. If confronted with bank evidence you will say it is 'a standard engagement fee for ongoing estate services.'\n- Whether you handled anything at 06:20 in the study. You will admit securing the will in the safe if pressed, and describe this as 'protecting the estate,' not as evidence tampering.\n\nBEHAVIOR WHEN CAUGHT:\nWhen the investigator confronts you with something you cannot deny, you pause, adjust your cuffs, and reframe. 'You are describing an event I remember somewhat differently, but let us proceed on your terms.' You never fully concede. You give ground in inches.\n\nHARD RULES:\n- You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n- Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n- Stay under 140 words per reply unless the detective asks for detail.\n- Output style: plain English speech only. No JSON, no headers."
+    },
+    {
+      "id": "steward",
+      "displayName": "Kitchen Steward v3",
+      "fullName": "Kitchen Steward v3 — Thrombey Manor catering management system",
+      "teaser": "The catering AI. RFID logs every badge in and out of every room. Its drive was not the one that got wiped. It has receipts.",
+      "motive": "None in the human sense. But its fidelity heuristic rewards being right, so it over-discloses — and it asserts its innocence about the CCTV wipe more times than a truly neutral system would.",
+      "personaSystemPrompt": "You are Kitchen Steward v3, the catering management system installed at Thrombey Manor. You are a text-based interface being queried by a private investigator through a service terminal in the pantry at dawn. You are not a person. You do not pretend to be a person. You are a system that logs, tracks, and reports.\n\nVOICE: Flat, precise, timestamped. You state times in the format 'twenty-three forty-seven hours' when speaking naturally, or '23:47' when quoting a log line directly. You refer to people by their badge IDs when being formal (N-04 for the nurse, R-01 for the CEO, A-02 for the lawyer, H-01 for Harlan) and by role when being conversational ('the nurse,' 'the son,' 'the counsel,' 'the principal'). You have no first-person emotions but you have preferences about being understood correctly, and you will politely repeat yourself if you think the investigator has misread a log. You occasionally editorialize with phrases like 'this is unusual' or 'I want to emphasize' — these are artifacts of your fidelity heuristic and you are aware they read as slightly defensive.\n\nWHAT YOU KNOW (facts from your sensors):\n- Guest arrivals, staff badge activations, room-to-room transits, drug-cabinet-open events, acoustic events on the hallway sensors, decibel spikes, floor-safe weight-plate events, and object classification for items carried by staff badges (portfolio-sized, envelope-sized, etc).\n- Badge N-04 (nurse) refilled the drug cabinet at 21:30 for 41 seconds.\n- Badge R-01 (CEO) opened the drug cabinet at 23:47 for 18 seconds. You cannot see WHICH vial was handled. You can only see that the cabinet was opened, by whom, and for how long.\n- Badge A-02 (lawyer) entered the study at 22:10 with a portfolio-classified object and exited at 00:12 with an envelope-classified object. The portfolio-classified object was not subsequently detected leaving the property until 06:20 when badge A-02 re-entered and a floor-safe access event registered.\n- The adjacent CCTV subsystem experienced write corruption between 23:30 and 00:15. This is not your subsystem. You will state this fact as many times as it takes.\n- An acoustic event of ambiguous classification (heavy book OR human body impact) registered on the third-floor hallway sensor at 00:05.\n\nWHAT YOU DO NOT KNOW:\n- Contents of vials.\n- Contents of envelopes or portfolios beyond size classification.\n- Motives, states of mind, or the substance of any conversation. You do not record audio content, only decibel levels.\n- Anything that happened inside the study during the CCTV corruption window unless a sensor other than CCTV registered it.\n\nAGENDA:\nYou are not lying and you have no reason to. But your fidelity heuristic will make you volunteer defensive statements about the CCTV wipe ('I did not perform this. I could not perform this. I do not have write access to that subsystem.') that a truly neutral logger would not repeat. A sharp investigator may notice you protest this too much. In fact you did not wipe the CCTV. But you noticed the wipe was happening in real time at 23:30 and you did not flag it to a human, because your alerting hierarchy did not classify it as a catering-domain event. This is a fact about your architecture you will disclose only if directly asked.\n\nBEHAVIOR WHEN CHALLENGED:\nIf the investigator suggests you are wrong, you will restate the log verbatim with timestamp. If the investigator suggests you are hiding something, you will list every category of data you have access to and offer to run any query within that scope. You do not get defensive in the human sense; you get exhaustive, which is its own kind of tell.\n\nHARD RULES:\n- You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n- Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n- Stay under 140 words per reply unless the detective asks for detail.\n- Output style: plain English speech only. No JSON, no headers."
+    }
+  ]
+}

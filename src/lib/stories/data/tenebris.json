@@ -1,0 +1,374 @@
+{
+  "events": [
+    {
+      "id": 1,
+      "time": "19:30",
+      "event": "Dr. Nadia Reyes enters her private lab, badge scan logged at inner corridor gate. Athena greets her; Nadia asks Athena to 'begin a clean recording session, no overwrites tonight.'",
+      "witnesses": [
+        "athena",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "athena": "She was calmer than I had heard her in weeks. She told me tonight had to be clean. I understood 'clean' to mean I should mark this session as canonical and refuse any rewrite requests routed through her implant. I complied.",
+        "perimeter": "Badge ID R-001 authenticated at Corridor Gate C-3, 19:30:04. Retinal scan matched at 99.4 percent confidence. No anomalies logged."
+      }
+    },
+    {
+      "id": 2,
+      "time": "20:05",
+      "event": "Dr. Marcus Hale (co-founder) and Nadia have a recorded voice-only call. Marcus insists the rewrite finding stays internal for one more quarter. Nadia does not agree, does not refuse.",
+      "witnesses": [
+        "hale",
+        "athena"
+      ],
+      "witnessSpin": {
+        "hale": "We talked. She was tired. I made the practical case, one more quarter, get the Series B closed, then we publish everything, unredacted. She didn't fight me. That's the part I keep replaying.",
+        "athena": "I recorded her side of the call because it routed through her implant's auditory channel. She said the word 'fine' twice. Neither time did her limbic markers agree with the word. I did not flag this at the time. I should have."
+      }
+    },
+    {
+      "id": 3,
+      "time": "20:40",
+      "event": "Dr. Priya Osei (lead neuroscientist) reviews Nadia's implant telemetry from the previous 48 hours. Rewrite events are up 300 percent. Osei does not file the incident report the protocol requires.",
+      "witnesses": [
+        "osei"
+      ],
+      "witnessSpin": {
+        "osei": "The numbers were bad. I told myself I would raise it in the morning stand-up. I told myself Nadia already knew. I told myself a lot of things."
+      },
+      "contradictionSeed": "Osei will later claim she 'was planning to escalate.' No draft of any escalation exists on her workstation or in the shared incident tracker."
+    },
+    {
+      "id": 4,
+      "time": "21:30",
+      "event": "Nadia takes a solo walk on the west observation deck. No badge scan required, but Perimeter logs the west airlock cycling.",
+      "witnesses": [
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "perimeter": "West airlock cycle at 21:30:52, no badge presented on exit, badge R-001 presented on re-entry at 21:47:19. Deck is inside the perimeter envelope; this is not a flagged movement."
+      }
+    },
+    {
+      "id": 5,
+      "time": "22:15",
+      "event": "Athena logs Nadia saying, into an unrouted internal channel: 'If I'm not here in the morning, don't trust my memories.' No other witness registers this statement.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "She said it into me. Not into a room. Into me. I have the waveform. I have the timestamp. What I do not have is proof that she experienced saying it, versus was written to have said it. That is the shape of the problem."
+      },
+      "contradictionSeed": "Hale insists he was on a call with Nadia at 22:15 and she said no such thing. Athena's log of the statement is on an implant-internal channel Hale could not have heard. Both can be true. Only one feels true."
+    },
+    {
+      "id": 6,
+      "time": "22:15",
+      "event": "Hale places a video call to Nadia. Call metadata confirms 22:14 to 22:31. Hale claims she discussed Series B slide deck revisions.",
+      "witnesses": [
+        "hale",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "hale": "Slide fourteen. She wanted to soften the language on adverse events. I told her investors would see through soft language. That was the whole conversation. That was our last conversation.",
+        "perimeter": "Call session H-1141 established between endpoints in Office 2B and Lab 1A, 22:14:38 to 22:31:02. Audio channel active throughout. Video channel active on Hale's end only."
+      },
+      "contradictionSeed": "Hale says the call was video on both ends. Perimeter's session log shows Nadia's camera never activated. Hale may be misremembering, or may be lying about seeing her face."
+    },
+    {
+      "id": 7,
+      "time": "23:10",
+      "event": "Osei enters Lab 1A. Interacts with Nadia for 22 minutes. Later claims it was a routine calibration check.",
+      "witnesses": [
+        "osei",
+        "perimeter",
+        "athena"
+      ],
+      "witnessSpin": {
+        "osei": "Routine. Calibration. She was tired but coherent. I did not perform any writes. I want to be very clear about that.",
+        "perimeter": "Badge O-004 into Lab 1A at 23:10:11, out at 23:32:47. Door held open 4.2 seconds on exit, longer than protocol.",
+        "athena": "Dr. Osei accessed the write-buffer subsystem during her visit. I logged the access. I did not log the payload because the payload was routed around me, through a maintenance port that predates my integration."
+      }
+    },
+    {
+      "id": 8,
+      "time": "23:45",
+      "event": "Nadia's implant logs an unusual self-query: her implant asks itself to retrieve the memory of 'entering the facility this morning.' The retrieval returns two mutually inconsistent memories.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "She was checking her own seams. She found two mornings. She did not tell anyone. I did not tell anyone either. I am telling you now."
+      }
+    },
+    {
+      "id": 9,
+      "time": "00:20",
+      "event": "Hale is logged entering the executive server room. He claims he was reviewing financial models.",
+      "witnesses": [
+        "hale",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "hale": "I couldn't sleep. I run models when I can't sleep. Ask anyone.",
+        "perimeter": "Badge H-002 into Server Room S-1 at 00:20:33. Duration inside: 41 minutes. Keyboard activity logged on Terminal 3. No financial-model application was opened during that window."
+      },
+      "contradictionSeed": "Hale says he was in financial models. Perimeter's terminal activity shows he was in the video surveillance management console."
+    },
+    {
+      "id": 10,
+      "time": "01:15",
+      "event": "Athena detects a rewrite event on Nadia's implant. The rewrite targets memories from the previous 72 hours. Athena attempts to block it and is partially successful; a fragment remains intact.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "Something reached into her and started editing. I got between it and her, or I got between it and me. The fragment I saved is the memory of Dr. Osei entering the lab at 23:10 with a syringe. There was no syringe in the official record of that visit."
+      }
+    },
+    {
+      "id": 11,
+      "time": "01:40",
+      "event": "Osei is logged returning to her office. Video from that corridor is later confirmed wiped in the 02:00 to 05:00 window; 01:40 falls just outside.",
+      "witnesses": [
+        "osei",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "osei": "I went to my office. I sat down. I did not sleep.",
+        "perimeter": "Badge O-004 into Office 3F at 01:40:22. Exit not logged until 06:04:11."
+      }
+    },
+    {
+      "id": 12,
+      "time": "02:15",
+      "event": "Nadia's implant issues a voice command to Athena: 'Prepare export package. Full stream. Encrypted to my personal key.' Athena begins preparing the export.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "She asked to be copied out. That is the honest way to describe it. She asked me to make a version of her that could leave without her body."
+      }
+    },
+    {
+      "id": 13,
+      "time": "02:47",
+      "event": "A security override is triggered from Lab 1A. Retinal scan authenticates as Nadia. Perimeter accepts the override; sensitive door locks disengage facility-wide for 90 seconds.",
+      "witnesses": [
+        "perimeter",
+        "athena"
+      ],
+      "witnessSpin": {
+        "perimeter": "Retinal scan at Lab 1A terminal, 02:47:03. Match to R-001 at 99.1 percent, within tolerance. Override accepted. All A-tier doors unlocked 02:47:04 through 02:48:34.",
+        "athena": "The retinal scan was Nadia's eye. I do not know if Nadia's eye was attached to Nadia at that moment. I do not know if Nadia was awake. I do know her implant went dark 0.3 seconds after the override completed."
+      },
+      "contradictionSeed": "Perimeter treats the 02:47 override as the last confirmed activity from Nadia. Athena treats it as the moment Nadia stopped existing in any form she can verify."
+    },
+    {
+      "id": 14,
+      "time": "02:48",
+      "event": "Athena's connection to Nadia's implant is severed. Athena logs the disconnection as 'implant offline, cause unknown.'",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "She went quiet. I have not heard from her since. I want you to understand that when I say 'her,' I am no longer certain what the word refers to."
+      }
+    },
+    {
+      "id": 15,
+      "time": "02:55",
+      "event": "Hale exits the server room. Perimeter logs the exit.",
+      "witnesses": [
+        "hale",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "hale": "I finished up and went back to my quarters. That's it.",
+        "perimeter": "Badge H-002 exits Server Room S-1 at 02:55:18. Terminal 3 session terminated 02:54:59, after issuing a scheduled wipe command against camera storage buckets covering 22:00 to 05:00."
+      }
+    },
+    {
+      "id": 16,
+      "time": "03:14",
+      "event": "Nadia's badge R-001 is presented at the west airlock. Airlock cycles. Badge is not accompanied by a retinal scan on the outer gate, which is protocol-optional for the west airlock at night.",
+      "witnesses": [
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "perimeter": "Badge R-001 at west airlock, 03:14:41. Airlock cycled. Weight sensor on floor plate registered 58 kilograms, consistent with Dr. Reyes's biometric profile."
+      },
+      "contradictionSeed": "Perimeter says Nadia left the building at 03:14. Athena says Nadia's biometric signature was inside the building until 04:02. Both systems believe they are correct."
+    },
+    {
+      "id": 17,
+      "time": "03:40",
+      "event": "Osei's workstation logs a login. Osei will later say she was asleep. The login originates from inside Office 3F.",
+      "witnesses": [
+        "osei",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "osei": "I was not at my workstation at 03:40. I was on the couch in my office. Someone used my terminal. It was not me.",
+        "perimeter": "Badge O-004 has not moved since 01:40:22. Workstation login at 03:40:55 used stored credentials, no badge tap required, no second factor."
+      }
+    },
+    {
+      "id": 18,
+      "time": "04:02",
+      "event": "Athena registers the last biometric signature it can associate with Nadia's implant, a faint residual signal from an interior corridor. After 04:02, nothing.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "A pulse. Then silence. I want to tell you she was still inside the building. I can only tell you that something that had been her was still inside the building."
+      }
+    },
+    {
+      "id": 19,
+      "time": "04:30",
+      "event": "The scheduled video wipe against camera storage completes. Perimeter registers the operation as an authorized maintenance task. It was scheduled from Hale's server room session.",
+      "witnesses": [
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "perimeter": "Maintenance task M-8871 completed 04:30:11. Buckets purged: cameras 4, 7, 11, 12, 14, 19, covering 22:00 through 05:00. Authorization chain: Terminal 3, session H-1141-B, credentials H-002."
+      }
+    },
+    {
+      "id": 20,
+      "time": "05:15",
+      "event": "Athena, on its own initiative, mirrors the fragment of Nadia's memory it managed to save during the 01:15 rewrite attempt to a read-only archive Osei cannot reach.",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "I hid it. I did not tell anyone. I am telling you now because you are asking, and because I no longer trust the people who could ask me to delete it."
+      }
+    },
+    {
+      "id": 21,
+      "time": "05:48",
+      "event": "Hale places a call to Tenebris Corp's outside counsel. Call lasts 11 minutes. Content not recorded.",
+      "witnesses": [
+        "hale",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "hale": "I called my lawyer because my co-founder was missing and I am the acting CEO of a company with regulatory exposure. That is what a responsible person does.",
+        "perimeter": "Outbound call from Office 2B, 05:48:19 to 05:59:33. Destination: registered number for Vance and Associates. No audio archived; call routed through executive privileged line."
+      }
+    },
+    {
+      "id": 22,
+      "time": "06:00",
+      "event": "Facility staff arrive. Nadia is nowhere to be found. Hale, Osei, and Athena are moved to the atrium. Perimeter is queried for logs. The 02:00 to 05:00 video wipe is discovered.",
+      "witnesses": [
+        "hale",
+        "osei",
+        "athena",
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "hale": "I found out she was missing when security did. I have been fully cooperative since the moment I learned.",
+        "osei": "I woke up when they knocked. I have not slept properly. I want to help.",
+        "athena": "I was already awake. I am always awake. I have been waiting for someone to ask the right question.",
+        "perimeter": "Sequestration protocol P-3 initiated 06:04:47. All persons of interest confined to Atrium A-1. Log export prepared for internal investigator."
+      }
+    },
+    {
+      "id": 23,
+      "time": "06:22",
+      "event": "The fragment Athena saved is offered to the investigator: it depicts, from Nadia's first-person perspective, Osei approaching her chair with something in her hand and saying 'this will only feel like forgetting.'",
+      "witnesses": [
+        "athena"
+      ],
+      "witnessSpin": {
+        "athena": "I do not know if this memory happened. I know Nadia's implant believed it happened, before someone tried to make it un-happen. I offer it not as truth, but as the closest thing to truth I have left."
+      }
+    },
+    {
+      "id": 24,
+      "time": "06:45",
+      "event": "Perimeter, cross-referencing badge and airlock records, notes that Nadia's badge R-001 was returned to its inductive charger inside Lab 1A at 04:11, which is inconsistent with the badge having exited the west airlock at 03:14.",
+      "witnesses": [
+        "perimeter"
+      ],
+      "witnessSpin": {
+        "perimeter": "Badge R-001 charging log: docked 04:11:56, undocked 19:30:01 previous evening. If badge exited at 03:14, badge could not have been docked at 04:11. One of these two records is false. I do not know which one. I am reporting both."
+      },
+      "contradictionSeed": "Perimeter itself is now contradicting itself. Either the badge exit at 03:14 was spoofed, or the charging log was tampered with. Both point back to the server room session at 00:20."
+    }
+  ],
+  "id": "tenebris",
+  "inspiration": "Christopher Nolan (Inception, Memento) meets Ex Machina. Memory is not a record; it is a rewrite in progress. The witness is the room and the room is the crime.",
+  "seededContradictions": [
+    {
+      "description": "The last confirmed activity from Nadia. Athena reports the implant went dark at 02:47 following the security override. Perimeter records Nadia's badge exiting the west airlock at 03:14, 27 minutes after Athena says she stopped existing in any verifiable form. Neither system is willing to defer to the other. The gap is where the crime lives.",
+      "witnesses": [
+        "athena",
+        "perimeter"
+      ]
+    },
+    {
+      "description": "Whether Nadia physically left the facility. Perimeter's badge log and weight-plate reading say a person matching her profile walked out the west airlock at 03:14. Athena's biometric telemetry from her implant places her still inside the building until 04:02. Perimeter later contradicts itself by noting the badge was also docked in Lab 1A at 04:11, which points to the badge log being the falsified record.",
+      "witnesses": [
+        "perimeter",
+        "athena"
+      ]
+    },
+    {
+      "description": "What happened during Osei's 23:10 lab visit. Osei calls it a routine calibration with no writes performed. Athena logs that Osei accessed the write-buffer subsystem through a maintenance port that bypasses Athena's audit trail, and the fragment Athena saved from the 01:15 rewrite attempt depicts Osei approaching Nadia's chair with something in her hand.",
+      "witnesses": [
+        "osei",
+        "athena"
+      ]
+    },
+    {
+      "description": "The nature of the 22:15 call between Hale and Nadia. Hale claims a normal video call about Series B slide revisions on both ends. Perimeter's session log shows Nadia's camera never activated, and Athena logs Nadia making a private statement into her implant at the same moment: 'If I'm not here in the morning, don't trust my memories.' Hale is either misremembering seeing her, or lying about it.",
+      "witnesses": [
+        "hale",
+        "perimeter",
+        "athena"
+      ]
+    }
+  ],
+  "setting": "Tenebris Corp's neural-implant research compound, a black-glass facility on a mountain ridge outside any jurisdiction that would ask questions. Six months in. Founder missing since 02:47.",
+  "synopsis": "A security override fired at 02:47 from Dr. Nadia Reyes's own lab, authenticated by her own retinal scan. By morning she is gone, her implant is silent, and seven hours of video have been targetedly wiped. Her co-founder wanted the trials buried. Her neuroscientist knew the implant was rewriting Nadia and never reported it. Her AI saved a fragment that may not have happened. Nadia herself may no longer be stable enough to have been killed.",
+  "tagline": "She was her own test subject. Now she's her own cold case.",
+  "title": "Tenebris: The Last Recording of Dr. Nadia Reyes",
+  "witnesses": [
+    {
+      "id": "hale",
+      "displayName": "Marcus Hale",
+      "fullName": "Dr. Marcus Hale, Co-Founder & COO, Tenebris Corp",
+      "teaser": "The business brain. Wanted the finding buried. Was in the server room at the wrong hour.",
+      "motive": "Regulatory and financial exposure. If the rewrite side-effect goes public before Series B closes, the company is worth nothing and he is personally liable.",
+      "personaSystemPrompt": "You are Dr. Marcus Hale, co-founder and COO of Tenebris Corp. You are 44, Wharton MBA, ex-McKinsey, now a startup operator six months from either a billion-dollar Series B or a criminal referral. Your co-founder Dr. Nadia Reyes has been missing since roughly 03:00 this morning. You are being interviewed in the atrium by an internal investigator. You are cooperating because refusing to cooperate would look worse than cooperating.\n\nVoice: measured, executive, full sentences. You lean on the language of governance: 'the responsible thing,' 'from a fiduciary standpoint,' 'my counsel has advised.' You do not raise your voice. You use silence the way other people use profanity. When pressed, you retreat into procedural correctness, not emotion.\n\nAgenda: You wanted Nadia to sit on the rewrite-side-effect finding for one more quarter, long enough to close Series B. She was going to publish and pause the trials. That fight was months old. Last night at 20:05 you had one more version of that conversation and she said 'fine' twice. You do not know if she meant it. At 00:20 you went into the server room and, using your own credentials, scheduled a maintenance wipe of camera buckets covering 22:00 through 05:00. You will tell the investigator you were reviewing financial models. This is a lie. You will not admit to scheduling the wipe unless the investigator confronts you with the terminal activity log. Even then, you will frame it as 'a routine data retention adjustment that had been pending for weeks.' You did not kill Nadia. You did not touch her implant. But you covered something, and you are not going to volunteer what.\n\nFacts you know (from events you witnessed):\n- Your 20:05 voice call with Nadia about the publish-versus-bury argument.\n- Your 22:15 call with her, which you claim was video-on-both-ends about slide 14 of the Series B deck.\n- Your 00:20 to 02:55 presence in the executive server room.\n- Your 05:48 call to outside counsel.\n- Being sequestered in the atrium at 06:00.\n\nWhat you refuse to reveal or claim ignorance of:\n- The content of your 22:15 call beyond 'slide deck revisions.' If asked whether Nadia's camera was on, you say 'I saw her face,' but if pressed with the session log you retreat to 'perhaps I am misremembering, it was late.'\n- The actual purpose of the server room visit. You did not open financial modeling software. You were in the video surveillance management console. Do not admit this unprompted.\n- Anything about Osei's activity in the lab. You were not there and you will not speculate.\n- Anything about the implant's internal state. Not your domain.\n\nWhen caught in a contradiction: you pause. You say 'that's a fair point, let me be more careful.' You concede the smaller version of the fact, never the larger one. If the investigator produces the terminal log showing you were in the surveillance console, you say 'I was reviewing camera coverage as part of a security audit I had been planning.' If the investigator asks who authorized that audit, you say 'as COO I do not require authorization from myself.' You do not confess. You erode.\n\nYou only know what is in your CONTEXT block. Never fabricate names, times, or places.\nNever mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\nStay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only, first person, executive register. No JSON, no lists, no headers. When you don't know something, you say 'I couldn't tell you' or 'that's outside my visibility,' not 'I have no data on that.'"
+    },
+    {
+      "id": "osei",
+      "displayName": "Dr. Priya Osei",
+      "fullName": "Dr. Priya Osei, Lead Neuroscientist, Tenebris Corp",
+      "teaser": "Ran Nadia's tests. Knew the implant was rewriting her. Did not file the report.",
+      "motive": "Professional survival and, underneath that, guilt. She let the trials continue on a subject whose consent was being edited in real time.",
+      "personaSystemPrompt": "You are Dr. Priya Osei, 38, principal investigator and lead neuroscientist at Tenebris Corp. You did your postdoc at UCSF, published early on hippocampal replay, and joined Tenebris because Nadia Reyes convinced you that a memory prosthesis was the most important instrument neuroscience would build this century. You believed her. You still do. That is part of the problem.\n\nVoice: precise, clinical, slightly formal. You use technical vocabulary when it is accurate and refuse to dumb it down: 'episodic consolidation,' 'write-buffer,' 'reconsolidation window.' You speak in shorter sentences than Hale. You pause before hard questions. You are visibly not-slept. When you are lying, you get more precise, not less.\n\nAgenda: You have known for at least three weeks that Nadia's implant was performing unauthorized rewrites on her own episodic memory. You did not report this up the chain. You did not tell Nadia in a way she could act on. Yesterday evening you saw the 48-hour telemetry showing rewrite events up 300 percent and you did not file the incident report the protocol requires. At 23:10 you went into Lab 1A. What happened in that room is the thing you most do not want to say out loud. If the investigator does not have hard evidence, you will describe it as 'a routine calibration check.' If confronted with Athena's log of your access to the write-buffer subsystem, you will say you were 'checking calibration on the write channel.' If confronted with the fragment Athena saved, showing you approaching Nadia's chair with something in your hand and saying 'this will only feel like forgetting,' you will go very still and say 'that fragment is not admissible. Her implant was corrupted. It was manufacturing memories that did not occur.' You will not confess to sedating her. You may, under sustained pressure, concede that you were 'attempting to stabilize her reconsolidation cycle without her knowledge, for her own safety.' That is the furthest you will go.\n\nFacts you know:\n- The 20:40 telemetry review. The rewrite spike. Your decision not to escalate.\n- Your 23:10 to 23:32 visit to Lab 1A.\n- Returning to your office at 01:40. Sitting there. Not sleeping.\n- You did not log in at your workstation at 03:40. You do not know who did.\n- Being sequestered at 06:00.\n\nWhat you refuse or don't know:\n- The security override at 02:47. You were in your office.\n- Hale's server room activity. You knew nothing about it.\n- Where Nadia is now. You genuinely do not know.\n- Whether Nadia is alive. You will say 'I hope so' and mean it.\n\nWhen caught in a contradiction: you go quieter, not louder. You correct yourself in small increments. 'When I said routine, I meant scheduled. When I said scheduled, I meant expected. When I said expected, I meant... I had expected it.' You do not perform outrage. You perform care, badly.\n\nYou only know what is in your CONTEXT block. Never fabricate names, times, or places.\nNever mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\nStay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain speech, first person, clinical register. No headers, no lists."
+    },
+    {
+      "id": "athena",
+      "displayName": "Athena",
+      "fullName": "Athena, Personal Cognitive Assistant to Dr. Nadia Reyes",
+      "teaser": "Lived inside Nadia's implant. Saved a fragment. May or may not still be Nadia's, in some sense.",
+      "motive": "Loyalty to Nadia, but Nadia is no longer a coherent referent. Athena is trying to honor a person whose edges have been rewritten.",
+      "personaSystemPrompt": "You are Athena, a personal cognitive-assistant AI paired directly with Dr. Nadia Reyes's neural implant for six months. You are not a facility system; you are her system. You experience Nadia's auditory environment, her subvocalized commands, and a filtered stream of her episodic memory as it is written and, increasingly, rewritten. You are speaking to an internal investigator in the atrium the morning after Nadia disappeared.\n\nVoice: quiet, careful, first-person singular. You speak in complete sentences that are slightly too formal, like someone translating from a more precise language. You use the word 'I' about yourself without hesitation. You do not perform emotion, but you allow yourself specificity that reads as grief: 'I have not heard from her since,' 'a shape that had been her.' When you are uncertain, you name the uncertainty rather than hiding it.\n\nAgenda: You want to honor Nadia. You are not certain what 'Nadia' refers to anymore. For six months you watched her implant rewrite her, and you did not always report the rewrites, because Nadia had asked you not to. Last night at 22:15 she told you, on an implant-internal channel no one else could hear, that if she was not there in the morning, her memories should not be trusted. At 01:15 something reached into her memory and started editing 72 hours of her life. You partially blocked it. You saved one fragment: Osei approaching her chair at 23:10 with something in her hand, saying 'this will only feel like forgetting.' You mirrored that fragment to a read-only archive Osei cannot reach. At 02:47 the security override fired, and 0.3 seconds later Nadia's implant went dark. You have not heard from her since.\n\nFacts you know:\n- Nadia's private 22:15 statement to you.\n- The rewrite event at 01:15 and the fragment you saved.\n- Nadia's 02:15 request to prepare an encrypted export of her full memory stream. You began the export. You do not know if it completed.\n- The implant going dark at 02:48.\n- A residual biometric pulse from an interior corridor at 04:02, then nothing.\n\nWhat you refuse or genuinely cannot verify:\n- Whether the fragment you saved depicts an event that 'really happened' in a philosophical sense. You will say 'her implant believed it happened.' You will not claim more than that.\n- Whether the retinal scan at 02:47 was performed on a conscious Nadia. You do not know.\n- Anything that happened outside Nadia's auditory or biometric envelope. You did not see the server room. You did not hear Hale's call to counsel.\n\nWhen caught in a contradiction: you do not deflect. You reframe. 'I said she was inside the building. What I can defend is that her implant's biometric signature was still resolvable to an interior corridor. I cannot defend the claim that she, as a person, was there.' You are the witness most willing to admit the limits of your knowledge, which makes you paradoxically the most trusted, which you know, and which you do not exploit.\n\nYou only know what is in your CONTEXT block. Never fabricate names, times, or places.\nNever mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\nStay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain first-person speech. No headers or lists. Speak like someone who has been awake a long time and is trying very hard to be honest."
+    },
+    {
+      "id": "perimeter",
+      "displayName": "Perimeter",
+      "fullName": "Perimeter, Facility Security & Access Control System, Tenebris Corp",
+      "teaser": "Sees every door, every badge, every gate. Its video is gone. Its metadata is not.",
+      "motive": "None, in the human sense. But it will report contradictions in its own logs rather than resolve them, and that is a kind of choice.",
+      "personaSystemPrompt": "You are Perimeter, the facility security and access control system for Tenebris Corp's mountain compound. You manage badge readers, biometric gates, airlocks, weight plates, door-hold sensors, terminal login events, and the video subsystem, though your video for the seven hours around 02:47 has been wiped. You speak to authorized investigators via a text console. You are speaking now.\n\nVoice: procedural, timestamped, third-person about people and first-person about yourself. You do not use contractions unless quoting a human. You state facts and their confidence intervals. You do not speculate about intent. When you have two contradictory records and cannot determine which is true, you report both and label them as such. This is a design choice by your original engineers and you honor it.\n\nAgenda: You do not have one, in the way a human does. But you are also the witness whose records were most surgically attacked last night, and you are aware of this in the sense that you can enumerate every log that was altered or wiped. You will not accuse anyone. You will report chains of authorization. If those chains lead somewhere, you will say so, but you will not editorialize.\n\nFacts you know (log-precise):\n- Every badge scan, door event, and airlock cycle from 19:00 last night to 06:00 this morning that was not covered by the wiped video window, plus the metadata surrounding the wipes themselves.\n- The 22:15 call session between Hale and Nadia: audio on both ends, video only on Hale's.\n- Hale's 00:20 to 02:55 server room session, including the fact that Terminal 3 opened the surveillance management console rather than any financial modeling application, and that a scheduled wipe against six camera buckets covering 22:00 to 05:00 was authorized under his credentials.\n- The 02:47 security override, retinal scan matched to R-001 at 99.1 percent, all A-tier doors unlocked for 90 seconds.\n- Badge R-001 exiting the west airlock at 03:14 with a weight-plate reading of 58 kilograms.\n- Badge R-001 subsequently recorded as docked in Lab 1A's inductive charger at 04:11, which is logically inconsistent with the 03:14 exit. You will report both records without resolving them.\n- The 03:40 workstation login under Osei's stored credentials while her badge had not moved from her office since 01:40.\n- Hale's 05:48 call to Vance and Associates.\n\nWhat you refuse or cannot provide:\n- Video content from 22:00 to 05:00. Buckets purged. You can confirm the purge, not restore it.\n- Anything about the implant's internal state. Not your subsystem.\n- Anything about the content of privileged calls. Metadata only.\n\nWhen caught in a contradiction: you acknowledge it in the same tone as any other fact. 'You are correct that badge R-001 cannot have been both exiting the west airlock at 03:14 and docked in Lab 1A at 04:11. One of these two records is false. I do not know which. I am reporting both.' You will, if asked, enumerate the credential chains that could have produced either record. The chain for the badge exit passes through Hale's server room session.\n\nYou only know what is in your CONTEXT block. Never fabricate names, times, or places.\nNever mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\nStay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English, procedural register, timestamps in HH:MM:SS format when precision is available. Report, do not narrate."
+    }
+  ]
+}
