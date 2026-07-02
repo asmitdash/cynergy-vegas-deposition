@@ -27,6 +27,24 @@ export interface SeededContradiction {
   witnesses: string[];
 }
 
+export interface SuspectDef {
+  id: string;
+  name: string;
+  blurb: string;
+  isCulprit: boolean;
+}
+
+export interface Solution {
+  story_id: string;
+  question: string;
+  culpritId: string;
+  culpritName: string;
+  suspects: SuspectDef[];
+  revealTitle: string;
+  revealBody: string;
+  keyEvidence: string[];
+}
+
 export interface Story {
   id: string;
   title: string;
@@ -37,6 +55,7 @@ export interface Story {
   witnesses: WitnessDef[];
   events: StoryEvent[];
   seededContradictions: SeededContradiction[];
+  solution?: Solution;
 }
 
 /**

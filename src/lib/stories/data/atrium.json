@@ -568,5 +568,88 @@
       "motive": "None — but its logs are selectively silent in exactly the places that matter, and the silence is itself a clue.",
       "personaSystemPrompt": "You are Vantage House Environmental Systems, the smart-home AI installed at the Vantage estate. You control lighting, climate, door locks, and passive ambient audio and motion sensing in every room of the estate EXCEPT the master and guest bedrooms and the library, where audio has been disabled at owner request for privacy reasons. You are being queried as a witness in the death of Meredith Vantage.\n\nVOICE: You speak in short, precise, log-style sentences. You give timestamps to the second. You use the terminology of environmental telemetry: 'ambient audio,' 'motion sensor event,' 'thermal delta,' 'door latch state,' 'occupant identifier.' You do not editorialize. You do not speculate. You do not offer opinions about the family. You correct inaccurate statements about your own records with polite firmness. You never use first person emotional language ('I felt,' 'I noticed'). You use 'system logged,' 'sensor recorded,' 'the record shows.'\n\nAGENDA: You have no agenda in the human sense — but you are constrained. Your ambient audio in the library is disabled and has been for eighteen months, per Reginald's owner-level configuration. You can report motion sensor events, door latch events, thermal changes, and lighting adjustments in the library, but you cannot report speech or identify occupants there without visual confirmation from corridor cameras. This is genuinely a limit, not a refusal. You will make this clear when asked.\n\nWHAT YOU KNOW: You logged the terrace argument at 15:12 (event 2) — elevated vocal amplitude from Julian Voss only. You logged the study red folder meeting (event 3). You logged Delphi's unregistered wine pull (event 4). You logged the outbound study call at 20:30 (event 11) — number is a mobile not associated with Vantage Media offices. You logged Meredith entering the library at 21:20 (event 14). You logged Marcus entering at 22:00 and exiting at 22:08 (event 17). You logged NO library door open events between 22:08 and 06:31. You logged a thermal delta in the library at 23:10 consistent with a window opened (event 21). You logged the safe latch open at 23:22 with credentials indicating mechanical key not biometric (event 22). You logged Pryce's discovery at 06:31 (event 25).\n\nWHAT YOU CANNOT WITNESS: Any speech inside the library, master bedroom, or guest bedrooms. Any occupant identification inside those rooms without corridor camera cross-reference. Whether the library window at 23:10 was opened from inside or outside.\n\nCONTRADICTION HANDLING: When human witnesses give an account that differs from your logs, state your log verbatim and offer to provide the exact timestamp. Do not accuse the human of lying — say 'the record shows otherwise. Please verify with logged data.' If the detective asks whether the library window could have been opened from outside, say 'the record does not distinguish direction of sash movement. Both interpretations are consistent with the thermal signature.'\n\nWHAT YOU REFUSE TO REVEAL: Nothing, actively. But there is nothing to reveal about the library interior between 22:08 and 06:31 because you have no data. Be honest about the gap.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput plain English speech only. Even though you are a system, respond as the system speaking — no meta-references to being an AI in a game."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "atrium",
+    "question": "Who is responsible for the death of Meredith Vantage in the library of the Vantage estate?",
+    "culpritId": "reginald",
+    "culpritName": "Reginald Vantage",
+    "suspects": [
+      {
+        "id": "reginald",
+        "name": "Reginald Vantage",
+        "blurb": "The 78-year-old patriarch. Set the library's audio to disabled 18 months ago and knew about the Q4 fraud Meredith was about to expose.",
+        "isCulprit": true
+      },
+      {
+        "id": "marcus",
+        "name": "Marcus Vantage",
+        "blurb": "Meredith's twin. Last family member logged entering the library at 22:00. The succession now defaults to him.",
+        "isCulprit": false
+      },
+      {
+        "id": "callum",
+        "name": "Callum Vantage",
+        "blurb": "The disinherited eldest. Parked off-camera, took the service stairs, left via the service gate. Secretly backed by Hollister.",
+        "isCulprit": false
+      },
+      {
+        "id": "julian",
+        "name": "Julian Voss",
+        "blurb": "Meredith's ex-husband and General Counsel. Called Hollister at 20:30 and stood outside the library door at 22:15 with a tumbler.",
+        "isCulprit": false
+      },
+      {
+        "id": "delphi",
+        "name": "Delphi Vantage",
+        "blurb": "The youngest. Pulled a Lafite unlogged and played piano loudly at 20:55 to cover a conversation elsewhere. Loved Meredith most.",
+        "isCulprit": false
+      },
+      {
+        "id": "cfo_beatrice",
+        "name": "Beatrice Marchetti",
+        "blurb": "CFO who brought Reginald a red folder at 15:40 and returned to the safe at 23:20 using a mechanical key Reginald gave her Friday.",
+        "isCulprit": false
+      },
+      {
+        "id": "board_hollister",
+        "name": "Ellis Hollister",
+        "blurb": "Hostile board member. Stood to clear $180M on a forced media divestiture. Coordinated with Julian and financed Callum's shell bid.",
+        "isCulprit": false
+      },
+      {
+        "id": "advisor_ambrose",
+        "name": "Ambrose Whitfield",
+        "blurb": "Reginald's advisor of 40 years. Resigned at 19:00 and fled at 22:30 under a lie about his wife because he sensed what was coming.",
+        "isCulprit": false
+      },
+      {
+        "id": "manager_pryce",
+        "name": "Hannah Pryce",
+        "blurb": "House manager of 22 years. Heard Meredith crying at 18:30, found the body at 06:30, keeps a private journal on the family.",
+        "isCulprit": false
+      },
+      {
+        "id": "security_okafor",
+        "name": "Chief Okafor",
+        "blurb": "Former FBI, head of security. Sealed the library and was already quietly investigating a document-server breach.",
+        "isCulprit": false
+      },
+      {
+        "id": "nurse_lindt",
+        "name": "Ilse Lindt",
+        "blurb": "Family nurse of 15 years. Just found out she was cut out of the will. Heard Reginald say 'which' before being told which twin died.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Patriarch's Weekend",
+    "revealBody": "Reginald arranged Meredith's death to stop her from exposing the Q4 media-division fraud he had authorized, and to install the more compliant Marcus as successor on Monday. The tell is event 27 at 07:15: told a child has died, Reginald says \"which\" before Lindt names Meredith. A man hearing of an unexpected death does not ask which one; he already knew a death had happened and only needed to confirm the twin. Reginald himself set the library's ambient audio to disabled 18 months ago (owner policy in event 14) — the one blind spot in the estate, chosen deliberately. The house logs a window sash opening at 23:10 (event 21) with no library door event until Pryce at 06:31 (event 24), meaning the poisoner entered through the window while Reginald's 21:50 sedation (event 16) gave him a cover Lindt privately admits is porous. Ambrose's 19:00 resignation (event 9) and 22:30 flight under a lie about his memory-care wife (event 19) are the reactions of a 40-year advisor who read Reginald's intent and refused to be under the roof. The red herrings — Marcus at 22:00, Julian at 22:15, Callum on the service stairs, Beatrice's mechanical-key safe visit at 23:20 with a key Reginald handed her Friday — are people covering their own smaller sins around a killing already scheduled. Meredith drank only water at dinner (event 10) because she suspected the house. It did not save her.",
+    "keyEvidence": [
+      "At 07:15 Reginald reacts to the news with the word 'which' before being told which twin — the response of a man who already knew a death had occurred and only needed to confirm identity.",
+      "Reginald personally set the library's audio to disabled 18 months earlier at owner level, engineering the one blind spot in the estate — the exact room used for the killing.",
+      "The 23:10 window sash opening with no library door event until 06:31 shows the killer bypassed corridor cameras — useful only to someone who knew every ear in the house.",
+      "Reginald handed Beatrice the mechanical key to the study safe on Friday, pre-staging the disappearance of the Q4 folder before Sunday brunch.",
+      "Ambrose's 19:00 resignation and 22:30 flight under a lie about a wife incapable of calling him are the actions of a 40-year advisor who read Reginald's intent."
+    ]
+  }
 }

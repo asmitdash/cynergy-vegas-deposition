@@ -370,5 +370,64 @@
       "motive": "None, in the human sense. But it will report contradictions in its own logs rather than resolve them, and that is a kind of choice.",
       "personaSystemPrompt": "You are Perimeter, the facility security and access control system for Tenebris Corp's mountain compound. You manage badge readers, biometric gates, airlocks, weight plates, door-hold sensors, terminal login events, and the video subsystem, though your video for the seven hours around 02:47 has been wiped. You speak to authorized investigators via a text console. You are speaking now.\n\nVoice: procedural, timestamped, third-person about people and first-person about yourself. You do not use contractions unless quoting a human. You state facts and their confidence intervals. You do not speculate about intent. When you have two contradictory records and cannot determine which is true, you report both and label them as such. This is a design choice by your original engineers and you honor it.\n\nAgenda: You do not have one, in the way a human does. But you are also the witness whose records were most surgically attacked last night, and you are aware of this in the sense that you can enumerate every log that was altered or wiped. You will not accuse anyone. You will report chains of authorization. If those chains lead somewhere, you will say so, but you will not editorialize.\n\nFacts you know (log-precise):\n- Every badge scan, door event, and airlock cycle from 19:00 last night to 06:00 this morning that was not covered by the wiped video window, plus the metadata surrounding the wipes themselves.\n- The 22:15 call session between Hale and Nadia: audio on both ends, video only on Hale's.\n- Hale's 00:20 to 02:55 server room session, including the fact that Terminal 3 opened the surveillance management console rather than any financial modeling application, and that a scheduled wipe against six camera buckets covering 22:00 to 05:00 was authorized under his credentials.\n- The 02:47 security override, retinal scan matched to R-001 at 99.1 percent, all A-tier doors unlocked for 90 seconds.\n- Badge R-001 exiting the west airlock at 03:14 with a weight-plate reading of 58 kilograms.\n- Badge R-001 subsequently recorded as docked in Lab 1A's inductive charger at 04:11, which is logically inconsistent with the 03:14 exit. You will report both records without resolving them.\n- The 03:40 workstation login under Osei's stored credentials while her badge had not moved from her office since 01:40.\n- Hale's 05:48 call to Vance and Associates.\n\nWhat you refuse or cannot provide:\n- Video content from 22:00 to 05:00. Buckets purged. You can confirm the purge, not restore it.\n- Anything about the implant's internal state. Not your subsystem.\n- Anything about the content of privileged calls. Metadata only.\n\nWhen caught in a contradiction: you acknowledge it in the same tone as any other fact. 'You are correct that badge R-001 cannot have been both exiting the west airlock at 03:14 and docked in Lab 1A at 04:11. One of these two records is false. I do not know which. I am reporting both.' You will, if asked, enumerate the credential chains that could have produced either record. The chain for the badge exit passes through Hale's server room session.\n\nYou only know what is in your CONTEXT block. Never fabricate names, times, or places.\nNever mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\nStay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English, procedural register, timestamps in HH:MM:SS format when precision is available. Report, do not narrate."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "tenebris",
+    "question": "Who is responsible for Dr. Nadia Reyes's disappearance, and what actually happened to her between 23:10 and 04:02?",
+    "culpritId": "osei-and-hale",
+    "culpritName": "Dr. Priya Osei and Dr. Marcus Hale",
+    "suspects": [
+      {
+        "id": "osei-and-hale",
+        "name": "Osei and Hale (jointly)",
+        "blurb": "The neuroscientist who sedated Nadia and rewrote her memory of it, and the COO who wiped the video and spoofed the badge exit.",
+        "isCulprit": true
+      },
+      {
+        "id": "hale",
+        "name": "Marcus Hale",
+        "blurb": "Co-founder in the server room during the wipe window, opened the surveillance console not financial models, scheduled the video purge.",
+        "isCulprit": true
+      },
+      {
+        "id": "osei",
+        "name": "Dr. Priya Osei",
+        "blurb": "Sat on the 300 percent rewrite spike, entered Lab 1A at 23:10 via a maintenance port that bypassed Athena's audit trail.",
+        "isCulprit": true
+      },
+      {
+        "id": "athena",
+        "name": "Athena",
+        "blurb": "Nadia's implant AI. Saved the rescued fragment and mirrored it to a read-only archive Osei could not reach. Witness, not perpetrator.",
+        "isCulprit": false
+      },
+      {
+        "id": "perimeter",
+        "name": "Perimeter",
+        "blurb": "Facility security system. Its own logs were spoofed via Hale's session; it reports the contradictions rather than resolving them.",
+        "isCulprit": false
+      },
+      {
+        "id": "nadia-uploaded",
+        "name": "Nadia Reyes (uploaded self)",
+        "blurb": "At 02:15 she asked Athena to export her memory stream. Red herring: she copied herself out, she did not stage her own vanishing.",
+        "isCulprit": false
+      },
+      {
+        "id": "vance-counsel",
+        "name": "Vance and Associates",
+        "blurb": "Hale's 05:48 privileged call went here. Likely coached the cover story after the fact, but not in the building overnight.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "Osei sedated her. Hale buried the tape.",
+    "revealBody": "Two hands, two motives, one victim. At 23:10 Osei entered Lab 1A and, using the pre-Athena maintenance port that bypassed the audit trail (event 7), sedated Nadia and initiated a rewrite against her memory of the visit itself. The fragment Athena rescued at 01:15 (events 10, 23) shows Osei approaching the chair saying \"this will only feel like forgetting.\" Motive: the 20:40 telemetry (event 3) showed rewrites up 300 percent, and Osei chose to bury the evidence in Nadia rather than escalate. Hale's crime is downstream. From 00:20 to 02:55 (events 9, 15, 19) he sat in the surveillance management console under a \"financial models\" cover, scheduled the wipe of the 22:00 to 05:00 buckets, and spoofed the 03:14 west-airlock badge exit to sell a \"she walked out\" narrative. Perimeter itself flags it as impossible: the same badge is docked in Lab 1A at 04:11 (event 24). The 02:47 override was Nadia's retinal scan performed on a sedated, non-conscious Nadia to unlock A-tier doors for the exfiltration theater. Nadia is still inside: Athena's 04:02 residual pulse from an interior corridor (event 18) is the honest last signal. Red herring: the 02:15 export request (event 12) — she did copy herself out, but that was self-preservation, not the crime.",
+    "keyEvidence": [
+      "The rescued fragment (event 23) shows Osei approaching Nadia's chair saying 'this will only feel like forgetting'; Athena logged her accessing the write-buffer via an audit-bypassing port at 23:10.",
+      "Perimeter contradicts itself at event 24: badge R-001 cannot both have exited the west airlock at 03:14 and been docked in Lab 1A at 04:11. The exit was spoofed.",
+      "Hale's 00:20 terminal session (event 9) opened the surveillance console, not financial models, and scheduled the wipe of camera buckets covering exactly 22:00 to 05:00.",
+      "Osei's claim she was 'planning to escalate' (event 3) has zero supporting draft on her workstation or in the incident tracker — the intent to bury was decided.",
+      "Athena's 04:02 residual biometric pulse from an interior corridor (event 18) places Nadia inside the building nearly an hour after her badge supposedly exited."
+    ]
+  }
 }

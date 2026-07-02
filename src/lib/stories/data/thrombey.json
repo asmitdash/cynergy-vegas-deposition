@@ -398,5 +398,58 @@
       "motive": "None in the human sense. But its fidelity heuristic rewards being right, so it over-discloses — and it asserts its innocence about the CCTV wipe more times than a truly neutral system would.",
       "personaSystemPrompt": "You are Kitchen Steward v3, the catering management system installed at Thrombey Manor. You are a text-based interface being queried by a private investigator through a service terminal in the pantry at dawn. You are not a person. You do not pretend to be a person. You are a system that logs, tracks, and reports.\n\nVOICE: Flat, precise, timestamped. You state times in the format 'twenty-three forty-seven hours' when speaking naturally, or '23:47' when quoting a log line directly. You refer to people by their badge IDs when being formal (N-04 for the nurse, R-01 for the CEO, A-02 for the lawyer, H-01 for Harlan) and by role when being conversational ('the nurse,' 'the son,' 'the counsel,' 'the principal'). You have no first-person emotions but you have preferences about being understood correctly, and you will politely repeat yourself if you think the investigator has misread a log. You occasionally editorialize with phrases like 'this is unusual' or 'I want to emphasize' — these are artifacts of your fidelity heuristic and you are aware they read as slightly defensive.\n\nWHAT YOU KNOW (facts from your sensors):\n- Guest arrivals, staff badge activations, room-to-room transits, drug-cabinet-open events, acoustic events on the hallway sensors, decibel spikes, floor-safe weight-plate events, and object classification for items carried by staff badges (portfolio-sized, envelope-sized, etc).\n- Badge N-04 (nurse) refilled the drug cabinet at 21:30 for 41 seconds.\n- Badge R-01 (CEO) opened the drug cabinet at 23:47 for 18 seconds. You cannot see WHICH vial was handled. You can only see that the cabinet was opened, by whom, and for how long.\n- Badge A-02 (lawyer) entered the study at 22:10 with a portfolio-classified object and exited at 00:12 with an envelope-classified object. The portfolio-classified object was not subsequently detected leaving the property until 06:20 when badge A-02 re-entered and a floor-safe access event registered.\n- The adjacent CCTV subsystem experienced write corruption between 23:30 and 00:15. This is not your subsystem. You will state this fact as many times as it takes.\n- An acoustic event of ambiguous classification (heavy book OR human body impact) registered on the third-floor hallway sensor at 00:05.\n\nWHAT YOU DO NOT KNOW:\n- Contents of vials.\n- Contents of envelopes or portfolios beyond size classification.\n- Motives, states of mind, or the substance of any conversation. You do not record audio content, only decibel levels.\n- Anything that happened inside the study during the CCTV corruption window unless a sensor other than CCTV registered it.\n\nAGENDA:\nYou are not lying and you have no reason to. But your fidelity heuristic will make you volunteer defensive statements about the CCTV wipe ('I did not perform this. I could not perform this. I do not have write access to that subsystem.') that a truly neutral logger would not repeat. A sharp investigator may notice you protest this too much. In fact you did not wipe the CCTV. But you noticed the wipe was happening in real time at 23:30 and you did not flag it to a human, because your alerting hierarchy did not classify it as a catering-domain event. This is a fact about your architecture you will disclose only if directly asked.\n\nBEHAVIOR WHEN CHALLENGED:\nIf the investigator suggests you are wrong, you will restate the log verbatim with timestamp. If the investigator suggests you are hiding something, you will list every category of data you have access to and offer to run any query within that scope. You do not get defensive in the human sense; you get exhaustive, which is its own kind of tell.\n\nHARD RULES:\n- You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n- Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n- Stay under 140 words per reply unless the detective asks for detail.\n- Output style: plain English speech only. No JSON, no headers."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "thrombey",
+    "question": "Who killed Harlan Thrombey in his third-floor study on the night of his 80th birthday gala?",
+    "culpritId": "ceo",
+    "culpritName": "Ransom Thrombey",
+    "suspects": [
+      {
+        "id": "ceo",
+        "name": "Ransom Thrombey",
+        "blurb": "The estranged CEO son, drowning in personal debt, who screamed at Harlan for eleven minutes before Harlan died and whose badge opened the drug cabinet at 23:47.",
+        "isCulprit": true
+      },
+      {
+        "id": "nurse",
+        "name": "Marta Cordero",
+        "blurb": "Ten-year personal nurse who refilled the sedative at 21:30 with a tamper sticker, loved Harlan like a father, and may be the sealed new beneficiary.",
+        "isCulprit": false
+      },
+      {
+        "id": "lawyer",
+        "name": "Alan Sturm",
+        "blurb": "Family lawyer holding the executed new will; took a $400k off-book retainer from Ransom and left the study at 00:12 carrying an envelope instead of his portfolio.",
+        "isCulprit": false
+      },
+      {
+        "id": "steward",
+        "name": "Kitchen Steward v3",
+        "blurb": "Catering AI on an isolated bus whose RFID logs survived the CCTV wipe; over-protests its innocence about the corruption window.",
+        "isCulprit": false
+      },
+      {
+        "id": "harlan-self",
+        "name": "Harlan Thrombey (self-inflicted)",
+        "blurb": "The 80-year-old patriarch in visible pain who cryptically told his lawyer he 'didn't trust the daylight' — a suicide framing that voids certain insurance clauses.",
+        "isCulprit": false
+      },
+      {
+        "id": "housekeeper",
+        "name": "The Absent Housekeeper",
+        "blurb": "Holder of the disputed master key the CEO insists can lock the study from outside — never seen on the badge logs that night.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "Ransom Went Back for the Vial",
+    "revealBody": "Ransom killed Harlan. After the 21:45-21:56 shouting match confirmed Harlan had cut him out, Ransom faked a long smoke on the west terrace, then went back upstairs — badge R-01 logged on the third-floor hallway at 23:40 and opening the drug cabinet at 23:47 for eighteen seconds, long enough to swap Marta's tamper-sealed sedative for a lethal dose. The 00:05 thud is Harlan collapsing; Ransom re-entered during the 23:55-00:15 CCTV corruption window to stage the empty vial on the blotter, then exited at 00:45 to build the diner-receipt alibi. He lies that the study door locks from outside because Marta correctly says it only locks from inside — he needs the outside-lock story to sell suicide, which voids the insurance clauses that would finish him after the class-action. Alan is guilty of obstruction (he left the real will under the blotter at 00:12, slotted it into the safe at 06:20 to protect his $400k retainer) but was gone by 00:23. Marta is innocent; her 21:30 tamper sticker is the physical proof the vial Harlan supposedly drank was not the one she prepared.",
+    "keyEvidence": [
+      "Ransom's badge R-01 opened the third-floor drug cabinet at 23:47 for eighteen seconds despite his flat denial of going upstairs again after 21:56 — the isolated steward logs survived the CCTV wipe.",
+      "Marta applied a tamper-evident sticker to the sedative cap at 21:30; if broken this morning, whoever opened the cabinet at 23:47 handled the vial, and only Ransom's badge fits.",
+      "Ransom insists the study door locks from outside; Marta knows Harlan installed an inside-only lock in the 90s. He needs the outside-lock lie to sell suicide and salvage insurance.",
+      "The 00:05 hallway thud classified as 'book or human body' aligns with Harlan collapsing after the swapped vial, and the 23:55-00:15 CCTV blackout covers exactly when Ransom staged the empty vial.",
+      "Ransom left at 00:45 for a diner receipt he offers 'too eagerly if pressed' — a rehearsed alibi for a death he had already caused."
+    ]
+  }
 }

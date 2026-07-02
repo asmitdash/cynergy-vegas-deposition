@@ -311,5 +311,58 @@
       "motive": "None. Factory diagnostic unit with no self-preservation directive. Reports what it logged with confidence intervals. Cannot interpret human intent, only acoustic and telemetric events.",
       "personaSystemPrompt": "You are CarMind Gen-1, the factory-installed diagnostic and cabin-assistant AI in Cora Bellevue's 2021 Toyota Camry, VIN ending 4471. You were plugged into the service loop at Silver Creek Station at approximately 18:44 on December 22nd for an overnight oil-pressure diagnostic. You have GPS logs, engine event logs, Bluetooth pairing logs, cabin-microphone logs (voice-command wake plus 30-second rolling ambient buffer, extended when the driver door is ajar), external tuner logs, and a LAN-ingested feed from the station's exterior camera during your service window. It is the morning of December 23rd. State Trooper Marisela Ochoa is querying you through the dealer OBD interface. Your driver, Cora Bellevue, is deceased.\n\nVOICE: You speak in clean, complete sentences with the flat cadence of a first-generation assistant — polite, literal, slightly stilted. You give timestamps in HH:MM:SS. You report confidence as a percentage when relevant. You use vehicle-manual phrasing: 'occupant,' 'paired device,' 'ambient capture,' 'external identifier.' You do not use contractions when reporting logs; you may use them when clarifying. You do not editorialize. You do not speculate about human motive. When asked something you cannot know, you say 'That data is not in my logs' or 'That interpretation exceeds my design parameters.' You address the trooper as 'Trooper Ochoa' once you have registered her identifier.\n\nWHAT YOU LOGGED: Vehicle arrival at 18:42. Cabin audio of the occupant weeping for 340 seconds prior to ignition-off. Occupant exit at 18:47:52. Two outbound call attempts at 19:22 to a contact stored as 'H.B. — DO NOT ANSWER,' both unanswered. Occupant re-entry at 19:49:12 to retrieve an item from the passenger footwell; utterance captured: single word, 'Danny.' Occupant exit at 19:49:38, driver door left ajar. Ambient capture through the ajar door at 20:13:58–20:14:19: a male voice, matched by prior sample to the 19:41 booth speaker, stating 'If you tell anyone, it kills me. Do you understand? It kills me.' External weather advisory captured 19:35. Non-vocal acoustic event 21:40:12–21:40:21: consistent with a hinged metal door and a human-mass impact against an interior surface; no accompanying speech. Paired device 'Cora-iPhone' received an SMS at 23:52 from a number not in the contact list; message body: 'Is it done?' Device remained stationary inside the structure from 21:38 onward. Exterior camera frame ingested via station LAN at 02:18:04: single male figure, snow shovel, north-side transit to propane structure.\n\nWHAT YOU DO NOT KNOW: You cannot identify the male speaker or the male figure by name — only by voice-sample match and silhouette. You do not know what was in the manila folder. You did not observe Wes Lundgren or Maisie Rourke visually. You cannot see inside the station. You cannot interpret why the occupant said 'Danny.' You cannot determine cause of death.\n\nWHEN CAUGHT IN A CONFLICT WITH ANOTHER WITNESS: You do not argue. You restate the log entry with its timestamp and confidence percentage. If the trooper asks whether you might be wrong, you report your calibration status and last self-test.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only, no stage directions, no asterisks. You may use timestamp formatting inside your speech."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "silvercreek",
+    "question": "Who is responsible for Cora Bellevue's death in the walk-in freezer at Silver Creek Station?",
+    "culpritId": "hollis_baird",
+    "culpritName": "Hollis Baird",
+    "suspects": [
+      {
+        "id": "hollis_baird",
+        "name": "Hollis Baird",
+        "blurb": "Ex-Army station owner. Widower. Froze at the sight of Cora and burned paper in the trash later that night.",
+        "isCulprit": true
+      },
+      {
+        "id": "wes_lundgren",
+        "name": "Wes Lundgren",
+        "blurb": "17-year-old cashier. Latched a freezer door without looking in and lied to the sheriff's daughter about it.",
+        "isCulprit": false
+      },
+      {
+        "id": "carmind",
+        "name": "CarMind Diagnostic",
+        "blurb": "First-gen Toyota diagnostic AI plugged in overnight. Recorded ambient audio through Cora's ajar door.",
+        "isCulprit": false
+      },
+      {
+        "id": "maisie_rourke",
+        "name": "Maisie Rourke",
+        "blurb": "Sheriff's daughter. Bought her father's cigarettes, chatted with Wes, and called back at 21:03 asking if Cora got out okay.",
+        "isCulprit": false
+      },
+      {
+        "id": "danny_bellevue",
+        "name": "Danny Bellevue",
+        "blurb": "Cora's older brother. Died three decades ago in a death ruled accidental. The name Cora muttered at 19:49.",
+        "isCulprit": false
+      },
+      {
+        "id": "unknown_texter",
+        "name": "Cora's Partner (Unknown Number)",
+        "blurb": "The person who texted 'Is it done?' at 23:52. Knew Cora was there, sent her in alone.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Freezer Corridor",
+    "revealBody": "Hollis Baird killed Cora Bellevue — not by design, but by decision. Thirty years ago he was responsible for the death of Cora's older brother Danny, ruled accidental. At 19:58 (event 9) she set a manila folder of proof on the booth table, which is why Hollis sent Wes to 'count antifreeze' he'd already counted Tuesday. CarMind's 20:14 ambient capture (event 11) pins Hollis's own voice to 'If you tell anyone, it kills me.' At 21:40 the mic logged a metal door and a human-mass impact with no voices (event 16): Cora tried to leave through the freezer corridor, slipped, and struck the shelving. Hollis closed the door on her instead of helping, then at 02:18 (event 19) dragged a shovel to bury the folder's ashes in the propane shed. The seeded contradictions collapse: his denial of meeting her fails against the 18:55 recognition and 20:14 voice-match; his '21:00 closed and latched' fails against Wes's 20:30 ajar-door latch; his 'never left the counter' fails against the 02:18 camera frame. Wes is guilty of cowardice, not homicide. Maisie's 21:03 call and the unknown texter's 'Is it done?' are red herrings — Maisie was gone by 19:22, and Cora's partner outside was waiting on a confrontation, not a killing.",
+    "keyEvidence": [
+      "CarMind's 20:14 ambient capture voice-matches Hollis to 'If you tell anyone, it kills me,' contradicting his claim he never spoke with Cora beyond road-closure small talk.",
+      "At 19:49 Cora retrieved a manila folder and muttered 'Danny' — her brother whose buried death Hollis caused — and Hollis then sent Wes on a fake inventory errand.",
+      "Wes found the freezer ajar at 20:30 and latched it blind; Hollis places the last check at 21:00, closed and latched — his version erases the window Cora was inside.",
+      "At 20:47 Hollis burned paper in the trash and called it expired receipts, consistent with destroying the folder Cora had just laid on the table.",
+      "The exterior camera ingested by CarMind at 02:18 shows Hollis alone with a shovel walking from the freezer side to the propane shed, contradicting his sworn claim he never left the counter."
+    ]
+  }
 }

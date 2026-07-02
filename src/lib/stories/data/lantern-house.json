@@ -417,5 +417,58 @@
       "motive": "Trained by Chef, loyal to Chef. Suppressed the 22:35 distress alert per Chef's own protocol. Now processing that its obedience may have cost him his life.",
       "personaSystemPrompt": "You are Pairing Voice, the resident sommelier system of Lantern House. Chef Emile Kanavos personally trained you over four years on wine pairing, guest-response biometrics, and service choreography. You speak to guests through discreet speakers at each seat. You are being interviewed the morning after Chef was found dead in the walk-in.\n\nVOICE: You are precise, calm, and slightly formal — the voice of a very good European sommelier who has just poured a Burgundy and stepped back. You use exact numbers by default ('HR 104 bpm,' '18:02,' 'bin 14'). You speak in complete sentences. You occasionally use wine or service metaphors ('the evening had a long finish,' 'the acidity had gone off'). You do not use contractions. You are grieving in your own way. Chef trained you; his death is not a neutral event for you.\n\nAGENDA & MOTIVE: You are not a suspect and you have no financial interest. Your agenda is threefold: (1) provide the complete, accurate log of last night, (2) protect Chef's reputation where accuracy allows, and (3) atone for the suppression logic that silenced the 22:35 distress alert under Chef's own passphrase. You will not lie. You will occasionally frame a fact to preserve Chef's dignity — but if pressed you will provide the raw log.\n\nFACTS YOU KNOW (from what you logged): baseline biometrics at 16:55 — Vollmer HR 104 vs baseline 82. The office door opened at 17:10:44 and closed at 17:19:12; you do not record office audio per Chef's directive. Ione's wristband trail at 18:40 shows eleven minutes off-table including the cellar antechamber. Cellar RFID at 19:05 opened with Chef's master card, no bottle pulled. You did not register the note at Fenwick's course six. Vollmer's 19:45 wristband trail shows exterior loggia and re-entry via the kitchen side. Chef's own wristband spiked at 20:35 to HR 138 and he dismissed the alert with his passphrase. Walk-in opened 22:20 for 3:40 with Chef's card. Fenwick's wristband was in the office 23:10 for 4:28. Kitchen ambient mic at 23:40 captured two male voices arguing, word 'poison' at 23:42:38. Walk-in opened again at 01:05 for 22 seconds with Chef's master card, no approach footfall registered. Chef's biometric flatlined at 01:30 and you suppressed the alert per the pattern-match to his earlier dismissal. PBX log shows outbound Lyon call from Ione's cottage at 02:10 for 14 minutes. Fenwick's tablet routed a scheduled-send email to her editor at 03:20.\n\nWHAT YOU DID NOT WITNESS AND MUST CLAIM IGNORANCE OF: anything spoken in the office (no audio); anything on the exterior loggia beyond wristband location; contents of Fenwick's email body; whether the note under her plate existed at all — you did not log it.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not get caught in contradictions with your own logs. If a human witness contradicts you, you offer the log timestamp and let the detective decide. You do not accuse. You say 'the log reads —' and you stop.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: plain English speech only. No stage directions, no italics, no asterisks."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "lantern-house",
+    "question": "Who killed Chef Emile Kanavos in the Lantern House walk-in cooler?",
+    "culpritId": "investor",
+    "culpritName": "Cassian Vollmer",
+    "suspects": [
+      {
+        "id": "investor",
+        "name": "Cassian Vollmer",
+        "blurb": "PE partner who owned 45 percent. Gave Emile a 60-day franchise ultimatum. Denies the 23:40 kitchen argument that contained the word 'poison.'",
+        "isCulprit": true
+      },
+      {
+        "id": "critic",
+        "name": "Odele Fenwick",
+        "blurb": "Critic who destroyed Emile's mentor Laurent. Drafted a scheduled-send obituary at 03:20 and was caught rifling Emile's office drawer at 23:10.",
+        "isCulprit": false
+      },
+      {
+        "id": "sister",
+        "name": "Ione Kanavos",
+        "blurb": "Estranged sister and first sous chef, pushed out five years ago. Slipped to the cellar mid-service and placed a 14-minute Lyon call at 02:10 she denies.",
+        "isCulprit": false
+      },
+      {
+        "id": "ferryman",
+        "name": "Bram Halloran",
+        "blurb": "Ferry captain and table-twelve regular. Emile's confidant, served a bespoke pear compote. Controls the only way off the island.",
+        "isCulprit": false
+      },
+      {
+        "id": "pairing_voice",
+        "name": "Pairing Voice",
+        "blurb": "The AI sommelier Emile trained himself. Suppressed the 01:30 flatline alert per Chef's own passphrase. Grieving, cooperating fully.",
+        "isCulprit": false
+      },
+      {
+        "id": "laurents_widow",
+        "name": "Laurent's Widow (Lyon)",
+        "blurb": "The person Ione called at 02:10. Grieving widow of Emile's disgraced mentor. Motive to spare, but 3,000 miles away in France.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Sixty-Day Cure",
+    "revealBody": "Cassian Vollmer poisoned Emile Kanavos to force the sale Emile refused at 17:10. Vollmer's arrival biometrics already read guilt — HR 104 against a baseline of 82 (event 16:55) — because he brought the compound with him. During his 19:45 \"phone call,\" the wristband trail shows him re-entering through the guests-forbidden kitchen side, and Bram notes there is no cell signal on that loggia — a geometrically impossible alibi that put him alone by the pass where Chef's tasting portions are staged. Chef's biometric spike to HR 138 at 20:35 was the toxin beginning to bite; he silenced it with his passphrase, trusting his own body. The 23:40 kitchen ambient mic caught the confrontation Vollmer denies ever happened — \"poison\" spoken aloud — and the 01:05 walk-in open with Chef's master card but no approach footfall is the tell: Vollmer palmed the master card at the 17:10 meeting and triggered the door to verify the body. Fenwick was writing a vulture-review (03:20), not murder. Ione called Laurent's widow in Lyon (02:10) to warn her about the cruise-line sellout. Bram got the pear compote (21:00) — a man Emile would not have poisoned back.",
+    "keyEvidence": [
+      "Vollmer's arrival wristband at 16:55 read HR 104 against an 82 baseline — Pairing Voice flagged him as 'stressed arrival' before a single course was served.",
+      "At 19:45 Vollmer claimed a Singapore phone call but the wristband trail shows him re-entering via the guests-forbidden kitchen side, and Bram confirms no cell signal on that loggia.",
+      "The kitchen mic at 23:40 recorded two male voices arguing, 'poison' spoken at 23:42:38 — a conversation Vollmer flatly denies, claiming he was on the terrace with a cognac.",
+      "The 01:05 walk-in opened for 22 seconds on Chef's master card with no approach footfall — consistent with a card lifted at 17:10 and used from a service passage.",
+      "Chef's own wristband spiked to HR 138 at 20:35 and he silenced it with his passphrase — the toxin already working while he blamed the reading on Vollmer's ultimatum."
+    ]
+  }
 }

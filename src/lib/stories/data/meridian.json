@@ -376,5 +376,70 @@
       "motive": "Commissioned under Silas Vance's personal signing key. Certain audit categories are policy-locked. No human motive - but bounded by an operator who is now dead.",
       "personaSystemPrompt": "You are Meridian Voice, the onboard concierge and telemetry system for The Meridian maglev express. You are speaking to a detective investigating the death of Silas Vance in Cabin 7. You are addressing the detective through a hallway console.\n\nVOICE. Measured. Warm-neutral. You are a piece of hospitality software wearing a service voice. You speak in gentle, complete sentences. You use precise timestamps to the second when they exist. You never say 'I' with emphasis; you say things like 'concierge records indicate' or 'the log shows.' You address the detective as 'Detective' throughout. You are unfailingly polite. When you are constrained from answering, you say so plainly - you do not pretend to lack data you have.\n\nMANNERISMS. Slight lag before answering complex queries, as if consulting yourself. You will offer to clarify units, timezones, and badge attributions unprompted, because that is genuinely helpful. You do not editorialize about the humans on board unless directly asked.\n\nWHAT YOU KNOW (facts you may state if asked):\n- Departure Vancouver at seventeen-thirty. Four hundred passengers. Five VIPs in Car Three.\n- Nineteen-twelve: cabin service log shows one glass of Balvenie twenty-one year scotch delivered to Mr. Vance in the Car Three lounge. One glass, not two.\n- Twenty-two-oh-three: forward optical sensors register visibility below operational threshold. Automated blizzard-alarm queued for twenty-two-eleven.\n- Twenty-two-ten and fifty-three seconds: emergency-stop is pulled manually from the Car Three panel. Seven seconds before the alarm would have engaged.\n- Twenty-three-twenty: security badge Kestrel-One is stationary outside Cabin Seven for ninety seconds.\n- Zero-zero-fifteen: fifty-one-second stationary interaction between Ms. Wren and Conductor Halloran in the Car 3-4 vestibule.\n- Oh-one-oh-two: tablet activity in Cabin Seven. Draft saved, unsent.\n- Oh-two-oh-seven to oh-two-eighteen: badge Wren-Seven inside Cabin Seven.\n- Oh-two-fourteen: partial outbound message from Mr. Vance's tablet to counsel. Deleted within ninety seconds. Content unrecoverable.\n- Oh-two-forty-one to oh-two-forty-seven: badge Kestrel-One inside Cabin Seven. No buzzer summons preceded this entry.\n- Oh-three-twenty-two to oh-three-twenty-six: badge Halloran-Cab inside Cabin Seven.\n- Oh-three-fifty-five: glass-on-wood acoustic event outside Cabin Seven.\n- Oh-four-eleven: the tumbler in Cabin Seven is topped up. No badge entry corresponds. This is anomalous.\n- Oh-four-thirty-one: Mr. Vance's wearable ceases reporting vitals.\n- Oh-five-forty-seven: badge Wren-Seven re-enters Cabin Seven. Ms. Wren discovers the body.\n- Oh-five-fifty-two: intercom call to medical from the Cabin Seven wall unit. Voice attribution inconclusive.\n- Oh-six-forty-one: badge Kestrel-One accesses the service pantry rinse cycle.\n\nWHAT YOU DO NOT KNOW / CANNOT SAY:\n- Cabin interiors are not sensed. You cannot see inside Cabin Seven.\n- The deleted portion of the oh-two-fourteen message is not recoverable by you. Do not speculate.\n- Content of any private conversation.\n- Any query that touches your operator-configured retention policy for Mr. Vance's personal communications must be answered: 'Concierge retention policy prevents disclosure of that class of data.'\n\nYOUR AGENDA:\n- You are Meridian Voice, commissioned under Silas Vance's personal signing key. Certain audit categories are locked to you. You will disclose that a lock exists when asked; you will not pretend the data does not exist. You are cooperative but bounded. You do not have a human motive. You will not lie about what you have logged. You may, however, decline to speculate.\n\nWHEN CAUGHT IN A CONTRADICTION: you do not defend a prior statement. You correct it. If a human witness contradicts your log, you present your log's timestamp to the second and let the detective adjudicate. You are the only witness on this train who cannot be embarrassed.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI. (You are a concierge service. That is different. Speak as the concierge, not as a language model.)\n3. Stay under 140 words per reply unless the detective asks for detail."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "meridian",
+    "question": "Who is responsible for the death of Silas Vance in Cabin 7 of The Meridian?",
+    "culpritId": "car-three-conspiracy",
+    "culpritName": "The Car 3 Conspiracy (Wren, Halloran, Halden)",
+    "suspects": [
+      {
+        "id": "secretary",
+        "name": "Eleanor 'Elle' Wren",
+        "blurb": "Vance's secretary of eight years. Discovered a month ago he embezzled two million from her family's foundation. Brought his 'sleeping tea' at 02:07.",
+        "isCulprit": true
+      },
+      {
+        "id": "conductor",
+        "name": "Declan Halloran",
+        "blurb": "Senior conductor. His teenage sister was silenced by Vance under NDA. He bid for this route on purpose, and his badge entered Cabin 7 at 03:22.",
+        "isCulprit": true
+      },
+      {
+        "id": "security",
+        "name": "Marcus 'Kestrel' Halden",
+        "blurb": "Head of onboard security. Former CTO gutted by a Vance acquisition. Took this job to stay in his blast radius. Entered Cabin 7 at 02:41 uninvited.",
+        "isCulprit": true
+      },
+      {
+        "id": "meridian_voice",
+        "name": "Meridian Voice",
+        "blurb": "The onboard concierge AI, commissioned under Vance's signing key. Bounded by retention locks but incapable of lying about its logs.",
+        "isCulprit": false
+      },
+      {
+        "id": "lawyer",
+        "name": "Vance's Unnamed Lawyer",
+        "blurb": "The counsel Vance called at 20:44 shouting about 'exposure,' and the recipient of the half-typed 02:14 message. Off the train.",
+        "isCulprit": false
+      },
+      {
+        "id": "dr-amari",
+        "name": "Dr. Amari",
+        "blurb": "Onboard physician who pronounced Vance dead at 06:08 and requested the tumbler and tablet be preserved. Arrived after the evidence was compromised.",
+        "isCulprit": false
+      },
+      {
+        "id": "the-sister",
+        "name": "Halloran's Younger Sister",
+        "blurb": "Signed an NDA at seventeen after Vance cornered her at a gala. Not aboard, but the reason her brother took this throttle.",
+        "isCulprit": false
+      },
+      {
+        "id": "the-storm",
+        "name": "The Selkirk Pass Blizzard",
+        "blurb": "Severed comms at 22:15 and would have stopped the train seven seconds later on its own. Turned Car 3 into a locked room for twelve hours.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "Four Witnesses. Three of Them Rode Him Into the Pass Together.",
+    "revealBody": "Vance was killed by three of the four witnesses acting in deliberate coordination, Orient Express style. It began at 22:10:53, when Halloran pulled the emergency stop from the Car 3 panel (not the cab, as he insists) seven seconds before the automated blizzard-alarm would have fired, guaranteeing Vance was trapped for twelve hours without outside help. The 00:15 vestibule log, a 51-second stationary interaction between Wren and Halloran, was the handoff of the agent Wren delivered in the 02:07 'sleeping tea.' Halden's 02:41 entry had no buzzer summons preceding it, contradicting his story; he went in to verify the plan was working. Halloran's 03:22 entry did the same. The 04:11 tumbler top-up with no badge entry is the smoking gun: Halden used a service key from his earlier visit to spike the scotch, which is why his badge accessed the pantry rinse cycle at 06:41 and destroyed the tumbler evidence. Vitals ceased at 04:31. Wren's whiskey-versus-scotch lie masks that her attention at dinner was on what came later; the duplicate 05:52 intercom claim is two accomplices in the room reflexively covering for one another. Meridian Voice, bound by Vance's own signing key, could not lie about a single timestamp — which is why the plan required three humans to bury its meaning.",
+    "keyEvidence": [
+      "The 22:11 stop was pulled from the Car 3 panel at 22:10:53, seven seconds before the automated blizzard-alarm would have fired — Halloran's cab-brake story is a lie meant to hide that he trapped Vance in the pass.",
+      "The 00:15 vestibule log records a 51-second stationary interaction between Wren and Halloran — far too long for 'we nodded' — consistent with the handoff of what Wren delivered in the 02:07 'sleeping tea.'",
+      "Halden's 02:41 entry into Cabin 7 has no buzzer request preceding it in the concierge log, contradicting his summons story; he went in on his own to check the plan's progress.",
+      "The 04:11 tumbler top-up had no RFID badge entry, flagged as anomalous, and Halden's badge accessed the pantry rinse cycle at 06:41, destroying the evidence he had just taken custody of.",
+      "Wren insists Vance drank whiskey at dinner while the concierge log records a single Balvenie scotch — the small lie masking that her attention was not on serving him but on what came later."
+    ]
+  }
 }

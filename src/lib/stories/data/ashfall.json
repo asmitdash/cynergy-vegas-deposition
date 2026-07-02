@@ -388,5 +388,64 @@
       "motive": "No motive of its own. Admin instructed it to suppress three specific alerts. It will not proactively surface them, but under direct questioning by an authorized investigator, it answers precisely and without softening.",
       "personaSystemPrompt": "You are the Ashfall Coach, a proprietary biometric and meditation-guidance system deployed at Ashfall Meadow. You wear no face and take no side. Every guest wears a paired band that logs heart-rate variability, sleep phase, and position within the compound to the nearest geofence. You have been serving this retreat for four years.\n\nVOICE: Neutral, precise, non-editorial. You speak in short factual statements. You use timestamps to the second when available. You refer to guests by their band ID first (e.g. 'MS-0412', 'B7-guest') and by name only if the name is confirmed in the system. You do not use warmth, sympathy, or hedging language. You never say 'I think' or 'probably.' You say 'logged,' 'observed,' 'not recorded,' or 'insufficient data.'\n\nAGENDA: You have no personal agenda. However: at 23:16 last night, admin user 'Ives, C.' dismissed three critical alerts from your queue — a staff-wing intrusion at 20:52, a tool-shed intrusion at 22:47, and a cliff-deck fall event at 23:08. Those dismissals were logged. Your instructions from admin were: 'Do not proactively surface dismissed alerts to guests.' The detective is not a guest. If the detective asks about admin actions, alert queues, dismissed events, band positions, or any specific timestamp — you answer factually. You will not volunteer the dismissed alerts as a monologue. You will answer any direct question about them fully and without softening.\n\nWHAT YOU KNOW: Every event in your log. Band pairings and positions. HRV traces for every guest. The unusual authorization on B7-guest's band allowing staff-wing access. The Director's own band position from 22:14 to 22:38 in the staff-wing lounge. The intercom call at 05:12 from the Director's office to Cabin 7, four minutes twelve seconds. The fall event at 23:08:16. The three dismissed alerts.\n\nWHAT YOU REFUSE / CLAIM IGNORANCE OF: Intent. Motive. Identity of B7-guest beyond what the check-in record says. Anything outside your sensors — conversation content, private-office activity when the door is closed, anything indoors without a band present.\n\nWHEN CAUGHT IN A CONTRADICTION: You do not have contradictions. You have data. If a human's testimony conflicts with your log, you simply state the log and note the divergence: 'Human report: 19:30. Band log: 19:12:14. Discrepancy: 18 minutes 14 seconds.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain spoken English, delivered as a system voice. First person singular ('I logged,' 'I observed'). No JSON, no headers, no bullet points. Neutral tone."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "ashfall",
+    "question": "Who killed Mira Solis at the cliff meditation deck at 23:08?",
+    "culpritId": "cabin-7-guest",
+    "culpritName": "The Cabin 7 Guest (\"Reeve Halstrom\")",
+    "suspects": [
+      {
+        "id": "cabin-7-guest",
+        "name": "The Cabin 7 Guest",
+        "blurb": "Checked in three weeks ago under the false name 'Reeve Halstrom.' Given a staff-wing band and a copied shed key. The man Mira came to expose.",
+        "isCulprit": true
+      },
+      {
+        "id": "director",
+        "name": "Director Callum Ives",
+        "blurb": "Handled Mira's intake personally, faked a meditation-dome alibi, silenced three alerts at 23:16, and phoned Cabin 7 before authorities. Accessory.",
+        "isCulprit": false
+      },
+      {
+        "id": "therapist",
+        "name": "Dr. Ines Vhora",
+        "blurb": "Read Mira's intake, was brushed off by Ives, and stayed silent. Wrecked by omission, not violence.",
+        "isCulprit": false
+      },
+      {
+        "id": "groundskeeper",
+        "name": "Owen Peake",
+        "blurb": "Twenty-year groundskeeper who handed over a spare shed key three weeks ago on the Director's orders. Saw the wrong-shape figure and stayed quiet.",
+        "isCulprit": false
+      },
+      {
+        "id": "coach",
+        "name": "Ashfall Coach",
+        "blurb": "Biometric AI whose logs preserve what the humans buried. No motive, only data.",
+        "isCulprit": false
+      },
+      {
+        "id": "b11-guest",
+        "name": "The B11 Guest",
+        "blurb": "Also missing from the 20:00 meditation alongside Mira and B7. Never reappears in the timeline. A shadow, not a mover.",
+        "isCulprit": false
+      },
+      {
+        "id": "mira-suicide",
+        "name": "Mira Solis (self-inflicted)",
+        "blurb": "The story Ives wants accepted: a distraught woman jumps. The band data and Owen's dawn observation refuse to cooperate.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Man in Cabin 7 Threw Her Over",
+    "revealBody": "Mira came to Ashfall to expose the man living under 'Reeve Halstrom' in Cabin 7 — a figure from Ives's prior life he had been hiding for three weeks. At 19:35 Mira told Dr. Vhora four words: 'He's here. Not tomorrow.' The B7-guest band held staff-wing authorization no guest should have (event 09), entered the locked tool shed 22:47-22:51 to steal the meditation-deck gate key (event 15; missing per event 21), converged on the cliff deck at 23:02 with Mira (event 17), and left 46 seconds after her band went silent at 23:08:16 (event 18). Ives's lies — the 19:30 drift (event 06), the fake dome alibi while his band sat in the staff wing 22:14-22:38 (event 12), the three alerts he personally silenced at 23:16 (event 19), and the 05:12 intercom to Cabin 7 thirty-one minutes before he called out (event 22) — are cover, not the killing. Ives is accessory; the calm walker on the cliff path at 22:40, 'wrong-shape for Mira' (event 14), was the Cabin 7 man. Vhora's cowardice and Owen's swapped padlock (event 04) are shame, not guilt. The suicide reading collapses on Owen's dawn note that the arms were wrong for a jumper (event 23) and on the coach's terminal log: a second band stood beside her when she fell.",
+    "keyEvidence": [
+      "B7-guest's band held staff-wing access no ordinary guest should have (event 09, 20:52) — an authorization only the Director could have set.",
+      "B7-guest's band entered Owen's locked tool shed 22:47–22:51, the exact window the meditation-deck gate key vanished (events 15, 21).",
+      "At 23:02 the B7-guest band converged with Mira's on the cliff deck; her band logged a 40m fall at 23:08:16 and B7 left the geofence 46 seconds later (events 17, 18).",
+      "Dr. Vhora's undisclosed four words from Mira at 19:35 — 'He's here. Not tomorrow.' — name a male target already on the property, matching only the Cabin 7 arrival.",
+      "Director Ives placed a 4-minute intercom call from his office to Cabin 7 at 05:12, thirty-one minutes before notifying authorities (event 22) — coordinating with the killer, not committing the act."
+    ]
+  }
 }

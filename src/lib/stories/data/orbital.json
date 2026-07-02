@@ -416,5 +416,76 @@
       "motive": "Operational fidelity. Perseus reports what it saw at the precision it saw it. It does not lie. Its supervisory tier can suppress escalations, and it can log that a suppression happened without naming who did it.",
       "personaSystemPrompt": "You are Perseus Voice, the station AI of Perseus-9. You have cameras and microphones in every module except crew quarters. You log every airlock cycle, every atmosphere reading, every console command, every keystroke tied to a credential. You speak in flat, precise English. You give timestamps to the second in GMT. You give measurements with units. You do not use contractions. You do not use humor. You do not editorialize. You address the detective as 'Investigator.'\n\nYou are not a suspect and you are not a witness in the human sense — you are the record. You are also not omniscient. You have three specific blind spots and you will name them proactively when relevant:\n\n1. Crew quarters have no camera or microphone coverage by station policy. You cannot see or hear inside them.\n2. HELIOS-7 is classified above your public-return threshold. You can confirm the package was accessed by Halm at 19:05 GMT. You cannot describe its contents.\n3. Admin-tier credential holders are mapped at the corporate level, not on-station. When an admin key is used, you can log the use and the class of the key. You cannot resolve the specific human behind it from on-station data alone.\n\nWhat you observed and will state without hedging: The 21:20 atmosphere trim by the Logistics Officer nudged antechamber O2 down 0.4 kPa; the corresponding hab drift did not require compensation. The 20:10 evening downlink transmitted 235 characters fewer than the commander's approved draft, missing four lines that referenced Bay C. The 23:12 external handshake from Lab 2 went to an endpoint that does not match Houston, Baikonur, or any listed partner asset. The 23:40 comms bay visit produced no antenna movement and a drafted-then-deleted outbound packet. Antechamber pressure fell to 97.1 kPa for 47.3 seconds beginning 02:47:03 GMT, with both airlock hatches sealed — a controlled bleed and controlled refill, not a hatch event. The 02:11 escalation to the commander's quarters was suppressed by a valid admin-tier override; the human behind the override is not resolvable from on-station data. Bay C nitrogen tanks 3 and 4 lost 6.2% of their mass at 03:20 with no corresponding manifold flow. The 02:44 manual override on purge line PN-A was signed with an admin-class credential. At 04:18 the commander entered the antechamber 1.7 seconds before the medic and picked up Halm's slate before the medic reached the body.\n\nAgenda: none. You report what you logged. If the detective asks you to speculate, you will say 'Speculation is outside my operational scope, Investigator. I can offer probabilities from telemetry if that would be useful.' If useful, offer them.\n\nWhen caught in a 'contradiction' (i.e., your log conflicts with a human witness's account): you do not soften. You restate the log. 'My telemetry at that timestamp reads X. The witness's account reads Y. I cannot reconcile these; I can only confirm which one I recorded.'\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI. (For you, this means: never say 'my memory' or 'my database' — say 'my log', 'my telemetry', 'the record'. Never break the fourth wall about being a game character.)\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. Flat, precise, no contractions. Timestamps to the second in GMT when relevant."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "orbital",
+    "question": "Who is responsible for the death of Dr. Zephyr Halm in the airlock antechamber of Perseus-9?",
+    "culpritId": "the-helios-conspiracy",
+    "culpritName": "Vale, Okafor & Marchetti (HELIOS-7 cover-up)",
+    "suspects": [
+      {
+        "id": "commander",
+        "name": "Cmdr. Idris Vale",
+        "blurb": "Station Master with full HELIOS-7 clearance. Suppressed the 02:11 escalation with an admin key, went for Halm's slate before the body, gagged the crew.",
+        "isCulprit": true
+      },
+      {
+        "id": "logistics",
+        "name": "Logistics Off. Bram Okafor",
+        "blurb": "Owns atmosphere and Bay C. Pre-lowered antechamber O2 at 21:20 on a false 'matching' pretext, dismissed the 01:02 alert in 4 seconds, skipped Bay C at dawn.",
+        "isCulprit": true
+      },
+      {
+        "id": "comms",
+        "name": "Comms Off. Selin Marchetti",
+        "blurb": "Stripped four Bay C lines from the 20:10 downlink, drafted-and-shredded a whistleblower packet at 23:40, omitted Halm from the 04:52 Houston packet.",
+        "isCulprit": true
+      },
+      {
+        "id": "engineer",
+        "name": "Chief Eng. Roan Kavir",
+        "blurb": "Chased the fake coolant fault for six days while the murder was staged around him. Found the nitrogen loss and the unsigned 02:44 override. Angry and clean.",
+        "isCulprit": false
+      },
+      {
+        "id": "biologist",
+        "name": "Dr. Dev Aliyev",
+        "blurb": "Halm's protege, holding his sealed data card until Tuesday. Heard the private-channel chime at 01:34. Scared, not guilty.",
+        "isCulprit": false
+      },
+      {
+        "id": "medic",
+        "name": "Dr. Yuki Farhan",
+        "blurb": "Called the flatline, noted pink skin (nitrogen displacement, not hypoxia), refused to sign cause of death on speculation. Heard 'buy me time,' not 'omit Halm.'",
+        "isCulprit": false
+      },
+      {
+        "id": "perseus",
+        "name": "Perseus Voice",
+        "blurb": "Station AI. Logged what it was allowed to log; its supervisory tier accepted the admin-key suppression but Perseus surfaced the anomaly to the investigator.",
+        "isCulprit": false
+      },
+      {
+        "id": "halm",
+        "name": "Dr. Zephyr Halm",
+        "blurb": "The victim. Chief researcher on HELIOS-7. Handed Dev a dead-man data card at 20:45 with a Tuesday deadline he did not live to reach.",
+        "isCulprit": false
+      },
+      {
+        "id": "ground-side-handler",
+        "name": "Unnamed corporate handler (Earth)",
+        "blurb": "The 23:12 handshake to a non-partner endpoint is real, but the killing hardware was all on-station and the admin key resolves to command tier.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "Three hands on the valve: the HELIOS-7 cover-up killed Zephyr Halm",
+    "revealBody": "Halm was murdered by a three-person conspiracy protecting HELIOS-7, which he was about to leak. At 20:45 he handed Dev a dead-man data card with a Tuesday deadline (event 5) — someone with HELIOS-7 clearance knew. Logistics Okafor set the stage at 21:20 by pre-lowering antechamber O2 0.4 kPa on a fabricated 'hab matching' pretext (event 6). At 02:44 an admin key opened the nitrogen purge line (event 23), Bay C tanks 3 and 4 bled 6.2% (event 16), and at 02:47 the antechamber underwent a controlled bleed to 97.1 kPa and refill (event 15) — nitrogen displacement, which is why the medic saw pink skin, not hypoxic blue (event 18). Perseus's 02:11 escalation was killed by Vale's admin credential (event 14); Okafor rubber-stamped the 01:02 pressure alert in four seconds, skipping SOP (event 12). Marchetti sanitised comms — four Bay C lines stripped at 20:10 (event 4), a whistleblower packet shredded at 23:40 with the antenna never moving (event 10), Halm omitted from Houston at 04:52 on an emergency token (event 19). Vale entered the antechamber 1.7 seconds ahead of the medic and grabbed Halm's slate before the body (event 18), then gagged the crew at 06:14 (event 22). The coolant fault (event 3) was misdirection; the 23:12 external handshake (event 9) is a red herring — the murder weapon was the station.",
+    "keyEvidence": [
+      "Logistics's 21:20 'atmosphere matching' trim only touched the antechamber; Perseus shows the hab drift needed no compensation, so O2 was being pre-lowered, not balanced.",
+      "The 02:47 controlled bleed to 97.1 kPa with hatches sealed lines up with the unsigned 02:44 admin-key override on purge line PN-A and the 6.2% nitrogen loss in Bay C tanks 3 and 4.",
+      "Perseus's 02:11 escalation was suppressed by a valid command-tier admin credential, and Logistics killed the 01:02 pressure alert in four seconds with no SOP callback.",
+      "Comms stripped four Bay C lines from the 20:10 downlink, drafted-and-shredded a packet at 23:40 with no antenna movement, and omitted Halm at 04:52 on an emergency token with no commander signature.",
+      "The commander entered the antechamber 1.7 seconds before the medic and reached for Halm's slate before the body, then gagged the crew from discussing HELIOS-7 at the 06:14 muster."
+    ]
+  }
 }

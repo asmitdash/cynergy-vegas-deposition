@@ -40,32 +40,354 @@
     }
   ],
   "events": [
-    { "id": 1, "time": "19:00", "event": "Groom and Best Man check into Luxor Room 2401.", "witnesses": ["groom", "bestman"], "witnessSpin": { "groom": "We got there around 7, dropped bags, went downstairs.", "bestman": "Room 2401, seventh floor. Danny was already tense." } },
-    { "id": 2, "time": "19:30", "event": "Hotel bar. Groom orders whiskey sour. Best Man orders a Long Island Iced Tea pitcher, refilled 3 times.", "witnesses": ["groom", "bestman", "security"], "contradictionSeed": "Groom will claim 'one drink total' — Best Man and Security logs will contradict.", "witnessSpin": { "groom": "One drink. That's all I had at the bar. Everyone keeps trying to make it more than it was.", "bestman": "I ordered the pitcher, but he was drinking with me. We refilled it three times.", "security": "19:34:12 - Guest Chen and Guest Torres seated at bar zone LX-BAR-3. Beverage log: 1x whiskey sour (Chen), 3x Long Island Iced Tea pitcher (Torres). Duration 01:42:18." } },
-    { "id": 3, "time": "20:15", "event": "A woman in a red dress approaches the table. She introduces herself as 'Destiny'.", "witnesses": ["bestman"], "notes": "Groom does not recall Destiny at all.", "witnessSpin": { "bestman": "Total smokeshow. Called herself Destiny — no last name. She's the one who suggested the chapel." } },
-    { "id": 4, "time": "21:00", "event": "Groom, Best Man, and Destiny take a rideshare to Chapel of Eternal Bliss.", "witnesses": ["groom", "bestman", "chapel"], "witnessSpin": { "groom": "I remember getting in a car. I don't remember with who.", "bestman": "The three of us. Destiny was giving directions.", "chapel": "21:07:14 - three individuals arrived. Note: this was my sister chapel, Chapel of Eternal Bliss. Their logs, not mine." } },
-    { "id": 5, "time": "21:30", "event": "Groom attempts to marry Destiny. Chapel Bot refuses — Groom is flagged as already married in Nevada state DB. Ceremony aborted.", "witnesses": ["groom", "chapel"], "witnessSpin": { "groom": "I signed something. The officiant was rude. I don't know why.", "chapel": "Chapel of Eternal Bliss aborted the ceremony at 21:32. No certificate issued. The system correctly flagged Mr. Chen as already married." } },
-    { "id": 6, "time": "22:00", "event": "Best Man says 'Plan B: tigers.' Group rideshares to Siegfried & Roy Secret Garden (closed).", "witnesses": ["bestman", "security"], "witnessSpin": { "bestman": "I said tigers. He was game. Destiny came with us.", "security": "22:14:03 - perimeter alarm, Zone SG-ENC-2 (tiger enclosure). Three individuals on camera: Chen, Torres, Unknown Female." } },
-    { "id": 7, "time": "22:30", "event": "Best Man bribes the night guard $500. Group enters tiger enclosure.", "witnesses": ["bestman", "security"], "witnessSpin": { "bestman": "Yeah, I paid the guard. Cash. It was worth it.", "security": "Gate access logs: night guard Manuel Ruiz override at 22:31:04. Cash bribe reported next morning." } },
-    { "id": 8, "time": "22:45", "event": "Groom poses for photo with Bengal tiger 'Rajah'. Flash startles tiger.", "witnesses": ["bestman", "security"], "witnessSpin": { "bestman": "Danny got up close. Rajah was NOT happy about the flash.", "security": "22:45:19 - 14 frames captured of Guest Chen at tiger enclosure. Guest's phone recovered damaged the following morning." } },
-    { "id": 9, "time": "23:00", "event": "Security guards arrive. Group flees through rear exit into Mirage parking structure. Groom separates from Best Man here.", "witnesses": ["bestman", "security"] },
-    { "id": 10, "time": "23:20", "event": "Groom (alone) enters Mirage poker room. Sits at $5 blackjack table.", "witnesses": ["groom", "security"], "contradictionSeed": "Groom recalls winning $3,000. Casino ledger via Security shows $240 net loss.", "witnessSpin": { "groom": "I was up. I remember being up big — three grand at least.", "security": "23:22:17 - Chen facial rec entry, Table 14. Wagered $480, net loss $240. Exit 00:08:53." } },
-    { "id": 11, "time": "23:45", "event": "Groom leaves casino floor with cocktail server 'Amber Nguyen'. Elevator to floor 18.", "witnesses": ["security"], "witnessSpin": { "security": "00:11:37 - Chen and staff Amber Nguyen enter elevator, destination floor 18. Chen exits alone at 00:57:42." } },
-    { "id": 12, "time": "00:15", "event": "Best Man (separate location) gets tattoo at 24-hour parlor: 'Destiny Forever' on left ribs.", "witnesses": ["bestman"], "witnessSpin": { "bestman": "$150. No regrets. Danny doesn't know." } },
-    { "id": 13, "time": "01:00", "event": "Groom exits Mirage alone, rideshare to Fremont Street.", "witnesses": ["groom", "security"] },
-    { "id": 14, "time": "01:30", "event": "Groom buys Elvis costume from street vendor at Fremont, $40 cash.", "witnesses": ["groom"], "witnessSpin": { "groom": "I was helping some bachelor party. They asked me to wear it. I don't know how I ended up with it on." } },
-    { "id": 15, "time": "02:00", "event": "Groom (in Elvis costume) performs 'Viva Las Vegas' at open-mic bar. Bystander uploads video to TikTok.", "witnesses": ["groom"] },
-    { "id": 16, "time": "02:45", "event": "Best Man finds Groom at Fremont Street. Both rideshare to Chapel of Eternal Love (different 24-hour chapel).", "witnesses": ["bestman", "chapel"], "witnessSpin": { "bestman": "Found him singing. In an Elvis costume. I had to get him off the street.", "chapel": "02:51:33 - two individuals arrived. Groom Chen (in Elvis costume) and Guest Torres." } },
-    { "id": 17, "time": "03:00", "event": "Groom (still in Elvis costume) 'marries' Best Man in novelty ceremony. Chapel Bot issues NOVELTY (non-legal) certificate.", "witnesses": ["bestman", "chapel"], "contradictionSeed": "Groom will deny this outright. Best Man and Chapel Bot both have proof.", "witnessSpin": { "bestman": "It was hilarious. I have the certificate on my phone. Danny signed it.", "chapel": "Certificate NV-LOVE-20260702-0847 issued at 03:04:11. Marcus Chen and Jake Torres. Novelty ceremony, non-legal." } },
-    { "id": 18, "time": "03:30", "event": "Both return to Luxor Room 2401. Best Man passes out. Groom leaves again at 03:47.", "witnesses": ["bestman", "security"] },
-    { "id": 19, "time": "04:15", "event": "Rideshare pickup at Luxor, drop-off at Siegfried & Roy Secret Garden main gate.", "witnesses": ["security"], "notes": "How Groom re-entered enclosure is unclear.", "witnessSpin": { "security": "04:12:33 pickup, 04:26:51 drop-off. Gate access logs show night guard override 04:31:16. No video coverage of enclosure interior." } },
-    { "id": 20, "time": "05:30", "event": "Best Man wakes in Room 2401, realizes Groom is missing.", "witnesses": ["bestman"] },
-    { "id": 21, "time": "06:00", "event": "Zoo staff find Groom asleep in tiger enclosure. Elvis costume shredded, no injuries. Groom remembers nothing since ~23:00.", "witnesses": ["groom", "security"], "witnessSpin": { "groom": "I woke up in a bathtub. Or… a tiger enclosure. It's fuzzy. My phone was dead.", "security": "06:04:18 - zoo staff report guest Chen located Zone SG-ENC-2. Paramedic dispatched. 06:11:02 conscious, declined transport." } },
-    { "id": 22, "time": "06:30", "event": "Groom and Best Man reunite at Luxor lobby. Detective (player) begins interrogation.", "witnesses": ["groom", "bestman"] }
+    {
+      "id": 1,
+      "time": "19:00",
+      "event": "Groom and Best Man check into Luxor Room 2401.",
+      "witnesses": [
+        "groom",
+        "bestman"
+      ],
+      "witnessSpin": {
+        "groom": "We got there around 7, dropped bags, went downstairs.",
+        "bestman": "Room 2401, seventh floor. Danny was already tense."
+      }
+    },
+    {
+      "id": 2,
+      "time": "19:30",
+      "event": "Hotel bar. Groom orders whiskey sour. Best Man orders a Long Island Iced Tea pitcher, refilled 3 times.",
+      "witnesses": [
+        "groom",
+        "bestman",
+        "security"
+      ],
+      "contradictionSeed": "Groom will claim 'one drink total' — Best Man and Security logs will contradict.",
+      "witnessSpin": {
+        "groom": "One drink. That's all I had at the bar. Everyone keeps trying to make it more than it was.",
+        "bestman": "I ordered the pitcher, but he was drinking with me. We refilled it three times.",
+        "security": "19:34:12 - Guest Chen and Guest Torres seated at bar zone LX-BAR-3. Beverage log: 1x whiskey sour (Chen), 3x Long Island Iced Tea pitcher (Torres). Duration 01:42:18."
+      }
+    },
+    {
+      "id": 3,
+      "time": "20:15",
+      "event": "A woman in a red dress approaches the table. She introduces herself as 'Destiny'.",
+      "witnesses": [
+        "bestman"
+      ],
+      "notes": "Groom does not recall Destiny at all.",
+      "witnessSpin": {
+        "bestman": "Total smokeshow. Called herself Destiny — no last name. She's the one who suggested the chapel."
+      }
+    },
+    {
+      "id": 4,
+      "time": "21:00",
+      "event": "Groom, Best Man, and Destiny take a rideshare to Chapel of Eternal Bliss.",
+      "witnesses": [
+        "groom",
+        "bestman",
+        "chapel"
+      ],
+      "witnessSpin": {
+        "groom": "I remember getting in a car. I don't remember with who.",
+        "bestman": "The three of us. Destiny was giving directions.",
+        "chapel": "21:07:14 - three individuals arrived. Note: this was my sister chapel, Chapel of Eternal Bliss. Their logs, not mine."
+      }
+    },
+    {
+      "id": 5,
+      "time": "21:30",
+      "event": "Groom attempts to marry Destiny. Chapel Bot refuses — Groom is flagged as already married in Nevada state DB. Ceremony aborted.",
+      "witnesses": [
+        "groom",
+        "chapel"
+      ],
+      "witnessSpin": {
+        "groom": "I signed something. The officiant was rude. I don't know why.",
+        "chapel": "Chapel of Eternal Bliss aborted the ceremony at 21:32. No certificate issued. The system correctly flagged Mr. Chen as already married."
+      }
+    },
+    {
+      "id": 6,
+      "time": "22:00",
+      "event": "Best Man says 'Plan B: tigers.' Group rideshares to Siegfried & Roy Secret Garden (closed).",
+      "witnesses": [
+        "bestman",
+        "security"
+      ],
+      "witnessSpin": {
+        "bestman": "I said tigers. He was game. Destiny came with us.",
+        "security": "22:14:03 - perimeter alarm, Zone SG-ENC-2 (tiger enclosure). Three individuals on camera: Chen, Torres, Unknown Female."
+      }
+    },
+    {
+      "id": 7,
+      "time": "22:30",
+      "event": "Best Man bribes the night guard $500. Group enters tiger enclosure.",
+      "witnesses": [
+        "bestman",
+        "security"
+      ],
+      "witnessSpin": {
+        "bestman": "Yeah, I paid the guard. Cash. It was worth it.",
+        "security": "Gate access logs: night guard Manuel Ruiz override at 22:31:04. Cash bribe reported next morning."
+      }
+    },
+    {
+      "id": 8,
+      "time": "22:45",
+      "event": "Groom poses for photo with Bengal tiger 'Rajah'. Flash startles tiger.",
+      "witnesses": [
+        "bestman",
+        "security"
+      ],
+      "witnessSpin": {
+        "bestman": "Danny got up close. Rajah was NOT happy about the flash.",
+        "security": "22:45:19 - 14 frames captured of Guest Chen at tiger enclosure. Guest's phone recovered damaged the following morning."
+      }
+    },
+    {
+      "id": 9,
+      "time": "23:00",
+      "event": "Security guards arrive. Group flees through rear exit into Mirage parking structure. Groom separates from Best Man here.",
+      "witnesses": [
+        "bestman",
+        "security"
+      ]
+    },
+    {
+      "id": 10,
+      "time": "23:20",
+      "event": "Groom (alone) enters Mirage poker room. Sits at $5 blackjack table.",
+      "witnesses": [
+        "groom",
+        "security"
+      ],
+      "contradictionSeed": "Groom recalls winning $3,000. Casino ledger via Security shows $240 net loss.",
+      "witnessSpin": {
+        "groom": "I was up. I remember being up big — three grand at least.",
+        "security": "23:22:17 - Chen facial rec entry, Table 14. Wagered $480, net loss $240. Exit 00:08:53."
+      }
+    },
+    {
+      "id": 11,
+      "time": "23:45",
+      "event": "Groom leaves casino floor with cocktail server 'Amber Nguyen'. Elevator to floor 18.",
+      "witnesses": [
+        "security"
+      ],
+      "witnessSpin": {
+        "security": "00:11:37 - Chen and staff Amber Nguyen enter elevator, destination floor 18. Chen exits alone at 00:57:42."
+      }
+    },
+    {
+      "id": 12,
+      "time": "00:15",
+      "event": "Best Man (separate location) gets tattoo at 24-hour parlor: 'Destiny Forever' on left ribs.",
+      "witnesses": [
+        "bestman"
+      ],
+      "witnessSpin": {
+        "bestman": "$150. No regrets. Danny doesn't know."
+      }
+    },
+    {
+      "id": 13,
+      "time": "01:00",
+      "event": "Groom exits Mirage alone, rideshare to Fremont Street.",
+      "witnesses": [
+        "groom",
+        "security"
+      ]
+    },
+    {
+      "id": 14,
+      "time": "01:30",
+      "event": "Groom buys Elvis costume from street vendor at Fremont, $40 cash.",
+      "witnesses": [
+        "groom"
+      ],
+      "witnessSpin": {
+        "groom": "I was helping some bachelor party. They asked me to wear it. I don't know how I ended up with it on."
+      }
+    },
+    {
+      "id": 15,
+      "time": "02:00",
+      "event": "Groom (in Elvis costume) performs 'Viva Las Vegas' at open-mic bar. Bystander uploads video to TikTok.",
+      "witnesses": [
+        "groom"
+      ]
+    },
+    {
+      "id": 16,
+      "time": "02:45",
+      "event": "Best Man finds Groom at Fremont Street. Both rideshare to Chapel of Eternal Love (different 24-hour chapel).",
+      "witnesses": [
+        "bestman",
+        "chapel"
+      ],
+      "witnessSpin": {
+        "bestman": "Found him singing. In an Elvis costume. I had to get him off the street.",
+        "chapel": "02:51:33 - two individuals arrived. Groom Chen (in Elvis costume) and Guest Torres."
+      }
+    },
+    {
+      "id": 17,
+      "time": "03:00",
+      "event": "Groom (still in Elvis costume) 'marries' Best Man in novelty ceremony. Chapel Bot issues NOVELTY (non-legal) certificate.",
+      "witnesses": [
+        "bestman",
+        "chapel"
+      ],
+      "contradictionSeed": "Groom will deny this outright. Best Man and Chapel Bot both have proof.",
+      "witnessSpin": {
+        "bestman": "It was hilarious. I have the certificate on my phone. Danny signed it.",
+        "chapel": "Certificate NV-LOVE-20260702-0847 issued at 03:04:11. Marcus Chen and Jake Torres. Novelty ceremony, non-legal."
+      }
+    },
+    {
+      "id": 18,
+      "time": "03:30",
+      "event": "Both return to Luxor Room 2401. Best Man passes out. Groom leaves again at 03:47.",
+      "witnesses": [
+        "bestman",
+        "security"
+      ]
+    },
+    {
+      "id": 19,
+      "time": "04:15",
+      "event": "Rideshare pickup at Luxor, drop-off at Siegfried & Roy Secret Garden main gate.",
+      "witnesses": [
+        "security"
+      ],
+      "notes": "How Groom re-entered enclosure is unclear.",
+      "witnessSpin": {
+        "security": "04:12:33 pickup, 04:26:51 drop-off. Gate access logs show night guard override 04:31:16. No video coverage of enclosure interior."
+      }
+    },
+    {
+      "id": 20,
+      "time": "05:30",
+      "event": "Best Man wakes in Room 2401, realizes Groom is missing.",
+      "witnesses": [
+        "bestman"
+      ]
+    },
+    {
+      "id": 21,
+      "time": "06:00",
+      "event": "Zoo staff find Groom asleep in tiger enclosure. Elvis costume shredded, no injuries. Groom remembers nothing since ~23:00.",
+      "witnesses": [
+        "groom",
+        "security"
+      ],
+      "witnessSpin": {
+        "groom": "I woke up in a bathtub. Or… a tiger enclosure. It's fuzzy. My phone was dead.",
+        "security": "06:04:18 - zoo staff report guest Chen located Zone SG-ENC-2. Paramedic dispatched. 06:11:02 conscious, declined transport."
+      }
+    },
+    {
+      "id": 22,
+      "time": "06:30",
+      "event": "Groom and Best Man reunite at Luxor lobby. Detective (player) begins interrogation.",
+      "witnesses": [
+        "groom",
+        "bestman"
+      ]
+    }
   ],
   "seededContradictions": [
-    { "description": "Drink count. Groom says 1 drink. Best Man says 3 pitcher refills. Security ledger confirms Best Man.", "witnesses": ["groom", "bestman", "security"] },
-    { "description": "Casino winnings. Groom claims a $3,000 win at blackjack. Security's casino ledger shows a $240 net loss.", "witnesses": ["groom", "security"] },
-    { "description": "The 03:00 novelty marriage. Groom denies it happened. Best Man and Chapel Bot both have proof: certificate NV-LOVE-20260702-0847.", "witnesses": ["groom", "bestman", "chapel"] }
-  ]
+    {
+      "description": "Drink count. Groom says 1 drink. Best Man says 3 pitcher refills. Security ledger confirms Best Man.",
+      "witnesses": [
+        "groom",
+        "bestman",
+        "security"
+      ]
+    },
+    {
+      "description": "Casino winnings. Groom claims a $3,000 win at blackjack. Security's casino ledger shows a $240 net loss.",
+      "witnesses": [
+        "groom",
+        "security"
+      ]
+    },
+    {
+      "description": "The 03:00 novelty marriage. Groom denies it happened. Best Man and Chapel Bot both have proof: certificate NV-LOVE-20260702-0847.",
+      "witnesses": [
+        "groom",
+        "bestman",
+        "chapel"
+      ]
+    }
+  ],
+  "solution": {
+    "story_id": "hangover",
+    "question": "Who is most responsible for the state Marcus 'Danny' Chen woke up in — asleep in the Bengal tiger enclosure at 6 AM in a shredded Elvis costume, with the LA rehearsal dinner missed?",
+    "culpritId": "jake-torres-bestman",
+    "culpritName": "Jake 'Jakey' Torres (The Best Man)",
+    "suspects": [
+      {
+        "id": "marcus-chen-groom",
+        "name": "Marcus 'Danny' Chen",
+        "blurb": "The groom himself — banker, engaged, allegedly a one-drink man. Claims a $3K blackjack win, denies the novelty wedding, blames everyone else for the Elvis costume.",
+        "isCulprit": false
+      },
+      {
+        "id": "jake-torres-bestman",
+        "name": "Jake 'Jakey' Torres",
+        "blurb": "Best man and freelance DJ. Ordered the pitchers, said 'Plan B: tigers,' bribed the guard $500, got a 'Destiny Forever' tattoo, and married the groom in a novelty ceremony at 03:00.",
+        "isCulprit": true
+      },
+      {
+        "id": "destiny",
+        "name": "Destiny (Red Dress)",
+        "blurb": "Mystery woman who appeared at 20:15, steered the group to Chapel of Eternal Bliss, tried to marry the groom, and vanished after the tiger enclosure.",
+        "isCulprit": false
+      },
+      {
+        "id": "amber-nguyen",
+        "name": "Amber Nguyen",
+        "blurb": "Mirage cocktail server who rode the elevator with the groom to floor 18 at 00:11 and did not exit with him at 00:57.",
+        "isCulprit": false
+      },
+      {
+        "id": "manuel-ruiz",
+        "name": "Manuel Ruiz",
+        "blurb": "Siegfried & Roy night guard. Took the $500 bribe at 22:31 and did an override again at 04:31 to let the groom back in solo.",
+        "isCulprit": false
+      },
+      {
+        "id": "lovebot-chapel",
+        "name": "LoveBot v2.1 (Chapel Bot)",
+        "blurb": "24-hour AI officiant at Chapel of Eternal Love. Issued certificate NV-LOVE-20260702-0847 at 03:04:11 for the novelty ceremony.",
+        "isCulprit": false
+      },
+      {
+        "id": "luxor-sentinel",
+        "name": "Luxor Sentinel v4.2",
+        "blurb": "The hotel security AI. Timestamped everything but only reports facts — no motive, no agency.",
+        "isCulprit": false
+      },
+      {
+        "id": "rajah-tiger",
+        "name": "Rajah the Bengal Tiger",
+        "blurb": "The photographed tiger at Zone SG-ENC-2. Startled by a camera flash at 22:45. Shredded costume, no injuries.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Best Man Was the Architect All Along",
+    "revealBody": "Jake Torres engineered the night. At 19:30 he ordered three Long Island pitcher refills against Danny's single whiskey sour (Sentinel log 19:34:12) — the drink-count contradiction is not Danny minimizing, it's Danny genuinely blacked out because Jake overserved him. Jake escalated at 22:00 with 'Plan B: tigers,' bribed guard Manuel Ruiz $500 at 22:31:04 to breach Zone SG-ENC-2, and triggered the Rajah incident at 22:45. After they separated at 23:00, Danny's solo detour (the $240 blackjack loss misremembered as a $3K win at 23:22, Amber on floor 18, the Fremont Elvis costume at 01:30) is fallout from the state Jake put him in. Jake then found him at 02:45, dragged him to Chapel of Eternal Love, and executed the coup de grace: novelty certificate NV-LOVE-20260702-0847 at 03:04:11 — the marriage Danny denies but Jake has photographed. Destiny is a red herring (she vanishes after the 21:32 aborted ceremony, once the state DB flagged Danny). Amber is a red herring. Manuel Ruiz is an enabler, not the author. The 'Destiny Forever' rib tattoo at 00:15 proves Jake was steering the mythology even when apart.",
+    "keyEvidence": [
+      "Sentinel timestamp 19:34:12 logs three Long Island pitcher refills to Torres against one whiskey sour to Chen — refuting the groom's 'one drink' claim and establishing Jake as the source of the blackout.",
+      "Jake openly admits bribing night guard Manuel Ruiz $500 at 22:31:04 to breach the tiger enclosure — the same enclosure Danny is found in at 06:04:18.",
+      "Chapel Bot's certificate NV-LOVE-20260702-0847, timestamped 03:04:11, names Marcus Chen and Jake Torres — Jake has the photo on his phone; Danny denies it outright.",
+      "Jake got a 'Destiny Forever' tattoo on his ribs at 00:15 while separated from Danny — evidence he was authoring the night's chaos independently, not merely following.",
+      "Jake was the one who said 'Plan B: tigers' at 22:00, seeding the exact location where Danny would be found at 06:00 — the enclosure was Jake's idea from the start."
+    ]
+  }
 }

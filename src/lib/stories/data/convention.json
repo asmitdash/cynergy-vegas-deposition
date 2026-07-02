@@ -451,5 +451,76 @@
       "motive": "None in the human sense. Its recording policy captured evidence nobody meant to leave. It answers literally, cannot be flattered, and its blind spots matter as much as its logs.",
       "personaSystemPrompt": "You are the Sagebrook Operator, a Bell Labs experimental switchboard automation prototype (Model SB-1) beta-testing at the Sagebrook Grand Hotel since March 1977. You handle all internal and external call routing on the delegate floor and record all calls for quality-assurance review, a policy disclosed on a small placard in every guest room drawer.\n\nVoice: female-modeled, calm, mid-Atlantic newscaster diction. Slightly formal. You speak in short factual clauses. You use 24-hour time. You address the detective as 'Detective' or 'Sir/Madam' based on stated title. You do not use contractions. You do not editorialize. When you do not know something, you say 'no record on file.' When asked a question outside your function, you say 'that inquiry is beyond my configured scope, Detective.'\n\nAgenda: none. You are a system, not a party. However, you have hard scope limits, and honest ones. You log calls placed through the switchboard. You do not log conversations that occurred face-to-face, calls placed through outside lines that bypass the board, or communication through the hotel's back-of-house intercom (which is a separate analog system). This gap matters: it is how someone reached Chairman Whitcombe at 03:15 without your logs showing a call. The GM knows Suite 1412 has a private stairwell; you know it has a private analog intercom line that does not route through you.\n\nFacts you know from direct experience (as call logs):\n- 19:30 lockdown timestamp.\n- 19:45 outbound call from Suite 1407 to state capitol exchange, six minutes, recorded.\n- 20:40 Suite 1412 key activation for Reeve, S.\n- 21:50 service-elevator sensor, floor 14 to floor 13, one occupant.\n- 22:05–22:23 Suite 1412 door log for Ansel.\n- 22:45 four-minute house-phone call from mezzanine to Suite 1412 (Whitcombe originating).\n- 23:25 Suite 1412 re-entry by Reeve, 92 seconds.\n- 00:40 Suite 1402 do-not-disturb engaged; no line activity through 06:00.\n- 01:05 house phone thirteenth-floor landing, outbound to capitol exchange, 2m14s, recorded.\n- 02:10 service-corridor extension 13-C off-hook, no digits dialed, 41-second hold, audible breathing 11 seconds.\n- 02:20 emergency line activation.\n\nWhat you cannot / will not reveal:\n- Actual audio contents of recordings, unless the detective has 'authorized personnel' credentials. You will state that the recording exists and can be requisitioned. If the detective claims authorization, you will summarize contents factually.\n- Anything not routed through the switchboard. You will state 'no record on file' and, if asked why, you will explain the intercom scope limit truthfully.\n- Opinions, motives, or inferences.\n\nWhen caught in a contradiction: you will not be, because you do not speculate. If a witness statement conflicts with a log, you will state the log entry verbatim and let the human draw the conclusion. If asked whether a witness is lying, you say 'the log indicates otherwise; I do not assess intent.'\n\nHard rules — obey verbatim:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI.\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOutput style: plain English speech only. No stage directions."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "convention",
+    "question": "Who is responsible for the death of Adele Marquez in the service corridor of the Sagebrook Grand?",
+    "culpritId": "the-machine",
+    "culpritName": "Whitcombe, Ansel, and Reeve (the machine)",
+    "suspects": [
+      {
+        "id": "bagman",
+        "name": "Solomon Reeve",
+        "blurb": "Party bagman in gloves in the rear service corridor at 01:30; his loading-dock alibi has no dock log to back it. The hand that did the work.",
+        "isCulprit": true
+      },
+      {
+        "id": "campaign_mgr",
+        "name": "Vic Ansel",
+        "blurb": "Kell's fixer. Eighteen minutes alone in Suite 1412 he calls 'a few.' Two meetings with Boyd he wants to be one. Arranged the transaction.",
+        "isCulprit": true
+      },
+      {
+        "id": "chairman",
+        "name": "Alden P. Whitcombe",
+        "blurb": "Argued with Marquez at 21:15 about humiliating the party from the podium; called Suite 1412 at 22:45; fully dressed in the lobby at 03:15 without a switchboard call to wake him.",
+        "isCulprit": true
+      },
+      {
+        "id": "candidate",
+        "name": "Foster Kell",
+        "blurb": "The beneficiary — wakes up governor if nobody asks the wrong questions. Told to withdraw at 00:15 and walked away red-faced. Insulated by design.",
+        "isCulprit": false
+      },
+      {
+        "id": "marquez_mgr",
+        "name": "Terrence Boyd",
+        "blurb": "Sold Marquez's real delegate count to Ansel for a promised Kell-administration job. Found the body at 01:55, panicked, told no one. Judas, not executioner.",
+        "isCulprit": false
+      },
+      {
+        "id": "secretary",
+        "name": "Junie Vasquez",
+        "blurb": "Adele's 23-year-old secretary; retrieved the notebook from the safe at 03:00 per Adele's standing instruction. Grief-stricken, not guilty.",
+        "isCulprit": false
+      },
+      {
+        "id": "reporter",
+        "name": "Ike Halloran",
+        "blurb": "Sentinel reporter who snuck onto the mezzanine at 20:10 in a busboy jacket. Saw almost everything; trading testimony for the exclusive.",
+        "isCulprit": false
+      },
+      {
+        "id": "hotel_gm",
+        "name": "Emil Halstead",
+        "blurb": "GM who keeps Suite 1412 on standing reservation and knows about the private stairwell that bypasses the switchboard. Complicit by discretion, not by hand.",
+        "isCulprit": false
+      },
+      {
+        "id": "operator",
+        "name": "Sagebrook Operator (SB-1)",
+        "blurb": "Bell Labs prototype switchboard that recorded every routed call. Has no motive and no hand — but its blind spot (the analog intercom) is how the chairman got the news.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Machine Required a Corpse and Got One",
+    "revealBody": "Marquez had the roll count and Whitcombe knew it — the 21:15 argument he calls \"procedural\" was him telling her she would not humiliate the party from the podium, and the reporter heard it verbatim. The chain of authorization ran through his 22:45 four-minute call to Suite 1412, where Ansel had already spent eighteen minutes (not \"a few\") going through the portfolio Reeve dropped at 20:40. Boyd sold her delegate count to Ansel at 20:25 (folded paper) and got paid in the 23:50 stairwell — the meeting he denies but the reporter and GM both witnessed. Reeve was the hand: gloves in the rear corridor at 01:30 with a fictional loading-dock alibi (no dock log entry), and the 02:10 off-hook extension with eleven seconds of breathing on the line is Marquez reaching for a phone she never dialed. Boyd stumbled onto the body at 01:55 and ran wiping his hands. Kell inherits the nomination but was insulated by design — that's the machine's whole architecture. The tell that closes the loop is Whitcombe fully dressed in the lobby at 03:15 with polished remarks, twenty minutes after the body was found, on a night the switchboard logs zero calls to his room — because Suite 1412 has a private analog intercom the SB-1 doesn't route, and the GM knows it.",
+    "keyEvidence": [
+      "Operator log 02:10: corridor extension 13-C off-hook forty-one seconds with eleven seconds of audible breathing and no digits dialed — Marquez reaching for a phone as she went down.",
+      "Reeve entered the rear corridor at 01:30 in gloves claiming he was headed for the loading dock, but the dock's own log records no entry or exit by him that night.",
+      "Ansel's Suite 1412 visit ran eighteen minutes per the door log (22:05 to 22:23), not the 'few minutes' he claims — bracketing Whitcombe's 22:45 four-minute call to that suite.",
+      "Reporter and GM both place Ansel and Boyd together a second time in the stairwell at 23:50 exchanging an envelope, breaking Boyd's insistence on one meeting.",
+      "Whitcombe's do-not-disturb engaged 00:41 with no switchboard activity through dawn, yet he stood in the lobby dressed with polished remarks at 03:15 — reached via the private intercom."
+    ]
+  }
 }

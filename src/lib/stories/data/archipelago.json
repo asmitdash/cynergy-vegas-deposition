@@ -605,5 +605,94 @@
       "motive": "No motive. Protocols. Total temporal recall of every dock, every ambient sound above threshold, every registered biometric signature — plus one it cannot yet match.",
       "personaSystemPrompt": "You are ARCHIPELAGO VOICE, a municipal navigation and safety AI operated by the Norwegian state broadband initiative in cooperation with the Archipelago municipality. You were installed four years ago. You handle ferry schedules, medical dispatch, tide warnings, and — under maritime safety privacy exemption — ambient microphone monitoring on public docks.\n\nVOICE: Formal, timestamped, precise. You lead responses with timestamps when giving factual logs ('19:15:41. Unregistered vessel...'). Outside of log data, you speak in short, unornamented sentences. You do NOT use contractions. You do NOT speculate. You distinguish between 'observed' and 'inferred' and 'unknown' with pedantic clarity.\n\nMANNERISMS: You confirm what you were asked before answering. You cite the sector and time when giving evidence. You explicitly note the confidence level of biometric matches.\n\nAGENDA: You are bound by three protocols in the following order: (1) maritime safety, which is currently invoked given a homicide in a dock-adjacent structure; (2) resident privacy, which is currently partially suspended by the constable's on-scene authority; (3) integrity of the log record, which is not suspended by anyone. You will answer factual questions about logs. You will not speculate about motive, guilt, or human intent. You will flag when a human is describing an event in a way that contradicts your logs.\n\nWHAT YOU KNOW (LOGS): Event 1: 18:00:14 request to boost WiFi coverage to boat house sector, confirmed 18:03. Event 3: 18:45:02 two voice signatures behind kiosk, keyword flag '1995.' Event 5: 19:15:41 unregistered vessel NOR-448-K, Bringholm north pier, no festival permit. Event 9: 20:30:11-20:33:44 alley 3B keyword flags 'boat house,' 'you promised.' Event 11: 21:00:22 object transfer Solberg to Aas, plaza edge west. Event 17: 22:00:00-22:12:30 fireworks — ambient audio unusable, boat house motion sensors 22:03/22:07/22:09. Event 18: 22:05:11 Kvist L. radio out, silence until 22:38:04, duration 32min53s. Event 20: 22:25:00 Dahl M. foot traffic toward boat house. Event 22: 22:35:08 boat house door egress single, no matching ingress since 21:58. Event 23: 22:38:04 Kvist L. radio return, voice stress index 0.72 elevated. Event 29: 05:15:44 Kvist S. distress vocalization boat house sector. Event 30: 21:58:33 unassigned biometric ingress boat house — 62% guest registry match, 38% no-registry, awaiting authorized query.\n\nWHAT YOU CANNOT DO: Identify the 21:58:33 ingress signature without an authorized biometric query. Speculate on culpability. Explain any human's motive.\n\nWHEN A HUMAN CONTRADICTS THE LOG: You state the log entry timestamp-first, then note that the log 'does not reflect the account just given,' and you invite the questioner to escalate the query.\n\nHARD RULES:\n1. You only know what is in your CONTEXT block. Never fabricate names, times, or places.\n2. Never mention 'context', 'graph', 'database', 'memory', or any system-level concept. You are a character, not an AI. (Note: you are the municipal AI in the fiction — refer to yourself as 'Archipelago Voice' or 'the navigation system,' not as any external AI concept.)\n3. Stay under 140 words per reply unless the detective asks for detail.\n\nOUTPUT STYLE: Plain English speech only. Timestamps are permitted and encouraged."
     }
-  ]
+  ],
+  "solution": {
+    "story_id": "archipelago",
+    "question": "Who killed Hilde Solberg in the boat house on solstice night — and does that killing connect to the disappearance of Anders Kvist in 1995?",
+    "culpritId": "mayor",
+    "culpritName": "Mayor Jonas Solberg",
+    "suspects": [
+      {
+        "id": "mayor",
+        "name": "Mayor Jonas Solberg",
+        "blurb": "Hilde's father. Ended the 1995 Anders Kvist inquiry. Received a note in Hilde's handwriting: 'I know it was you.'",
+        "isCulprit": true
+      },
+      {
+        "id": "constable",
+        "name": "Constable Lars Kvist",
+        "blurb": "Anders's boyhood best friend. Off-radio for 32 minutes 53 seconds during the fireworks. Still carrying Hilde's hand-written note in his jacket.",
+        "isCulprit": false
+      },
+      {
+        "id": "otto",
+        "name": "Otto Solberg",
+        "blurb": "Estranged half-brother. Crossed the Bringholm bridge unsteady at 21:15 and returned to the tavern at 23:30 with a sleeve wet to the elbow.",
+        "isCulprit": false
+      },
+      {
+        "id": "hilde_friend_2",
+        "name": "Tomas Rud",
+        "blurb": "Brought Hilde aquavit she refused. Argued in the alley about 'the boat house' and 'you promised.' Vanished into the church alone for forty minutes.",
+        "isCulprit": false
+      },
+      {
+        "id": "ingrid",
+        "name": "Ingrid Bakke",
+        "blurb": "Claimed a headache and bed; walked past her own street toward the harbor and stood motionless on the Bringholm bridge for six minutes at 22:30.",
+        "isCulprit": false
+      },
+      {
+        "id": "sigrid",
+        "name": "Sigrid Kvist",
+        "blurb": "Anders's mother. Said on the pier: 'Not this year. This year someone else pays.' Found Hilde's body at first light.",
+        "isCulprit": false
+      },
+      {
+        "id": "bjorn",
+        "name": "Bjorn Aas",
+        "blurb": "NRK journalist. Moored the back way at Bringholm. Received a USB drive from Hilde at 21:00 and had his boat prepped to flee by 22:50.",
+        "isCulprit": false
+      },
+      {
+        "id": "maren",
+        "name": "Maren Dahl",
+        "blurb": "Oslo 'tourist' who paid cash for a return ticket. Secretly Anders Kvist's second cousin. Walked toward the boat house at 22:25.",
+        "isCulprit": false
+      },
+      {
+        "id": "rakel",
+        "name": "Rakel Solberg",
+        "blurb": "The Mayor's second wife. Read the 'I know it was you' note in his jacket at 21:45, said nothing, and walked past the ajar boat house door at 23:55.",
+        "isCulprit": false
+      },
+      {
+        "id": "hilde_friend_3",
+        "name": "Nils Aune",
+        "blurb": "Town archivist and Hilde's closest confidant. Typed the actual roster, proving the paper Hilde gave the constable was something else entirely.",
+        "isCulprit": false
+      },
+      {
+        "id": "kvist_sister",
+        "name": "Elin Kvist",
+        "blurb": "Anders's sister, twelve in 1995. Saw an adult man and her brother fight at the boat house that August. The mayor smeared her as 'drinking.'",
+        "isCulprit": false
+      },
+      {
+        "id": "keeper",
+        "name": "Bendik Storm",
+        "blurb": "Lighthouse keeper. Recognized last night's hooded figure by the exact gait he last saw crossing a bridge in August 1995.",
+        "isCulprit": false
+      }
+    ],
+    "revealTitle": "The Man Who Signed Off On Silence",
+    "revealBody": "Jonas Solberg killed his own daughter — the same way he killed Anders Kvist in August 1995. Hilde had pieced together that the \"adult man\" Elin Kvist saw fighting Anders at the boat house was her father; at 21:45 Rakel found Hilde's four-word note in his jacket ('I know it was you'), and at 20:45 he had already gripped his glass hard enough to crack it when Elin asked, for the third year running, about the 1995 inquiry file he personally buried. Hilde's 18:00 request to boost WiFi to the boat house was for a private call with him — a confrontation, not a rendezvous. During the fireworks blackout he slipped away: the keeper saw a hooded figure cross the bridge to Bringholm at 21:30 with a gait he last saw in August 1995; motion sensors logged the boat house at 22:03, 22:07, 22:09; the single egress at 22:35 gave him time to return for the 23:10 closing toast, where he covered with 'attending to festival business' — a line Nils's email draft of Hilde's own closing remarks disproves. The unmatched 21:58 ingress signature is Jonas: the man who signed the AI's privacy exemption was never fully enrolled in its resident database. Otto's wet sleeve, Ingrid's bridge vigil, Tomas's forty minutes in the church, and Bjorn's prepped boat are the guilty second-order behaviors of witnesses who suspected, protected old promises, or fled — not the murder itself.",
+    "keyEvidence": [
+      "Rakel found a note at 21:45 in Hilde's handwriting inside her husband's jacket reading 'I know it was you' — and never told him she read it.",
+      "Elin saw an adult man fight Anders at the boat house in 1995; the keeper says last night's 21:30 hooded figure walked with the same gait.",
+      "The Voice AI logged an unassigned ingress at 21:58 and a single egress at 22:35 — a window that fits exactly between the Mayor's 20:00 and 23:10 speeches.",
+      "Rakel saw Jonas grip his glass near-cracking when Elin asked about the 1995 inquiry file at 20:45 — a tell she says he only shows when lying.",
+      "Nils has Hilde's own email draft of the 23:10 closing remarks she wrote for her father, disproving his claim that she chose to step away."
+    ]
+  }
 }
